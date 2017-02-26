@@ -1,0 +1,3690 @@
+BCSymbolMap Version: 1.0
+-[JSQVideoMediaItem initWithFileURL:isReadyToPlay:]
+-[JSQVideoMediaItem dealloc]
+-[JSQVideoMediaItem clearCachedMediaViews]
+-[JSQVideoMediaItem setFileURL:]
+-[JSQVideoMediaItem setIsReadyToPlay:]
+-[JSQVideoMediaItem setAppliesMediaViewMaskAsOutgoing:]
+-[JSQVideoMediaItem mediaView]
+-[JSQVideoMediaItem mediaHash]
+-[JSQVideoMediaItem isEqual:]
+-[JSQVideoMediaItem hash]
+-[JSQVideoMediaItem description]
+-[JSQVideoMediaItem initWithCoder:]
+-[JSQVideoMediaItem encodeWithCoder:]
+-[JSQVideoMediaItem copyWithZone:]
+-[JSQVideoMediaItem fileURL]
+-[JSQVideoMediaItem isReadyToPlay]
+-[JSQVideoMediaItem cachedVideoImageView]
+-[JSQVideoMediaItem setCachedVideoImageView:]
+-[JSQVideoMediaItem .cxx_destruct]
+OBJC_CLASSLIST_SUP_REFS_$_
+OBJC_METH_VAR_NAME_
+OBJC_SELECTOR_REFERENCES_
+OBJC_METH_VAR_NAME_.1
+OBJC_SELECTOR_REFERENCES_.2
+OBJC_IVAR_$_JSQVideoMediaItem._fileURL
+OBJC_IVAR_$_JSQVideoMediaItem._isReadyToPlay
+OBJC_IVAR_$_JSQVideoMediaItem._cachedVideoImageView
+OBJC_METH_VAR_NAME_.3
+OBJC_SELECTOR_REFERENCES_.4
+OBJC_METH_VAR_NAME_.5
+OBJC_SELECTOR_REFERENCES_.6
+OBJC_METH_VAR_NAME_.7
+OBJC_SELECTOR_REFERENCES_.8
+OBJC_METH_VAR_NAME_.9
+OBJC_SELECTOR_REFERENCES_.10
+OBJC_METH_VAR_NAME_.11
+OBJC_SELECTOR_REFERENCES_.12
+OBJC_METH_VAR_NAME_.13
+OBJC_SELECTOR_REFERENCES_.14
+OBJC_METH_VAR_NAME_.15
+OBJC_SELECTOR_REFERENCES_.16
+OBJC_CLASSLIST_REFERENCES_$_
+OBJC_METH_VAR_NAME_.17
+OBJC_SELECTOR_REFERENCES_.18
+OBJC_CLASSLIST_REFERENCES_$_.19
+OBJC_METH_VAR_NAME_.20
+OBJC_SELECTOR_REFERENCES_.21
+OBJC_METH_VAR_NAME_.22
+OBJC_SELECTOR_REFERENCES_.23
+OBJC_CLASSLIST_REFERENCES_$_.24
+OBJC_METH_VAR_NAME_.25
+OBJC_SELECTOR_REFERENCES_.26
+OBJC_METH_VAR_NAME_.27
+OBJC_SELECTOR_REFERENCES_.28
+OBJC_METH_VAR_NAME_.29
+OBJC_SELECTOR_REFERENCES_.30
+OBJC_METH_VAR_NAME_.31
+OBJC_SELECTOR_REFERENCES_.32
+OBJC_METH_VAR_NAME_.33
+OBJC_SELECTOR_REFERENCES_.34
+OBJC_METH_VAR_NAME_.35
+OBJC_SELECTOR_REFERENCES_.36
+OBJC_METH_VAR_NAME_.37
+OBJC_SELECTOR_REFERENCES_.38
+OBJC_CLASSLIST_REFERENCES_$_.39
+OBJC_METH_VAR_NAME_.40
+OBJC_SELECTOR_REFERENCES_.41
+OBJC_METH_VAR_NAME_.42
+OBJC_SELECTOR_REFERENCES_.43
+OBJC_METH_VAR_NAME_.44
+OBJC_SELECTOR_REFERENCES_.45
+OBJC_METH_VAR_NAME_.46
+OBJC_SELECTOR_REFERENCES_.47
+OBJC_METH_VAR_NAME_.48
+OBJC_SELECTOR_REFERENCES_.49
+OBJC_CLASSLIST_REFERENCES_$_.50
+.str
+_unnamed_cfstring_
+OBJC_METH_VAR_NAME_.51
+OBJC_SELECTOR_REFERENCES_.52
+OBJC_CLASSLIST_REFERENCES_$_.53
+OBJC_METH_VAR_NAME_.54
+OBJC_SELECTOR_REFERENCES_.55
+OBJC_METH_VAR_NAME_.56
+OBJC_SELECTOR_REFERENCES_.57
+OBJC_METH_VAR_NAME_.58
+OBJC_SELECTOR_REFERENCES_.59
+OBJC_METH_VAR_NAME_.60
+OBJC_SELECTOR_REFERENCES_.61
+OBJC_METH_VAR_NAME_.62
+OBJC_SELECTOR_REFERENCES_.63
+OBJC_METH_VAR_NAME_.64
+OBJC_SELECTOR_REFERENCES_.65
+OBJC_METH_VAR_NAME_.66
+OBJC_SELECTOR_REFERENCES_.67
+OBJC_METH_VAR_NAME_.68
+OBJC_SELECTOR_REFERENCES_.69
+OBJC_METH_VAR_NAME_.70
+OBJC_SELECTOR_REFERENCES_.71
+OBJC_METH_VAR_NAME_.72
+OBJC_SELECTOR_REFERENCES_.73
+OBJC_CLASS_NAME_
+OBJC_METH_VAR_NAME_.74
+OBJC_METH_VAR_TYPE_
+OBJC_METH_VAR_TYPE_.75
+OBJC_METH_VAR_TYPE_.76
+OBJC_METH_VAR_NAME_.77
+OBJC_METH_VAR_NAME_.78
+OBJC_METH_VAR_TYPE_.79
+OBJC_CLASS_NAME_.80
+OBJC_METH_VAR_TYPE_.81
+OBJC_METH_VAR_TYPE_.82
+OBJC_METH_VAR_NAME_.83
+OBJC_METH_VAR_NAME_.84
+OBJC_METH_VAR_TYPE_.85
+OBJC_METH_VAR_NAME_.86
+OBJC_METH_VAR_TYPE_.87
+OBJC_METH_VAR_NAME_.88
+OBJC_METH_VAR_TYPE_.89
+OBJC_METH_VAR_NAME_.90
+OBJC_METH_VAR_TYPE_.91
+OBJC_METH_VAR_NAME_.92
+OBJC_METH_VAR_TYPE_.93
+OBJC_METH_VAR_NAME_.94
+OBJC_METH_VAR_NAME_.95
+OBJC_METH_VAR_TYPE_.96
+OBJC_METH_VAR_NAME_.97
+OBJC_METH_VAR_TYPE_.98
+OBJC_METH_VAR_NAME_.99
+OBJC_METH_VAR_NAME_.100
+OBJC_METH_VAR_TYPE_.101
+OBJC_METH_VAR_NAME_.102
+OBJC_METH_VAR_NAME_.103
+OBJC_METH_VAR_NAME_.104
+OBJC_METH_VAR_TYPE_.105
+OBJC_METH_VAR_NAME_.106
+OBJC_METH_VAR_NAME_.107
+OBJC_METH_VAR_TYPE_.108
+OBJC_METH_VAR_NAME_.109
+OBJC_CLASS_NAME_.110
+l_OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+l_OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+OBJC_PROP_NAME_ATTR_
+OBJC_PROP_NAME_ATTR_.111
+OBJC_PROP_NAME_ATTR_.112
+OBJC_PROP_NAME_ATTR_.113
+OBJC_PROP_NAME_ATTR_.114
+OBJC_PROP_NAME_ATTR_.115
+OBJC_PROP_NAME_ATTR_.116
+l_OBJC_$_PROP_LIST_NSObject
+l_OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+l_OBJC_PROTOCOL_$_NSObject
+l_OBJC_LABEL_PROTOCOL_$_NSObject
+l_OBJC_$_PROTOCOL_REFS_JSQMessageMediaData
+l_OBJC_$_PROTOCOL_INSTANCE_METHODS_JSQMessageMediaData
+l_OBJC_$_PROTOCOL_METHOD_TYPES_JSQMessageMediaData
+l_OBJC_PROTOCOL_$_JSQMessageMediaData
+l_OBJC_LABEL_PROTOCOL_$_JSQMessageMediaData
+OBJC_METH_VAR_TYPE_.117
+OBJC_METH_VAR_TYPE_.118
+OBJC_METH_VAR_TYPE_.119
+OBJC_METH_VAR_TYPE_.120
+OBJC_CLASS_NAME_.121
+l_OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCoding
+l_OBJC_$_PROTOCOL_METHOD_TYPES_NSCoding
+l_OBJC_PROTOCOL_$_NSCoding
+l_OBJC_LABEL_PROTOCOL_$_NSCoding
+OBJC_METH_VAR_NAME_.122
+OBJC_METH_VAR_TYPE_.123
+OBJC_CLASS_NAME_.124
+l_OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying
+l_OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying
+l_OBJC_PROTOCOL_$_NSCopying
+l_OBJC_LABEL_PROTOCOL_$_NSCopying
+l_OBJC_CLASS_PROTOCOLS_$_JSQVideoMediaItem
+l_OBJC_METACLASS_RO_$_JSQVideoMediaItem
+OBJC_CLASS_NAME_.125
+OBJC_METH_VAR_TYPE_.126
+OBJC_METH_VAR_TYPE_.127
+OBJC_METH_VAR_NAME_.128
+OBJC_METH_VAR_NAME_.129
+OBJC_METH_VAR_TYPE_.130
+OBJC_METH_VAR_NAME_.131
+l_OBJC_$_INSTANCE_METHODS_JSQVideoMediaItem
+OBJC_METH_VAR_NAME_.132
+OBJC_METH_VAR_TYPE_.133
+OBJC_METH_VAR_NAME_.134
+OBJC_METH_VAR_TYPE_.135
+OBJC_METH_VAR_NAME_.136
+OBJC_METH_VAR_TYPE_.137
+l_OBJC_$_INSTANCE_VARIABLES_JSQVideoMediaItem
+OBJC_PROP_NAME_ATTR_.138
+OBJC_PROP_NAME_ATTR_.139
+OBJC_PROP_NAME_ATTR_.140
+OBJC_PROP_NAME_ATTR_.141
+OBJC_PROP_NAME_ATTR_.142
+OBJC_PROP_NAME_ATTR_.143
+l_OBJC_$_PROP_LIST_JSQVideoMediaItem
+l_OBJC_CLASS_RO_$_JSQVideoMediaItem
+OBJC_LABEL_CLASS_$
+Apple LLVM version 7.3.0 (clang-703.0.29)
+CGRectMake
+/Applications/Xcode 7.3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
+/Users/yasuyuki/Desktop/Xcode7proj/DialogTest-movie/Carthage/Checkouts/JSQMessagesViewController
+-[JSQVideoMediaItem .cxx_destruct]
+/Users/yasuyuki/Desktop/Xcode7proj/DialogTest-movie/Carthage/Checkouts/JSQMessagesViewController/JSQMessagesViewController/JSQMessagesViewController/Model/JSQVideoMediaItem.m
+-[JSQVideoMediaItem setCachedVideoImageView:]
+-[JSQVideoMediaItem cachedVideoImageView]
+-[JSQVideoMediaItem isReadyToPlay]
+/Users/yasuyuki/Desktop/Xcode7proj/DialogTest-movie/Carthage/Checkouts/JSQMessagesViewController/JSQMessagesViewController/JSQMessagesViewController/Model/JSQVideoMediaItem.h
+-[JSQVideoMediaItem fileURL]
+-[JSQVideoMediaItem copyWithZone:]
+-[JSQVideoMediaItem encodeWithCoder:]
+-[JSQVideoMediaItem initWithCoder:]
+-[JSQVideoMediaItem description]
+-[JSQVideoMediaItem hash]
+-[JSQVideoMediaItem isEqual:]
+-[JSQVideoMediaItem mediaHash]
+-[JSQVideoMediaItem mediaView]
+-[JSQVideoMediaItem setAppliesMediaViewMaskAsOutgoing:]
+-[JSQVideoMediaItem setIsReadyToPlay:]
+-[JSQVideoMediaItem setFileURL:]
+-[JSQVideoMediaItem clearCachedMediaViews]
+-[JSQVideoMediaItem dealloc]
+-[JSQVideoMediaItem initWithFileURL:isReadyToPlay:]
+-[JSQMessagesMediaViewBubbleImageMasker init]
+-[JSQMessagesMediaViewBubbleImageMasker initWithBubbleImageFactory:]
+-[JSQMessagesMediaViewBubbleImageMasker applyOutgoingBubbleImageMaskToMediaView:]
+-[JSQMessagesMediaViewBubbleImageMasker applyIncomingBubbleImageMaskToMediaView:]
++[JSQMessagesMediaViewBubbleImageMasker applyBubbleImageMaskToMediaView:isOutgoing:]
+-[JSQMessagesMediaViewBubbleImageMasker jsq_maskView:withImage:]
+-[JSQMessagesMediaViewBubbleImageMasker bubbleImageFactory]
+-[JSQMessagesMediaViewBubbleImageMasker .cxx_destruct]
+OBJC_IVAR_$_JSQMessagesMediaViewBubbleImageMasker._bubbleImageFactory
+OBJC_CLASSLIST_REFERENCES_$_.7
+OBJC_METH_VAR_NAME_.8
+OBJC_SELECTOR_REFERENCES_.9
+OBJC_METH_VAR_NAME_.10
+OBJC_SELECTOR_REFERENCES_.11
+OBJC_METH_VAR_NAME_.12
+OBJC_SELECTOR_REFERENCES_.13
+OBJC_METH_VAR_NAME_.14
+OBJC_SELECTOR_REFERENCES_.15
+OBJC_METH_VAR_NAME_.16
+OBJC_SELECTOR_REFERENCES_.17
+OBJC_CLASSLIST_REFERENCES_$_.18
+OBJC_METH_VAR_NAME_.19
+OBJC_SELECTOR_REFERENCES_.20
+OBJC_METH_VAR_NAME_.21
+OBJC_SELECTOR_REFERENCES_.22
+OBJC_CLASSLIST_REFERENCES_$_.23
+OBJC_METH_VAR_NAME_.24
+OBJC_SELECTOR_REFERENCES_.25
+OBJC_METH_VAR_NAME_.26
+OBJC_SELECTOR_REFERENCES_.27
+OBJC_METH_VAR_NAME_.28
+OBJC_SELECTOR_REFERENCES_.29
+OBJC_METH_VAR_NAME_.30
+OBJC_SELECTOR_REFERENCES_.31
+OBJC_METH_VAR_NAME_.32
+OBJC_SELECTOR_REFERENCES_.33
+OBJC_METH_VAR_NAME_.34
+l_OBJC_$_CLASS_METHODS_JSQMessagesMediaViewBubbleImageMasker
+l_OBJC_METACLASS_RO_$_JSQMessagesMediaViewBubbleImageMasker
+OBJC_CLASS_NAME_.35
+OBJC_METH_VAR_TYPE_.36
+OBJC_METH_VAR_TYPE_.37
+OBJC_METH_VAR_TYPE_.38
+OBJC_METH_VAR_TYPE_.39
+OBJC_METH_VAR_TYPE_.41
+l_OBJC_$_INSTANCE_METHODS_JSQMessagesMediaViewBubbleImageMasker
+OBJC_METH_VAR_TYPE_.43
+l_OBJC_$_INSTANCE_VARIABLES_JSQMessagesMediaViewBubbleImageMasker
+OBJC_PROP_NAME_ATTR_.44
+l_OBJC_$_PROP_LIST_JSQMessagesMediaViewBubbleImageMasker
+l_OBJC_CLASS_RO_$_JSQMessagesMediaViewBubbleImageMasker
+-[JSQMessagesMediaViewBubbleImageMasker .cxx_destruct]
+/Users/yasuyuki/Desktop/Xcode7proj/DialogTest-movie/Carthage/Checkouts/JSQMessagesViewController/JSQMessagesViewController/JSQMessagesViewController/Factories/JSQMessagesMediaViewBubbleImageMasker.m
+-[JSQMessagesMediaViewBubbleImageMasker bubbleImageFactory]
+/Users/yasuyuki/Desktop/Xcode7proj/DialogTest-movie/Carthage/Checkouts/JSQMessagesViewController/JSQMessagesViewController/JSQMessagesViewController/Factories/JSQMessagesMediaViewBubbleImageMasker.h
+-[JSQMessagesMediaViewBubbleImageMasker jsq_maskView:withImage:]
++[JSQMessagesMediaViewBubbleImageMasker applyBubbleImageMaskToMediaView:isOutgoing:]
+-[JSQMessagesMediaViewBubbleImageMasker applyIncomingBubbleImageMaskToMediaView:]
+-[JSQMessagesMediaViewBubbleImageMasker applyOutgoingBubbleImageMaskToMediaView:]
+-[JSQMessagesMediaViewBubbleImageMasker initWithBubbleImageFactory:]
+-[JSQMessagesMediaViewBubbleImageMasker init]
+-[JSQMessagesCollectionView jsq_configureCollectionView]
+-[JSQMessagesCollectionView initWithFrame:collectionViewLayout:]
+-[JSQMessagesCollectionView awakeFromNib]
+-[JSQMessagesCollectionView dequeueTypingIndicatorFooterViewForIndexPath:]
+-[JSQMessagesCollectionView dequeueLoadEarlierMessagesViewHeaderForIndexPath:]
+-[JSQMessagesCollectionView headerView:didPressLoadButton:]
+-[JSQMessagesCollectionView messagesCollectionViewCellDidTapAvatar:]
+-[JSQMessagesCollectionView messagesCollectionViewCellDidTapMessageBubble:]
+-[JSQMessagesCollectionView messagesCollectionViewCellDidTapCell:atPosition:]
+-[JSQMessagesCollectionView messagesCollectionViewCell:didPerformAction:withSender:]
+-[JSQMessagesCollectionView typingIndicatorDisplaysOnLeft]
+-[JSQMessagesCollectionView setTypingIndicatorDisplaysOnLeft:]
+-[JSQMessagesCollectionView typingIndicatorMessageBubbleColor]
+-[JSQMessagesCollectionView setTypingIndicatorMessageBubbleColor:]
+-[JSQMessagesCollectionView typingIndicatorEllipsisColor]
+-[JSQMessagesCollectionView setTypingIndicatorEllipsisColor:]
+-[JSQMessagesCollectionView loadEarlierMessagesHeaderTextColor]
+-[JSQMessagesCollectionView setLoadEarlierMessagesHeaderTextColor:]
+-[JSQMessagesCollectionView .cxx_destruct]
+OBJC_CLASSLIST_REFERENCES_$_.11
+OBJC_CLASSLIST_REFERENCES_$_.21
+OBJC_CLASSLIST_REFERENCES_$_.26
+OBJC_IVAR_$_JSQMessagesCollectionView._typingIndicatorDisplaysOnLeft
+OBJC_IVAR_$_JSQMessagesCollectionView._typingIndicatorMessageBubbleColor
+OBJC_IVAR_$_JSQMessagesCollectionView._typingIndicatorEllipsisColor
+OBJC_IVAR_$_JSQMessagesCollectionView._loadEarlierMessagesHeaderTextColor
+OBJC_METH_VAR_NAME_.39
+OBJC_SELECTOR_REFERENCES_.40
+OBJC_METH_VAR_NAME_.41
+OBJC_SELECTOR_REFERENCES_.42
+OBJC_METH_VAR_NAME_.43
+OBJC_SELECTOR_REFERENCES_.44
+OBJC_METH_VAR_NAME_.45
+OBJC_SELECTOR_REFERENCES_.46
+OBJC_METH_VAR_NAME_.47
+OBJC_SELECTOR_REFERENCES_.48
+OBJC_METH_VAR_NAME_.49
+OBJC_SELECTOR_REFERENCES_.50
+OBJC_METH_VAR_NAME_.53
+OBJC_SELECTOR_REFERENCES_.54
+OBJC_METH_VAR_NAME_.55
+OBJC_SELECTOR_REFERENCES_.56
+OBJC_METH_VAR_NAME_.57
+OBJC_SELECTOR_REFERENCES_.58
+OBJC_METH_VAR_NAME_.59
+OBJC_SELECTOR_REFERENCES_.60
+OBJC_METH_VAR_NAME_.61
+OBJC_SELECTOR_REFERENCES_.62
+OBJC_METH_VAR_NAME_.63
+OBJC_SELECTOR_REFERENCES_.64
+OBJC_METH_VAR_NAME_.65
+OBJC_SELECTOR_REFERENCES_.66
+OBJC_METH_VAR_NAME_.67
+OBJC_SELECTOR_REFERENCES_.68
+OBJC_METH_VAR_NAME_.69
+OBJC_SELECTOR_REFERENCES_.70
+OBJC_METH_VAR_NAME_.71
+OBJC_SELECTOR_REFERENCES_.72
+OBJC_METH_VAR_NAME_.73
+OBJC_SELECTOR_REFERENCES_.74
+OBJC_METH_VAR_NAME_.75
+OBJC_SELECTOR_REFERENCES_.76
+OBJC_METH_VAR_TYPE_.78
+OBJC_CLASS_NAME_.79
+OBJC_METH_VAR_NAME_.80
+OBJC_METH_VAR_NAME_.82
+OBJC_METH_VAR_TYPE_.83
+OBJC_METH_VAR_TYPE_.95
+OBJC_METH_VAR_NAME_.96
+OBJC_METH_VAR_TYPE_.99
+OBJC_METH_VAR_NAME_.101
+OBJC_METH_VAR_TYPE_.102
+OBJC_METH_VAR_TYPE_.107
+OBJC_METH_VAR_NAME_.108
+OBJC_METH_VAR_NAME_.110
+OBJC_METH_VAR_TYPE_.111
+OBJC_METH_VAR_NAME_.112
+OBJC_CLASS_NAME_.113
+OBJC_PROP_NAME_ATTR_.117
+OBJC_PROP_NAME_ATTR_.118
+OBJC_PROP_NAME_ATTR_.119
+l_OBJC_$_PROTOCOL_REFS_JSQMessagesLoadEarlierHeaderViewDelegate
+l_OBJC_$_PROTOCOL_INSTANCE_METHODS_JSQMessagesLoadEarlierHeaderViewDelegate
+l_OBJC_$_PROTOCOL_METHOD_TYPES_JSQMessagesLoadEarlierHeaderViewDelegate
+l_OBJC_PROTOCOL_$_JSQMessagesLoadEarlierHeaderViewDelegate
+l_OBJC_LABEL_PROTOCOL_$_JSQMessagesLoadEarlierHeaderViewDelegate
+OBJC_METH_VAR_NAME_.120
+OBJC_METH_VAR_TYPE_.121
+OBJC_METH_VAR_TYPE_.122
+OBJC_METH_VAR_NAME_.123
+OBJC_METH_VAR_NAME_.124
+OBJC_METH_VAR_TYPE_.125
+OBJC_METH_VAR_NAME_.127
+OBJC_METH_VAR_TYPE_.128
+OBJC_METH_VAR_TYPE_.129
+OBJC_CLASS_NAME_.130
+l_OBJC_$_PROTOCOL_REFS_JSQMessagesCollectionViewCellDelegate
+l_OBJC_$_PROTOCOL_INSTANCE_METHODS_JSQMessagesCollectionViewCellDelegate
+l_OBJC_$_PROTOCOL_METHOD_TYPES_JSQMessagesCollectionViewCellDelegate
+l_OBJC_PROTOCOL_$_JSQMessagesCollectionViewCellDelegate
+l_OBJC_LABEL_PROTOCOL_$_JSQMessagesCollectionViewCellDelegate
+l_OBJC_CLASS_PROTOCOLS_$_JSQMessagesCollectionView
+l_OBJC_METACLASS_RO_$_JSQMessagesCollectionView
+OBJC_CLASS_NAME_.131
+OBJC_METH_VAR_TYPE_.132
+OBJC_METH_VAR_NAME_.137
+OBJC_METH_VAR_NAME_.138
+OBJC_METH_VAR_TYPE_.139
+OBJC_METH_VAR_NAME_.140
+OBJC_METH_VAR_NAME_.141
+OBJC_METH_VAR_NAME_.142
+l_OBJC_$_INSTANCE_METHODS_JSQMessagesCollectionView
+OBJC_METH_VAR_NAME_.143
+OBJC_METH_VAR_TYPE_.144
+OBJC_METH_VAR_NAME_.145
+OBJC_METH_VAR_TYPE_.146
+OBJC_METH_VAR_NAME_.147
+OBJC_METH_VAR_NAME_.148
+l_OBJC_$_INSTANCE_VARIABLES_JSQMessagesCollectionView
+OBJC_PROP_NAME_ATTR_.149
+OBJC_PROP_NAME_ATTR_.150
+OBJC_PROP_NAME_ATTR_.151
+OBJC_PROP_NAME_ATTR_.152
+OBJC_PROP_NAME_ATTR_.153
+OBJC_PROP_NAME_ATTR_.154
+OBJC_PROP_NAME_ATTR_.155
+OBJC_PROP_NAME_ATTR_.156
+OBJC_PROP_NAME_ATTR_.157
+OBJC_PROP_NAME_ATTR_.158
+OBJC_PROP_NAME_ATTR_.159
+OBJC_PROP_NAME_ATTR_.160
+OBJC_PROP_NAME_ATTR_.161
+OBJC_PROP_NAME_ATTR_.162
+l_OBJC_$_PROP_LIST_JSQMessagesCollectionView
+l_OBJC_CLASS_RO_$_JSQMessagesCollectionView
+-[JSQMessagesCollectionView .cxx_destruct]
+/Users/yasuyuki/Desktop/Xcode7proj/DialogTest-movie/Carthage/Checkouts/JSQMessagesViewController/JSQMessagesViewController/JSQMessagesViewController/Views/JSQMessagesCollectionView.m
+-[JSQMessagesCollectionView setLoadEarlierMessagesHeaderTextColor:]
+/Users/yasuyuki/Desktop/Xcode7proj/DialogTest-movie/Carthage/Checkouts/JSQMessagesViewController/JSQMessagesViewController/JSQMessagesViewController/Views/JSQMessagesCollectionView.h
+-[JSQMessagesCollectionView loadEarlierMessagesHeaderTextColor]
+-[JSQMessagesCollectionView setTypingIndicatorEllipsisColor:]
+-[JSQMessagesCollectionView typingIndicatorEllipsisColor]
+-[JSQMessagesCollectionView setTypingIndicatorMessageBubbleColor:]
+-[JSQMessagesCollectionView typingIndicatorMessageBubbleColor]
+-[JSQMessagesCollectionView setTypingIndicatorDisplaysOnLeft:]
+-[JSQMessagesCollectionView typingIndicatorDisplaysOnLeft]
+-[JSQMessagesCollectionView messagesCollectionViewCell:didPerformAction:withSender:]
+-[JSQMessagesCollectionView messagesCollectionViewCellDidTapCell:atPosition:]
+-[JSQMessagesCollectionView messagesCollectionViewCellDidTapMessageBubble:]
+-[JSQMessagesCollectionView messagesCollectionViewCellDidTapAvatar:]
+-[JSQMessagesCollectionView headerView:didPressLoadButton:]
+-[JSQMessagesCollectionView dequeueLoadEarlierMessagesViewHeaderForIndexPath:]
+-[JSQMessagesCollectionView dequeueTypingIndicatorFooterViewForIndexPath:]
+-[JSQMessagesCollectionView awakeFromNib]
+-[JSQMessagesCollectionView initWithFrame:collectionViewLayout:]
+-[JSQMessagesCollectionView jsq_configureCollectionView]
+-[JSQMessagesCollectionViewLayoutAttributes dealloc]
+-[JSQMessagesCollectionViewLayoutAttributes setMessageBubbleFont:]
+-[JSQMessagesCollectionViewLayoutAttributes setMessageBubbleContainerViewWidth:]
+-[JSQMessagesCollectionViewLayoutAttributes setIncomingAvatarViewSize:]
+-[JSQMessagesCollectionViewLayoutAttributes setOutgoingAvatarViewSize:]
+-[JSQMessagesCollectionViewLayoutAttributes setCellTopLabelHeight:]
+-[JSQMessagesCollectionViewLayoutAttributes setMessageBubbleTopLabelHeight:]
+-[JSQMessagesCollectionViewLayoutAttributes setCellBottomLabelHeight:]
+-[JSQMessagesCollectionViewLayoutAttributes jsq_correctedAvatarSizeFromSize:]
+-[JSQMessagesCollectionViewLayoutAttributes jsq_correctedLabelHeightForHeight:]
+-[JSQMessagesCollectionViewLayoutAttributes isEqual:]
+-[JSQMessagesCollectionViewLayoutAttributes hash]
+-[JSQMessagesCollectionViewLayoutAttributes copyWithZone:]
+-[JSQMessagesCollectionViewLayoutAttributes messageBubbleFont]
+-[JSQMessagesCollectionViewLayoutAttributes messageBubbleContainerViewWidth]
+-[JSQMessagesCollectionViewLayoutAttributes textViewTextContainerInsets]
+-[JSQMessagesCollectionViewLayoutAttributes setTextViewTextContainerInsets:]
+-[JSQMessagesCollectionViewLayoutAttributes textViewFrameInsets]
+-[JSQMessagesCollectionViewLayoutAttributes setTextViewFrameInsets:]
+-[JSQMessagesCollectionViewLayoutAttributes incomingAvatarViewSize]
+-[JSQMessagesCollectionViewLayoutAttributes outgoingAvatarViewSize]
+-[JSQMessagesCollectionViewLayoutAttributes cellTopLabelHeight]
+-[JSQMessagesCollectionViewLayoutAttributes messageBubbleTopLabelHeight]
+-[JSQMessagesCollectionViewLayoutAttributes cellBottomLabelHeight]
+-[JSQMessagesCollectionViewLayoutAttributes .cxx_destruct]
+OBJC_IVAR_$_JSQMessagesCollectionViewLayoutAttributes._messageBubbleFont
+OBJC_IVAR_$_JSQMessagesCollectionViewLayoutAttributes._messageBubbleContainerViewWidth
+OBJC_IVAR_$_JSQMessagesCollectionViewLayoutAttributes._incomingAvatarViewSize
+OBJC_IVAR_$_JSQMessagesCollectionViewLayoutAttributes._outgoingAvatarViewSize
+OBJC_IVAR_$_JSQMessagesCollectionViewLayoutAttributes._cellTopLabelHeight
+OBJC_IVAR_$_JSQMessagesCollectionViewLayoutAttributes._messageBubbleTopLabelHeight
+OBJC_IVAR_$_JSQMessagesCollectionViewLayoutAttributes._cellBottomLabelHeight
+OBJC_METH_VAR_NAME_.23
+OBJC_SELECTOR_REFERENCES_.24
+OBJC_IVAR_$_JSQMessagesCollectionViewLayoutAttributes._textViewTextContainerInsets
+OBJC_IVAR_$_JSQMessagesCollectionViewLayoutAttributes._textViewFrameInsets
+OBJC_CLASS_NAME_.55
+l_OBJC_CLASS_PROTOCOLS_$_JSQMessagesCollectionViewLayoutAttributes
+l_OBJC_METACLASS_RO_$_JSQMessagesCollectionViewLayoutAttributes
+OBJC_CLASS_NAME_.56
+OBJC_METH_VAR_TYPE_.57
+OBJC_METH_VAR_TYPE_.58
+OBJC_METH_VAR_TYPE_.59
+OBJC_METH_VAR_TYPE_.60
+OBJC_METH_VAR_TYPE_.61
+OBJC_METH_VAR_TYPE_.62
+OBJC_METH_VAR_TYPE_.63
+OBJC_METH_VAR_TYPE_.64
+OBJC_METH_VAR_TYPE_.66
+OBJC_METH_VAR_TYPE_.67
+OBJC_METH_VAR_TYPE_.68
+OBJC_METH_VAR_TYPE_.69
+OBJC_METH_VAR_TYPE_.70
+l_OBJC_$_INSTANCE_METHODS_JSQMessagesCollectionViewLayoutAttributes
+OBJC_METH_VAR_TYPE_.72
+OBJC_METH_VAR_TYPE_.74
+OBJC_METH_VAR_NAME_.76
+OBJC_METH_VAR_NAME_.81
+l_OBJC_$_INSTANCE_VARIABLES_JSQMessagesCollectionViewLayoutAttributes
+OBJC_PROP_NAME_ATTR_.84
+OBJC_PROP_NAME_ATTR_.85
+OBJC_PROP_NAME_ATTR_.86
+OBJC_PROP_NAME_ATTR_.87
+OBJC_PROP_NAME_ATTR_.88
+OBJC_PROP_NAME_ATTR_.89
+OBJC_PROP_NAME_ATTR_.90
+OBJC_PROP_NAME_ATTR_.91
+OBJC_PROP_NAME_ATTR_.92
+OBJC_PROP_NAME_ATTR_.93
+OBJC_PROP_NAME_ATTR_.94
+OBJC_PROP_NAME_ATTR_.95
+OBJC_PROP_NAME_ATTR_.96
+OBJC_PROP_NAME_ATTR_.97
+OBJC_PROP_NAME_ATTR_.98
+OBJC_PROP_NAME_ATTR_.99
+OBJC_PROP_NAME_ATTR_.100
+l_OBJC_$_PROP_LIST_JSQMessagesCollectionViewLayoutAttributes
+l_OBJC_CLASS_RO_$_JSQMessagesCollectionViewLayoutAttributes
+__CGSizeEqualToSize
+UIEdgeInsetsEqualToEdgeInsets
+/Applications/Xcode 7.3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIGeometry.h
+CGSizeMake
+-[JSQMessagesCollectionViewLayoutAttributes .cxx_destruct]
+/Users/yasuyuki/Desktop/Xcode7proj/DialogTest-movie/Carthage/Checkouts/JSQMessagesViewController/JSQMessagesViewController/JSQMessagesViewController/Layout/JSQMessagesCollectionViewLayoutAttributes.m
+-[JSQMessagesCollectionViewLayoutAttributes cellBottomLabelHeight]
+/Users/yasuyuki/Desktop/Xcode7proj/DialogTest-movie/Carthage/Checkouts/JSQMessagesViewController/JSQMessagesViewController/JSQMessagesViewController/Layout/JSQMessagesCollectionViewLayoutAttributes.h
+-[JSQMessagesCollectionViewLayoutAttributes messageBubbleTopLabelHeight]
+-[JSQMessagesCollectionViewLayoutAttributes cellTopLabelHeight]
+-[JSQMessagesCollectionViewLayoutAttributes outgoingAvatarViewSize]
+-[JSQMessagesCollectionViewLayoutAttributes incomingAvatarViewSize]
+-[JSQMessagesCollectionViewLayoutAttributes setTextViewFrameInsets:]
+-[JSQMessagesCollectionViewLayoutAttributes textViewFrameInsets]
+-[JSQMessagesCollectionViewLayoutAttributes setTextViewTextContainerInsets:]
+-[JSQMessagesCollectionViewLayoutAttributes textViewTextContainerInsets]
+-[JSQMessagesCollectionViewLayoutAttributes messageBubbleContainerViewWidth]
+-[JSQMessagesCollectionViewLayoutAttributes messageBubbleFont]
+-[JSQMessagesCollectionViewLayoutAttributes copyWithZone:]
+-[JSQMessagesCollectionViewLayoutAttributes hash]
+-[JSQMessagesCollectionViewLayoutAttributes isEqual:]
+-[JSQMessagesCollectionViewLayoutAttributes jsq_correctedLabelHeightForHeight:]
+-[JSQMessagesCollectionViewLayoutAttributes jsq_correctedAvatarSizeFromSize:]
+-[JSQMessagesCollectionViewLayoutAttributes setCellBottomLabelHeight:]
+-[JSQMessagesCollectionViewLayoutAttributes setMessageBubbleTopLabelHeight:]
+-[JSQMessagesCollectionViewLayoutAttributes setCellTopLabelHeight:]
+-[JSQMessagesCollectionViewLayoutAttributes setOutgoingAvatarViewSize:]
+-[JSQMessagesCollectionViewLayoutAttributes setIncomingAvatarViewSize:]
+-[JSQMessagesCollectionViewLayoutAttributes setMessageBubbleContainerViewWidth:]
+-[JSQMessagesCollectionViewLayoutAttributes setMessageBubbleFont:]
+-[JSQMessagesCollectionViewLayoutAttributes dealloc]
++[JSQMessage messageWithSenderId:displayName:text:]
+-[JSQMessage initWithSenderId:senderDisplayName:date:text:]
++[JSQMessage messageWithSenderId:displayName:media:]
+-[JSQMessage initWithSenderId:senderDisplayName:date:media:]
+-[JSQMessage initWithSenderId:senderDisplayName:date:isMedia:]
+-[JSQMessage init]
+-[JSQMessage dealloc]
+-[JSQMessage messageHash]
+-[JSQMessage isEqual:]
+-[JSQMessage hash]
+-[JSQMessage description]
+-[JSQMessage debugQuickLookObject]
+-[JSQMessage initWithCoder:]
+-[JSQMessage encodeWithCoder:]
+-[JSQMessage copyWithZone:]
+-[JSQMessage senderId]
+-[JSQMessage senderDisplayName]
+-[JSQMessage date]
+-[JSQMessage isMediaMessage]
+-[JSQMessage text]
+-[JSQMessage media]
+-[JSQMessage .cxx_destruct]
+OBJC_CLASSLIST_REFERENCES_$_.1
+OBJC_METH_VAR_NAME_.2
+OBJC_SELECTOR_REFERENCES_.3
+OBJC_METH_VAR_NAME_.4
+OBJC_SELECTOR_REFERENCES_.5
+OBJC_METH_VAR_NAME_.6
+OBJC_SELECTOR_REFERENCES_.7
+OBJC_IVAR_$_JSQMessage._text
+OBJC_IVAR_$_JSQMessage._media
+OBJC_IVAR_$_JSQMessage._senderId
+OBJC_IVAR_$_JSQMessage._senderDisplayName
+OBJC_IVAR_$_JSQMessage._date
+OBJC_IVAR_$_JSQMessage._isMediaMessage
+OBJC_METH_VAR_NAME_.18
+OBJC_SELECTOR_REFERENCES_.19
+OBJC_SELECTOR_REFERENCES_.35
+OBJC_METH_VAR_NAME_.36
+OBJC_SELECTOR_REFERENCES_.37
+OBJC_METH_VAR_NAME_.38
+OBJC_SELECTOR_REFERENCES_.39
+OBJC_CLASSLIST_REFERENCES_$_.40
+OBJC_CLASSLIST_REFERENCES_$_.41
+OBJC_METH_VAR_NAME_.50
+OBJC_SELECTOR_REFERENCES_.51
+OBJC_METH_VAR_NAME_.52
+OBJC_SELECTOR_REFERENCES_.53
+l_OBJC_PROTOCOL_REFERENCE_$_NSCoding
+OBJC_CLASS_NAME_.67
+l_OBJC_$_CLASS_METHODS_JSQMessage
+OBJC_METH_VAR_TYPE_.71
+OBJC_METH_VAR_TYPE_.73
+OBJC_METH_VAR_TYPE_.77
+OBJC_CLASS_NAME_.78
+OBJC_METH_VAR_TYPE_.80
+OBJC_METH_VAR_NAME_.98
+OBJC_METH_VAR_TYPE_.100
+OBJC_CLASS_NAME_.104
+OBJC_PROP_NAME_ATTR_.105
+OBJC_PROP_NAME_ATTR_.106
+OBJC_PROP_NAME_ATTR_.107
+OBJC_PROP_NAME_ATTR_.108
+OBJC_PROP_NAME_ATTR_.109
+OBJC_PROP_NAME_ATTR_.110
+l_OBJC_$_PROTOCOL_REFS_JSQMessageData
+l_OBJC_$_PROTOCOL_INSTANCE_METHODS_JSQMessageData
+l_OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_JSQMessageData
+l_OBJC_$_PROTOCOL_METHOD_TYPES_JSQMessageData
+l_OBJC_PROTOCOL_$_JSQMessageData
+l_OBJC_LABEL_PROTOCOL_$_JSQMessageData
+OBJC_METH_VAR_NAME_.111
+OBJC_METH_VAR_TYPE_.112
+l_OBJC_CLASS_PROTOCOLS_$_JSQMessage
+l_OBJC_METACLASS_RO_$_JSQMessage
+OBJC_CLASS_NAME_.114
+OBJC_METH_VAR_TYPE_.115
+OBJC_METH_VAR_TYPE_.116
+OBJC_METH_VAR_NAME_.118
+OBJC_METH_VAR_NAME_.119
+l_OBJC_$_INSTANCE_METHODS_JSQMessage
+OBJC_METH_VAR_NAME_.125
+l_OBJC_$_INSTANCE_VARIABLES_JSQMessage
+OBJC_PROP_NAME_ATTR_.130
+OBJC_PROP_NAME_ATTR_.131
+OBJC_PROP_NAME_ATTR_.132
+OBJC_PROP_NAME_ATTR_.133
+OBJC_PROP_NAME_ATTR_.134
+OBJC_PROP_NAME_ATTR_.135
+OBJC_PROP_NAME_ATTR_.136
+OBJC_PROP_NAME_ATTR_.137
+l_OBJC_$_PROP_LIST_JSQMessage
+l_OBJC_CLASS_RO_$_JSQMessage
+-[JSQMessage .cxx_destruct]
+/Users/yasuyuki/Desktop/Xcode7proj/DialogTest-movie/Carthage/Checkouts/JSQMessagesViewController/JSQMessagesViewController/JSQMessagesViewController/Model/JSQMessage.m
+-[JSQMessage media]
+/Users/yasuyuki/Desktop/Xcode7proj/DialogTest-movie/Carthage/Checkouts/JSQMessagesViewController/JSQMessagesViewController/JSQMessagesViewController/Model/JSQMessage.h
+-[JSQMessage text]
+-[JSQMessage isMediaMessage]
+-[JSQMessage date]
+-[JSQMessage senderDisplayName]
+-[JSQMessage senderId]
+-[JSQMessage copyWithZone:]
+-[JSQMessage encodeWithCoder:]
+-[JSQMessage initWithCoder:]
+-[JSQMessage debugQuickLookObject]
+-[JSQMessage description]
+-[JSQMessage hash]
+-[JSQMessage isEqual:]
+-[JSQMessage messageHash]
+-[JSQMessage dealloc]
+-[JSQMessage init]
+-[JSQMessage initWithSenderId:senderDisplayName:date:isMedia:]
+-[JSQMessage initWithSenderId:senderDisplayName:date:media:]
++[JSQMessage messageWithSenderId:displayName:media:]
+-[JSQMessage initWithSenderId:senderDisplayName:date:text:]
++[JSQMessage messageWithSenderId:displayName:text:]
++[JSQMessagesViewController nib]
++[JSQMessagesViewController messagesViewController]
+-[JSQMessagesViewController jsq_configureMessagesViewController]
+-[JSQMessagesViewController dealloc]
+-[JSQMessagesViewController setShowTypingIndicator:]
+-[JSQMessagesViewController setShowLoadEarlierMessagesHeader:]
+-[JSQMessagesViewController setTopContentAdditionalInset:]
+-[JSQMessagesViewController viewDidLoad]
+-[JSQMessagesViewController viewWillAppear:]
+__44-[JSQMessagesViewController viewWillAppear:]_block_invoke
+__copy_helper_block_
+__destroy_helper_block_
+-[JSQMessagesViewController viewDidAppear:]
+-[JSQMessagesViewController viewWillDisappear:]
+-[JSQMessagesViewController viewDidDisappear:]
+-[JSQMessagesViewController didReceiveMemoryWarning]
+-[JSQMessagesViewController shouldAutorotate]
+-[JSQMessagesViewController supportedInterfaceOrientations]
+-[JSQMessagesViewController willRotateToInterfaceOrientation:duration:]
+-[JSQMessagesViewController didRotateFromInterfaceOrientation:]
+-[JSQMessagesViewController didPressSendButton:withMessageText:senderId:senderDisplayName:date:]
+-[JSQMessagesViewController didPressAccessoryButton:]
+-[JSQMessagesViewController finishSendingMessage]
+-[JSQMessagesViewController finishSendingMessageAnimated:]
+-[JSQMessagesViewController finishReceivingMessage]
+-[JSQMessagesViewController finishReceivingMessageAnimated:]
+-[JSQMessagesViewController scrollToBottomAnimated:]
+-[JSQMessagesViewController collectionView:messageDataForItemAtIndexPath:]
+-[JSQMessagesViewController collectionView:messageBubbleImageDataForItemAtIndexPath:]
+-[JSQMessagesViewController collectionView:avatarImageDataForItemAtIndexPath:]
+-[JSQMessagesViewController collectionView:attributedTextForCellTopLabelAtIndexPath:]
+-[JSQMessagesViewController collectionView:attributedTextForMessageBubbleTopLabelAtIndexPath:]
+-[JSQMessagesViewController collectionView:attributedTextForCellBottomLabelAtIndexPath:]
+-[JSQMessagesViewController collectionView:numberOfItemsInSection:]
+-[JSQMessagesViewController numberOfSectionsInCollectionView:]
+-[JSQMessagesViewController collectionView:cellForItemAtIndexPath:]
+-[JSQMessagesViewController collectionView:viewForSupplementaryElementOfKind:atIndexPath:]
+-[JSQMessagesViewController collectionView:layout:referenceSizeForFooterInSection:]
+-[JSQMessagesViewController collectionView:layout:referenceSizeForHeaderInSection:]
+-[JSQMessagesViewController collectionView:shouldShowMenuForItemAtIndexPath:]
+-[JSQMessagesViewController collectionView:canPerformAction:forItemAtIndexPath:withSender:]
+-[JSQMessagesViewController collectionView:performAction:forItemAtIndexPath:withSender:]
+-[JSQMessagesViewController collectionView:layout:sizeForItemAtIndexPath:]
+-[JSQMessagesViewController collectionView:layout:heightForCellTopLabelAtIndexPath:]
+-[JSQMessagesViewController collectionView:layout:heightForMessageBubbleTopLabelAtIndexPath:]
+-[JSQMessagesViewController collectionView:layout:heightForCellBottomLabelAtIndexPath:]
+-[JSQMessagesViewController collectionView:didTapAvatarImageView:atIndexPath:]
+-[JSQMessagesViewController collectionView:didTapMessageBubbleAtIndexPath:]
+-[JSQMessagesViewController collectionView:didTapCellAtIndexPath:touchLocation:]
+-[JSQMessagesViewController messagesInputToolbar:didPressLeftBarButton:]
+-[JSQMessagesViewController messagesInputToolbar:didPressRightBarButton:]
+-[JSQMessagesViewController jsq_currentlyComposedMessageText]
+-[JSQMessagesViewController textViewDidBeginEditing:]
+-[JSQMessagesViewController textViewDidChange:]
+-[JSQMessagesViewController textViewDidEndEditing:]
+-[JSQMessagesViewController jsq_handleDidChangeStatusBarFrameNotification:]
+-[JSQMessagesViewController jsq_didReceiveMenuWillShowNotification:]
+-[JSQMessagesViewController jsq_didReceiveMenuWillHideNotification:]
+-[JSQMessagesViewController observeValueForKeyPath:ofObject:change:context:]
+-[JSQMessagesViewController keyboardController:keyboardDidChangeFrame:]
+-[JSQMessagesViewController jsq_setToolbarBottomLayoutGuideConstant:]
+-[JSQMessagesViewController jsq_updateKeyboardTriggerPoint]
+-[JSQMessagesViewController jsq_handleInteractivePopGestureRecognizer:]
+__71-[JSQMessagesViewController jsq_handleInteractivePopGestureRecognizer:]_block_invoke
+__copy_helper_block_.374
+__destroy_helper_block_.375
+-[JSQMessagesViewController jsq_inputToolbarHasReachedMaximumHeight]
+-[JSQMessagesViewController jsq_adjustInputToolbarForComposerTextViewContentSizeChange:]
+-[JSQMessagesViewController jsq_adjustInputToolbarHeightConstraintByDelta:]
+-[JSQMessagesViewController jsq_scrollComposerTextViewToBottomAnimated:]
+__72-[JSQMessagesViewController jsq_scrollComposerTextViewToBottomAnimated:]_block_invoke
+__copy_helper_block_.403
+__destroy_helper_block_.404
+-[JSQMessagesViewController jsq_updateCollectionViewInsets]
+-[JSQMessagesViewController jsq_setCollectionViewInsetsTopValue:bottomValue:]
+-[JSQMessagesViewController jsq_isMenuVisible]
+-[JSQMessagesViewController jsq_addObservers]
+-[JSQMessagesViewController jsq_removeObservers]
+-[JSQMessagesViewController jsq_registerForNotifications:]
+-[JSQMessagesViewController jsq_addActionToInteractivePopGestureRecognizer:]
+-[JSQMessagesViewController collectionView]
+-[JSQMessagesViewController setCollectionView:]
+-[JSQMessagesViewController inputToolbar]
+-[JSQMessagesViewController setInputToolbar:]
+-[JSQMessagesViewController keyboardController]
+-[JSQMessagesViewController setKeyboardController:]
+-[JSQMessagesViewController senderDisplayName]
+-[JSQMessagesViewController setSenderDisplayName:]
+-[JSQMessagesViewController senderId]
+-[JSQMessagesViewController setSenderId:]
+-[JSQMessagesViewController automaticallyScrollsToMostRecentMessage]
+-[JSQMessagesViewController setAutomaticallyScrollsToMostRecentMessage:]
+-[JSQMessagesViewController outgoingCellIdentifier]
+-[JSQMessagesViewController setOutgoingCellIdentifier:]
+-[JSQMessagesViewController outgoingMediaCellIdentifier]
+-[JSQMessagesViewController setOutgoingMediaCellIdentifier:]
+-[JSQMessagesViewController incomingCellIdentifier]
+-[JSQMessagesViewController setIncomingCellIdentifier:]
+-[JSQMessagesViewController incomingMediaCellIdentifier]
+-[JSQMessagesViewController setIncomingMediaCellIdentifier:]
+-[JSQMessagesViewController showTypingIndicator]
+-[JSQMessagesViewController showLoadEarlierMessagesHeader]
+-[JSQMessagesViewController topContentAdditionalInset]
+-[JSQMessagesViewController toolbarHeightConstraint]
+-[JSQMessagesViewController setToolbarHeightConstraint:]
+-[JSQMessagesViewController toolbarBottomLayoutGuide]
+-[JSQMessagesViewController setToolbarBottomLayoutGuide:]
+-[JSQMessagesViewController snapshotView]
+-[JSQMessagesViewController setSnapshotView:]
+-[JSQMessagesViewController jsq_isObserving]
+-[JSQMessagesViewController setJsq_isObserving:]
+-[JSQMessagesViewController selectedIndexPathForMenu]
+-[JSQMessagesViewController setSelectedIndexPathForMenu:]
+-[JSQMessagesViewController .cxx_destruct]
+OBJC_CLASSLIST_REFERENCES_$_.2
+OBJC_CLASSLIST_REFERENCES_$_.13
+OBJC_CLASSLIST_REFERENCES_$_.44
+OBJC_CLASSLIST_REFERENCES_$_.66
+OBJC_IVAR_$_JSQMessagesViewController._collectionView
+OBJC_IVAR_$_JSQMessagesViewController._inputToolbar
+OBJC_IVAR_$_JSQMessagesViewController._toolbarHeightConstraint
+OBJC_IVAR_$_JSQMessagesViewController._toolbarBottomLayoutGuide
+OBJC_IVAR_$_JSQMessagesViewController._senderId
+OBJC_IVAR_$_JSQMessagesViewController._senderDisplayName
+OBJC_IVAR_$_JSQMessagesViewController._outgoingCellIdentifier
+OBJC_IVAR_$_JSQMessagesViewController._incomingCellIdentifier
+OBJC_IVAR_$_JSQMessagesViewController._keyboardController
+OBJC_SELECTOR_REFERENCES_.78
+OBJC_METH_VAR_NAME_.79
+OBJC_SELECTOR_REFERENCES_.80
+OBJC_IVAR_$_JSQMessagesViewController._showTypingIndicator
+OBJC_SELECTOR_REFERENCES_.82
+OBJC_CLASSLIST_REFERENCES_$_.83
+OBJC_SELECTOR_REFERENCES_.85
+OBJC_SELECTOR_REFERENCES_.87
+OBJC_SELECTOR_REFERENCES_.89
+OBJC_IVAR_$_JSQMessagesViewController._showLoadEarlierMessagesHeader
+OBJC_SELECTOR_REFERENCES_.91
+OBJC_IVAR_$_JSQMessagesViewController._topContentAdditionalInset
+OBJC_SELECTOR_REFERENCES_.93
+OBJC_SELECTOR_REFERENCES_.95
+OBJC_SELECTOR_REFERENCES_.97
+OBJC_SELECTOR_REFERENCES_.99
+OBJC_SELECTOR_REFERENCES_.101
+OBJC_SELECTOR_REFERENCES_.103
+OBJC_SELECTOR_REFERENCES_.105
+OBJC_SELECTOR_REFERENCES_.107
+.str.108
+__block_descriptor_tmp
+OBJC_SELECTOR_REFERENCES_.110
+OBJC_SELECTOR_REFERENCES_.112
+OBJC_METH_VAR_NAME_.113
+OBJC_SELECTOR_REFERENCES_.114
+OBJC_METH_VAR_NAME_.115
+OBJC_SELECTOR_REFERENCES_.116
+OBJC_METH_VAR_NAME_.117
+OBJC_SELECTOR_REFERENCES_.118
+OBJC_SELECTOR_REFERENCES_.120
+OBJC_CLASSLIST_REFERENCES_$_.121
+OBJC_SELECTOR_REFERENCES_.123
+OBJC_SELECTOR_REFERENCES_.125
+OBJC_METH_VAR_NAME_.126
+OBJC_SELECTOR_REFERENCES_.127
+OBJC_SELECTOR_REFERENCES_.129
+OBJC_METH_VAR_NAME_.130
+OBJC_SELECTOR_REFERENCES_.131
+OBJC_SELECTOR_REFERENCES_.133
+OBJC_SELECTOR_REFERENCES_.135
+.str.136
+_unnamed_cfstring_.137
+__PRETTY_FUNCTION__.-[JSQMessagesViewController didReceiveMemoryWarning]
+OBJC_SELECTOR_REFERENCES_.139
+OBJC_SELECTOR_REFERENCES_.141
+OBJC_SELECTOR_REFERENCES_.143
+OBJC_METH_VAR_NAME_.144
+OBJC_SELECTOR_REFERENCES_.145
+OBJC_METH_VAR_NAME_.146
+OBJC_SELECTOR_REFERENCES_.147
+OBJC_SELECTOR_REFERENCES_.149
+OBJC_METH_VAR_NAME_.150
+OBJC_SELECTOR_REFERENCES_.151
+OBJC_METH_VAR_NAME_.152
+OBJC_SELECTOR_REFERENCES_.153
+OBJC_METH_VAR_NAME_.154
+OBJC_SELECTOR_REFERENCES_.155
+OBJC_METH_VAR_NAME_.156
+OBJC_SELECTOR_REFERENCES_.157
+OBJC_CLASSLIST_REFERENCES_$_.158
+OBJC_METH_VAR_NAME_.159
+OBJC_SELECTOR_REFERENCES_.160
+OBJC_METH_VAR_NAME_.161
+OBJC_SELECTOR_REFERENCES_.162
+OBJC_METH_VAR_NAME_.163
+OBJC_SELECTOR_REFERENCES_.164
+OBJC_METH_VAR_NAME_.165
+OBJC_SELECTOR_REFERENCES_.166
+OBJC_METH_VAR_NAME_.167
+OBJC_SELECTOR_REFERENCES_.168
+OBJC_METH_VAR_NAME_.169
+OBJC_SELECTOR_REFERENCES_.170
+OBJC_METH_VAR_NAME_.171
+OBJC_SELECTOR_REFERENCES_.172
+OBJC_METH_VAR_NAME_.173
+OBJC_SELECTOR_REFERENCES_.174
+OBJC_METH_VAR_NAME_.175
+OBJC_SELECTOR_REFERENCES_.176
+OBJC_CLASSLIST_REFERENCES_$_.177
+OBJC_METH_VAR_NAME_.178
+OBJC_SELECTOR_REFERENCES_.179
+OBJC_METH_VAR_NAME_.180
+OBJC_SELECTOR_REFERENCES_.181
+OBJC_METH_VAR_NAME_.182
+OBJC_SELECTOR_REFERENCES_.183
+OBJC_METH_VAR_NAME_.184
+OBJC_SELECTOR_REFERENCES_.185
+OBJC_METH_VAR_NAME_.186
+OBJC_SELECTOR_REFERENCES_.187
+OBJC_METH_VAR_NAME_.188
+OBJC_SELECTOR_REFERENCES_.189
+OBJC_METH_VAR_NAME_.190
+OBJC_SELECTOR_REFERENCES_.191
+OBJC_METH_VAR_NAME_.192
+OBJC_SELECTOR_REFERENCES_.193
+OBJC_METH_VAR_NAME_.194
+OBJC_SELECTOR_REFERENCES_.195
+OBJC_METH_VAR_NAME_.196
+OBJC_SELECTOR_REFERENCES_.197
+OBJC_METH_VAR_NAME_.198
+OBJC_SELECTOR_REFERENCES_.199
+OBJC_METH_VAR_NAME_.200
+OBJC_SELECTOR_REFERENCES_.201
+OBJC_METH_VAR_NAME_.202
+OBJC_SELECTOR_REFERENCES_.203
+OBJC_METH_VAR_NAME_.204
+OBJC_SELECTOR_REFERENCES_.205
+OBJC_METH_VAR_NAME_.206
+OBJC_SELECTOR_REFERENCES_.207
+OBJC_CLASSLIST_REFERENCES_$_.208
+OBJC_METH_VAR_NAME_.209
+OBJC_SELECTOR_REFERENCES_.210
+OBJC_CLASSLIST_REFERENCES_$_.211
+OBJC_METH_VAR_NAME_.212
+OBJC_SELECTOR_REFERENCES_.213
+OBJC_METH_VAR_NAME_.214
+OBJC_SELECTOR_REFERENCES_.215
+OBJC_METH_VAR_NAME_.216
+OBJC_SELECTOR_REFERENCES_.217
+OBJC_METH_VAR_NAME_.218
+OBJC_SELECTOR_REFERENCES_.219
+OBJC_METH_VAR_NAME_.220
+OBJC_SELECTOR_REFERENCES_.221
+OBJC_METH_VAR_NAME_.222
+OBJC_SELECTOR_REFERENCES_.223
+OBJC_METH_VAR_NAME_.224
+OBJC_SELECTOR_REFERENCES_.225
+OBJC_METH_VAR_NAME_.226
+OBJC_SELECTOR_REFERENCES_.227
+OBJC_METH_VAR_NAME_.228
+OBJC_SELECTOR_REFERENCES_.229
+OBJC_METH_VAR_NAME_.230
+OBJC_SELECTOR_REFERENCES_.231
+OBJC_METH_VAR_NAME_.232
+OBJC_SELECTOR_REFERENCES_.233
+OBJC_METH_VAR_NAME_.234
+OBJC_SELECTOR_REFERENCES_.235
+OBJC_METH_VAR_NAME_.236
+OBJC_SELECTOR_REFERENCES_.237
+OBJC_METH_VAR_NAME_.238
+OBJC_SELECTOR_REFERENCES_.239
+OBJC_METH_VAR_NAME_.240
+OBJC_SELECTOR_REFERENCES_.241
+OBJC_METH_VAR_NAME_.242
+OBJC_SELECTOR_REFERENCES_.243
+OBJC_METH_VAR_NAME_.244
+OBJC_SELECTOR_REFERENCES_.245
+OBJC_METH_VAR_NAME_.246
+OBJC_SELECTOR_REFERENCES_.247
+OBJC_METH_VAR_NAME_.248
+OBJC_SELECTOR_REFERENCES_.249
+OBJC_METH_VAR_NAME_.250
+OBJC_SELECTOR_REFERENCES_.251
+OBJC_METH_VAR_NAME_.252
+OBJC_SELECTOR_REFERENCES_.253
+OBJC_METH_VAR_NAME_.254
+OBJC_SELECTOR_REFERENCES_.255
+OBJC_METH_VAR_NAME_.256
+OBJC_SELECTOR_REFERENCES_.257
+OBJC_METH_VAR_NAME_.258
+OBJC_SELECTOR_REFERENCES_.259
+OBJC_METH_VAR_NAME_.260
+OBJC_SELECTOR_REFERENCES_.261
+OBJC_METH_VAR_NAME_.262
+OBJC_SELECTOR_REFERENCES_.263
+OBJC_METH_VAR_NAME_.264
+OBJC_SELECTOR_REFERENCES_.265
+OBJC_METH_VAR_NAME_.266
+OBJC_SELECTOR_REFERENCES_.267
+OBJC_METH_VAR_NAME_.268
+OBJC_SELECTOR_REFERENCES_.269
+OBJC_METH_VAR_NAME_.270
+OBJC_SELECTOR_REFERENCES_.271
+OBJC_CLASSLIST_REFERENCES_$_.272
+OBJC_METH_VAR_NAME_.273
+OBJC_SELECTOR_REFERENCES_.274
+OBJC_METH_VAR_NAME_.275
+OBJC_SELECTOR_REFERENCES_.276
+OBJC_METH_VAR_NAME_.277
+OBJC_SELECTOR_REFERENCES_.278
+OBJC_METH_VAR_NAME_.279
+OBJC_SELECTOR_REFERENCES_.280
+OBJC_METH_VAR_NAME_.281
+OBJC_SELECTOR_REFERENCES_.282
+OBJC_METH_VAR_NAME_.283
+OBJC_SELECTOR_REFERENCES_.284
+OBJC_METH_VAR_NAME_.285
+OBJC_SELECTOR_REFERENCES_.286
+OBJC_METH_VAR_NAME_.287
+OBJC_SELECTOR_REFERENCES_.288
+OBJC_METH_VAR_NAME_.289
+OBJC_SELECTOR_REFERENCES_.290
+OBJC_METH_VAR_NAME_.291
+OBJC_SELECTOR_REFERENCES_.292
+OBJC_METH_VAR_NAME_.293
+OBJC_SELECTOR_REFERENCES_.294
+OBJC_METH_VAR_NAME_.295
+OBJC_SELECTOR_REFERENCES_.296
+OBJC_CLASSLIST_REFERENCES_$_.297
+OBJC_METH_VAR_NAME_.298
+OBJC_SELECTOR_REFERENCES_.299
+OBJC_METH_VAR_NAME_.300
+OBJC_SELECTOR_REFERENCES_.301
+OBJC_METH_VAR_NAME_.302
+OBJC_SELECTOR_REFERENCES_.303
+OBJC_METH_VAR_NAME_.304
+OBJC_SELECTOR_REFERENCES_.305
+OBJC_METH_VAR_NAME_.306
+OBJC_SELECTOR_REFERENCES_.307
+OBJC_METH_VAR_NAME_.308
+OBJC_SELECTOR_REFERENCES_.309
+OBJC_CLASSLIST_REFERENCES_$_.310
+OBJC_METH_VAR_NAME_.311
+OBJC_SELECTOR_REFERENCES_.312
+OBJC_METH_VAR_NAME_.313
+OBJC_SELECTOR_REFERENCES_.314
+OBJC_METH_VAR_NAME_.315
+OBJC_SELECTOR_REFERENCES_.316
+OBJC_METH_VAR_NAME_.317
+OBJC_SELECTOR_REFERENCES_.318
+OBJC_METH_VAR_NAME_.319
+OBJC_SELECTOR_REFERENCES_.320
+OBJC_METH_VAR_NAME_.321
+OBJC_SELECTOR_REFERENCES_.322
+OBJC_METH_VAR_NAME_.323
+OBJC_SELECTOR_REFERENCES_.324
+OBJC_METH_VAR_NAME_.325
+OBJC_SELECTOR_REFERENCES_.326
+OBJC_METH_VAR_NAME_.327
+OBJC_SELECTOR_REFERENCES_.328
+OBJC_METH_VAR_NAME_.329
+OBJC_SELECTOR_REFERENCES_.330
+OBJC_METH_VAR_NAME_.331
+OBJC_SELECTOR_REFERENCES_.332
+OBJC_METH_VAR_NAME_.333
+OBJC_SELECTOR_REFERENCES_.334
+OBJC_METH_VAR_NAME_.335
+OBJC_SELECTOR_REFERENCES_.336
+OBJC_METH_VAR_NAME_.337
+OBJC_SELECTOR_REFERENCES_.338
+OBJC_METH_VAR_NAME_.339
+OBJC_SELECTOR_REFERENCES_.340
+OBJC_METH_VAR_NAME_.341
+OBJC_SELECTOR_REFERENCES_.342
+OBJC_METH_VAR_NAME_.343
+OBJC_SELECTOR_REFERENCES_.344
+OBJC_METH_VAR_NAME_.345
+OBJC_SELECTOR_REFERENCES_.346
+OBJC_METH_VAR_NAME_.347
+OBJC_SELECTOR_REFERENCES_.348
+OBJC_METH_VAR_NAME_.349
+OBJC_SELECTOR_REFERENCES_.350
+OBJC_METH_VAR_NAME_.351
+OBJC_SELECTOR_REFERENCES_.352
+kJSQMessagesKeyValueObservingContext
+OBJC_METH_VAR_NAME_.353
+OBJC_SELECTOR_REFERENCES_.354
+OBJC_METH_VAR_NAME_.355
+OBJC_SELECTOR_REFERENCES_.356
+OBJC_METH_VAR_NAME_.357
+OBJC_SELECTOR_REFERENCES_.358
+OBJC_METH_VAR_NAME_.359
+OBJC_SELECTOR_REFERENCES_.360
+OBJC_METH_VAR_NAME_.361
+OBJC_SELECTOR_REFERENCES_.362
+OBJC_METH_VAR_NAME_.363
+OBJC_SELECTOR_REFERENCES_.364
+OBJC_METH_VAR_NAME_.365
+OBJC_SELECTOR_REFERENCES_.366
+OBJC_METH_VAR_NAME_.367
+OBJC_SELECTOR_REFERENCES_.368
+OBJC_METH_VAR_NAME_.369
+OBJC_SELECTOR_REFERENCES_.370
+OBJC_METH_VAR_NAME_.371
+OBJC_SELECTOR_REFERENCES_.372
+OBJC_CLASSLIST_REFERENCES_$_.373
+__block_descriptor_tmp.376
+OBJC_METH_VAR_NAME_.377
+OBJC_SELECTOR_REFERENCES_.378
+OBJC_METH_VAR_NAME_.379
+OBJC_SELECTOR_REFERENCES_.380
+OBJC_METH_VAR_NAME_.381
+OBJC_SELECTOR_REFERENCES_.382
+OBJC_METH_VAR_NAME_.383
+OBJC_SELECTOR_REFERENCES_.384
+OBJC_METH_VAR_NAME_.385
+OBJC_SELECTOR_REFERENCES_.386
+OBJC_METH_VAR_NAME_.387
+OBJC_SELECTOR_REFERENCES_.388
+OBJC_METH_VAR_NAME_.389
+OBJC_SELECTOR_REFERENCES_.390
+OBJC_METH_VAR_NAME_.391
+OBJC_SELECTOR_REFERENCES_.392
+OBJC_METH_VAR_NAME_.393
+OBJC_SELECTOR_REFERENCES_.394
+OBJC_METH_VAR_NAME_.395
+OBJC_SELECTOR_REFERENCES_.396
+OBJC_METH_VAR_NAME_.397
+OBJC_SELECTOR_REFERENCES_.398
+OBJC_METH_VAR_NAME_.399
+OBJC_SELECTOR_REFERENCES_.400
+OBJC_METH_VAR_NAME_.401
+OBJC_SELECTOR_REFERENCES_.402
+__block_descriptor_tmp.405
+OBJC_METH_VAR_NAME_.406
+OBJC_SELECTOR_REFERENCES_.407
+OBJC_METH_VAR_NAME_.408
+OBJC_SELECTOR_REFERENCES_.409
+OBJC_METH_VAR_NAME_.410
+OBJC_SELECTOR_REFERENCES_.411
+OBJC_METH_VAR_NAME_.412
+OBJC_SELECTOR_REFERENCES_.413
+OBJC_CLASSLIST_REFERENCES_$_.414
+OBJC_METH_VAR_NAME_.415
+OBJC_SELECTOR_REFERENCES_.416
+OBJC_METH_VAR_NAME_.417
+OBJC_SELECTOR_REFERENCES_.418
+OBJC_METH_VAR_NAME_.419
+OBJC_SELECTOR_REFERENCES_.420
+OBJC_METH_VAR_NAME_.421
+OBJC_SELECTOR_REFERENCES_.422
+OBJC_IVAR_$_JSQMessagesViewController._jsq_isObserving
+OBJC_METH_VAR_NAME_.423
+OBJC_SELECTOR_REFERENCES_.424
+OBJC_METH_VAR_NAME_.425
+OBJC_SELECTOR_REFERENCES_.426
+OBJC_METH_VAR_NAME_.427
+OBJC_SELECTOR_REFERENCES_.428
+OBJC_METH_VAR_NAME_.429
+OBJC_SELECTOR_REFERENCES_.430
+OBJC_METH_VAR_NAME_.431
+OBJC_SELECTOR_REFERENCES_.432
+OBJC_METH_VAR_NAME_.433
+OBJC_SELECTOR_REFERENCES_.434
+OBJC_METH_VAR_NAME_.435
+OBJC_SELECTOR_REFERENCES_.436
+OBJC_METH_VAR_NAME_.437
+OBJC_SELECTOR_REFERENCES_.438
+OBJC_IVAR_$_JSQMessagesViewController._automaticallyScrollsToMostRecentMessage
+OBJC_IVAR_$_JSQMessagesViewController._outgoingMediaCellIdentifier
+OBJC_IVAR_$_JSQMessagesViewController._incomingMediaCellIdentifier
+OBJC_IVAR_$_JSQMessagesViewController._snapshotView
+OBJC_IVAR_$_JSQMessagesViewController._selectedIndexPathForMenu
+OBJC_METH_VAR_NAME_.439
+l_OBJC_$_CLASS_METHODS_JSQMessagesViewController
+OBJC_METH_VAR_NAME_.440
+OBJC_METH_VAR_TYPE_.441
+OBJC_METH_VAR_TYPE_.442
+OBJC_METH_VAR_NAME_.443
+OBJC_CLASS_NAME_.444
+OBJC_CLASS_NAME_.445
+OBJC_METH_VAR_NAME_.446
+OBJC_METH_VAR_TYPE_.447
+OBJC_METH_VAR_TYPE_.448
+OBJC_CLASS_NAME_.449
+OBJC_METH_VAR_NAME_.450
+OBJC_METH_VAR_TYPE_.451
+OBJC_METH_VAR_TYPE_.452
+OBJC_METH_VAR_NAME_.453
+OBJC_METH_VAR_NAME_.454
+OBJC_METH_VAR_TYPE_.455
+OBJC_METH_VAR_NAME_.456
+OBJC_METH_VAR_TYPE_.457
+OBJC_METH_VAR_NAME_.458
+OBJC_METH_VAR_TYPE_.459
+OBJC_METH_VAR_NAME_.460
+OBJC_METH_VAR_TYPE_.461
+OBJC_METH_VAR_NAME_.462
+OBJC_METH_VAR_TYPE_.463
+OBJC_METH_VAR_NAME_.464
+OBJC_METH_VAR_NAME_.465
+OBJC_METH_VAR_TYPE_.466
+OBJC_METH_VAR_NAME_.467
+OBJC_METH_VAR_TYPE_.468
+OBJC_METH_VAR_NAME_.469
+OBJC_METH_VAR_NAME_.470
+OBJC_METH_VAR_TYPE_.471
+OBJC_METH_VAR_NAME_.472
+OBJC_METH_VAR_NAME_.473
+OBJC_METH_VAR_TYPE_.474
+OBJC_METH_VAR_NAME_.475
+OBJC_METH_VAR_TYPE_.476
+OBJC_METH_VAR_NAME_.477
+OBJC_METH_VAR_NAME_.478
+OBJC_METH_VAR_NAME_.479
+OBJC_METH_VAR_TYPE_.480
+OBJC_METH_VAR_NAME_.481
+OBJC_CLASS_NAME_.482
+OBJC_PROP_NAME_ATTR_.483
+OBJC_PROP_NAME_ATTR_.484
+OBJC_PROP_NAME_ATTR_.485
+OBJC_PROP_NAME_ATTR_.486
+OBJC_PROP_NAME_ATTR_.487
+OBJC_PROP_NAME_ATTR_.488
+l_OBJC_$_PROTOCOL_REFS_UIBarPositioningDelegate
+l_OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIBarPositioningDelegate
+l_OBJC_$_PROTOCOL_METHOD_TYPES_UIBarPositioningDelegate
+l_OBJC_PROTOCOL_$_UIBarPositioningDelegate
+l_OBJC_LABEL_PROTOCOL_$_UIBarPositioningDelegate
+l_OBJC_$_PROTOCOL_REFS_UIToolbarDelegate
+l_OBJC_PROTOCOL_$_UIToolbarDelegate
+l_OBJC_LABEL_PROTOCOL_$_UIToolbarDelegate
+l_OBJC_$_PROTOCOL_REFS_JSQMessagesInputToolbarDelegate
+l_OBJC_$_PROTOCOL_INSTANCE_METHODS_JSQMessagesInputToolbarDelegate
+l_OBJC_$_PROTOCOL_METHOD_TYPES_JSQMessagesInputToolbarDelegate
+l_OBJC_PROTOCOL_$_JSQMessagesInputToolbarDelegate
+l_OBJC_LABEL_PROTOCOL_$_JSQMessagesInputToolbarDelegate
+OBJC_METH_VAR_NAME_.489
+OBJC_METH_VAR_TYPE_.490
+OBJC_METH_VAR_TYPE_.491
+OBJC_CLASS_NAME_.492
+l_OBJC_$_PROTOCOL_REFS_JSQMessagesKeyboardControllerDelegate
+l_OBJC_$_PROTOCOL_INSTANCE_METHODS_JSQMessagesKeyboardControllerDelegate
+l_OBJC_$_PROTOCOL_METHOD_TYPES_JSQMessagesKeyboardControllerDelegate
+l_OBJC_PROTOCOL_$_JSQMessagesKeyboardControllerDelegate
+l_OBJC_LABEL_PROTOCOL_$_JSQMessagesKeyboardControllerDelegate
+OBJC_METH_VAR_TYPE_.493
+OBJC_METH_VAR_TYPE_.494
+OBJC_METH_VAR_TYPE_.495
+OBJC_METH_VAR_TYPE_.496
+OBJC_METH_VAR_TYPE_.497
+OBJC_CLASS_NAME_.498
+OBJC_METH_VAR_NAME_.499
+OBJC_METH_VAR_TYPE_.500
+OBJC_METH_VAR_TYPE_.501
+OBJC_METH_VAR_NAME_.502
+OBJC_METH_VAR_TYPE_.503
+OBJC_METH_VAR_NAME_.504
+OBJC_METH_VAR_TYPE_.505
+OBJC_METH_VAR_NAME_.506
+OBJC_METH_VAR_TYPE_.507
+OBJC_METH_VAR_TYPE_.508
+OBJC_METH_VAR_NAME_.509
+OBJC_METH_VAR_TYPE_.510
+OBJC_METH_VAR_TYPE_.511
+OBJC_METH_VAR_NAME_.512
+OBJC_METH_VAR_TYPE_.513
+OBJC_METH_VAR_TYPE_.514
+OBJC_CLASS_NAME_.515
+l_OBJC_$_PROTOCOL_REFS_UICollectionViewDataSource
+l_OBJC_$_PROTOCOL_INSTANCE_METHODS_UICollectionViewDataSource
+l_OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UICollectionViewDataSource
+l_OBJC_$_PROTOCOL_METHOD_TYPES_UICollectionViewDataSource
+l_OBJC_PROTOCOL_$_UICollectionViewDataSource
+l_OBJC_LABEL_PROTOCOL_$_UICollectionViewDataSource
+l_OBJC_$_PROTOCOL_REFS_JSQMessagesCollectionViewDataSource
+l_OBJC_$_PROTOCOL_INSTANCE_METHODS_JSQMessagesCollectionViewDataSource
+l_OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_JSQMessagesCollectionViewDataSource
+l_OBJC_$_PROTOCOL_METHOD_TYPES_JSQMessagesCollectionViewDataSource
+l_OBJC_PROTOCOL_$_JSQMessagesCollectionViewDataSource
+l_OBJC_LABEL_PROTOCOL_$_JSQMessagesCollectionViewDataSource
+OBJC_METH_VAR_NAME_.516
+OBJC_METH_VAR_TYPE_.517
+OBJC_METH_VAR_TYPE_.518
+OBJC_METH_VAR_NAME_.519
+OBJC_METH_VAR_NAME_.520
+OBJC_METH_VAR_NAME_.521
+OBJC_METH_VAR_TYPE_.522
+OBJC_METH_VAR_NAME_.523
+OBJC_METH_VAR_TYPE_.524
+OBJC_METH_VAR_NAME_.525
+OBJC_METH_VAR_TYPE_.526
+OBJC_METH_VAR_TYPE_.527
+OBJC_METH_VAR_NAME_.528
+OBJC_METH_VAR_TYPE_.529
+OBJC_CLASS_NAME_.530
+OBJC_METH_VAR_NAME_.531
+OBJC_METH_VAR_TYPE_.532
+OBJC_METH_VAR_TYPE_.533
+OBJC_METH_VAR_NAME_.534
+OBJC_METH_VAR_TYPE_.535
+OBJC_METH_VAR_TYPE_.536
+OBJC_METH_VAR_NAME_.537
+OBJC_METH_VAR_TYPE_.538
+OBJC_METH_VAR_TYPE_.539
+OBJC_METH_VAR_NAME_.540
+OBJC_METH_VAR_NAME_.541
+OBJC_METH_VAR_TYPE_.542
+OBJC_METH_VAR_TYPE_.543
+OBJC_METH_VAR_NAME_.544
+OBJC_CLASS_NAME_.545
+OBJC_METH_VAR_NAME_.546
+OBJC_METH_VAR_NAME_.547
+OBJC_METH_VAR_TYPE_.548
+OBJC_METH_VAR_NAME_.549
+OBJC_METH_VAR_NAME_.550
+OBJC_METH_VAR_NAME_.551
+OBJC_METH_VAR_NAME_.552
+OBJC_METH_VAR_NAME_.553
+OBJC_METH_VAR_NAME_.554
+OBJC_METH_VAR_TYPE_.555
+OBJC_METH_VAR_NAME_.556
+OBJC_METH_VAR_TYPE_.557
+OBJC_METH_VAR_TYPE_.558
+OBJC_METH_VAR_NAME_.559
+OBJC_METH_VAR_NAME_.560
+OBJC_METH_VAR_NAME_.561
+OBJC_METH_VAR_NAME_.562
+OBJC_METH_VAR_TYPE_.563
+OBJC_METH_VAR_TYPE_.564
+OBJC_METH_VAR_NAME_.565
+OBJC_METH_VAR_TYPE_.566
+OBJC_METH_VAR_TYPE_.567
+OBJC_METH_VAR_NAME_.568
+OBJC_METH_VAR_TYPE_.569
+OBJC_METH_VAR_NAME_.570
+OBJC_METH_VAR_NAME_.571
+OBJC_METH_VAR_TYPE_.572
+OBJC_METH_VAR_NAME_.573
+OBJC_METH_VAR_TYPE_.574
+OBJC_METH_VAR_NAME_.575
+OBJC_METH_VAR_TYPE_.576
+OBJC_METH_VAR_TYPE_.577
+OBJC_METH_VAR_NAME_.578
+OBJC_METH_VAR_TYPE_.579
+OBJC_METH_VAR_NAME_.580
+OBJC_METH_VAR_TYPE_.581
+OBJC_METH_VAR_TYPE_.582
+OBJC_CLASS_NAME_.583
+OBJC_METH_VAR_NAME_.584
+OBJC_METH_VAR_TYPE_.585
+OBJC_METH_VAR_TYPE_.586
+OBJC_METH_VAR_NAME_.587
+OBJC_METH_VAR_NAME_.588
+OBJC_METH_VAR_NAME_.589
+OBJC_METH_VAR_TYPE_.590
+OBJC_METH_VAR_TYPE_.591
+OBJC_METH_VAR_NAME_.592
+OBJC_METH_VAR_TYPE_.593
+OBJC_METH_VAR_TYPE_.594
+OBJC_METH_VAR_NAME_.595
+OBJC_METH_VAR_NAME_.596
+OBJC_METH_VAR_NAME_.597
+OBJC_METH_VAR_NAME_.598
+OBJC_METH_VAR_TYPE_.599
+OBJC_METH_VAR_NAME_.600
+OBJC_METH_VAR_TYPE_.601
+OBJC_METH_VAR_NAME_.602
+OBJC_METH_VAR_TYPE_.603
+OBJC_METH_VAR_TYPE_.604
+OBJC_METH_VAR_NAME_.605
+OBJC_METH_VAR_TYPE_.606
+OBJC_METH_VAR_NAME_.607
+OBJC_CLASS_NAME_.608
+l_OBJC_$_PROTOCOL_REFS_UIScrollViewDelegate
+l_OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIScrollViewDelegate
+l_OBJC_$_PROTOCOL_METHOD_TYPES_UIScrollViewDelegate
+l_OBJC_PROTOCOL_$_UIScrollViewDelegate
+l_OBJC_LABEL_PROTOCOL_$_UIScrollViewDelegate
+l_OBJC_$_PROTOCOL_REFS_UICollectionViewDelegate
+l_OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UICollectionViewDelegate
+l_OBJC_$_PROTOCOL_METHOD_TYPES_UICollectionViewDelegate
+l_OBJC_PROTOCOL_$_UICollectionViewDelegate
+l_OBJC_LABEL_PROTOCOL_$_UICollectionViewDelegate
+l_OBJC_$_PROTOCOL_REFS_UICollectionViewDelegateFlowLayout
+l_OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UICollectionViewDelegateFlowLayout
+l_OBJC_$_PROTOCOL_METHOD_TYPES_UICollectionViewDelegateFlowLayout
+l_OBJC_PROTOCOL_$_UICollectionViewDelegateFlowLayout
+l_OBJC_LABEL_PROTOCOL_$_UICollectionViewDelegateFlowLayout
+l_OBJC_$_PROTOCOL_REFS_JSQMessagesCollectionViewDelegateFlowLayout
+l_OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_JSQMessagesCollectionViewDelegateFlowLayout
+l_OBJC_$_PROTOCOL_METHOD_TYPES_JSQMessagesCollectionViewDelegateFlowLayout
+l_OBJC_PROTOCOL_$_JSQMessagesCollectionViewDelegateFlowLayout
+l_OBJC_LABEL_PROTOCOL_$_JSQMessagesCollectionViewDelegateFlowLayout
+OBJC_METH_VAR_NAME_.609
+OBJC_METH_VAR_TYPE_.610
+OBJC_METH_VAR_NAME_.611
+OBJC_METH_VAR_NAME_.612
+OBJC_METH_VAR_TYPE_.613
+OBJC_METH_VAR_NAME_.614
+OBJC_METH_VAR_NAME_.615
+OBJC_METH_VAR_TYPE_.616
+OBJC_METH_VAR_TYPE_.617
+OBJC_METH_VAR_NAME_.618
+OBJC_METH_VAR_NAME_.619
+OBJC_METH_VAR_NAME_.620
+OBJC_METH_VAR_TYPE_.621
+OBJC_METH_VAR_TYPE_.622
+OBJC_METH_VAR_NAME_.623
+OBJC_METH_VAR_TYPE_.624
+OBJC_CLASS_NAME_.625
+l_OBJC_$_PROTOCOL_REFS_UITextViewDelegate
+l_OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UITextViewDelegate
+l_OBJC_$_PROTOCOL_METHOD_TYPES_UITextViewDelegate
+l_OBJC_PROTOCOL_$_UITextViewDelegate
+l_OBJC_LABEL_PROTOCOL_$_UITextViewDelegate
+l_OBJC_CLASS_PROTOCOLS_$_JSQMessagesViewController
+l_OBJC_METACLASS_RO_$_JSQMessagesViewController
+OBJC_CLASS_NAME_.626
+OBJC_METH_VAR_TYPE_.627
+OBJC_METH_VAR_TYPE_.628
+OBJC_METH_VAR_TYPE_.629
+OBJC_METH_VAR_NAME_.630
+OBJC_METH_VAR_NAME_.631
+OBJC_METH_VAR_TYPE_.632
+OBJC_METH_VAR_TYPE_.633
+OBJC_METH_VAR_TYPE_.634
+OBJC_METH_VAR_NAME_.635
+OBJC_METH_VAR_NAME_.636
+OBJC_METH_VAR_NAME_.637
+OBJC_METH_VAR_TYPE_.638
+OBJC_METH_VAR_TYPE_.639
+OBJC_METH_VAR_NAME_.640
+OBJC_METH_VAR_NAME_.641
+OBJC_METH_VAR_NAME_.642
+OBJC_METH_VAR_NAME_.643
+OBJC_METH_VAR_NAME_.644
+OBJC_METH_VAR_TYPE_.645
+OBJC_METH_VAR_NAME_.646
+OBJC_METH_VAR_NAME_.647
+l_OBJC_$_INSTANCE_METHODS_JSQMessagesViewController
+OBJC_METH_VAR_NAME_.648
+OBJC_METH_VAR_TYPE_.649
+OBJC_METH_VAR_NAME_.650
+OBJC_METH_VAR_NAME_.651
+OBJC_METH_VAR_NAME_.652
+OBJC_METH_VAR_NAME_.653
+OBJC_METH_VAR_TYPE_.654
+OBJC_METH_VAR_NAME_.655
+OBJC_METH_VAR_TYPE_.656
+OBJC_METH_VAR_NAME_.657
+OBJC_METH_VAR_TYPE_.658
+OBJC_METH_VAR_NAME_.659
+OBJC_METH_VAR_TYPE_.660
+OBJC_METH_VAR_NAME_.661
+OBJC_METH_VAR_NAME_.662
+OBJC_METH_VAR_NAME_.663
+OBJC_METH_VAR_NAME_.664
+OBJC_METH_VAR_NAME_.665
+OBJC_METH_VAR_NAME_.666
+OBJC_METH_VAR_TYPE_.667
+OBJC_METH_VAR_NAME_.668
+OBJC_METH_VAR_TYPE_.669
+OBJC_METH_VAR_NAME_.670
+OBJC_METH_VAR_NAME_.671
+OBJC_METH_VAR_TYPE_.672
+OBJC_METH_VAR_NAME_.673
+OBJC_METH_VAR_TYPE_.674
+l_OBJC_$_INSTANCE_VARIABLES_JSQMessagesViewController
+OBJC_CLASS_NAME_.675
+OBJC_PROP_NAME_ATTR_.676
+OBJC_PROP_NAME_ATTR_.677
+OBJC_PROP_NAME_ATTR_.678
+OBJC_PROP_NAME_ATTR_.679
+OBJC_PROP_NAME_ATTR_.680
+OBJC_PROP_NAME_ATTR_.681
+OBJC_PROP_NAME_ATTR_.682
+OBJC_PROP_NAME_ATTR_.683
+OBJC_PROP_NAME_ATTR_.684
+OBJC_PROP_NAME_ATTR_.685
+OBJC_PROP_NAME_ATTR_.686
+OBJC_PROP_NAME_ATTR_.687
+OBJC_PROP_NAME_ATTR_.688
+OBJC_PROP_NAME_ATTR_.689
+OBJC_PROP_NAME_ATTR_.690
+OBJC_PROP_NAME_ATTR_.691
+OBJC_PROP_NAME_ATTR_.692
+OBJC_PROP_NAME_ATTR_.693
+OBJC_PROP_NAME_ATTR_.694
+OBJC_PROP_NAME_ATTR_.695
+OBJC_PROP_NAME_ATTR_.696
+OBJC_PROP_NAME_ATTR_.697
+OBJC_PROP_NAME_ATTR_.698
+OBJC_PROP_NAME_ATTR_.699
+OBJC_PROP_NAME_ATTR_.700
+OBJC_PROP_NAME_ATTR_.701
+OBJC_PROP_NAME_ATTR_.702
+OBJC_PROP_NAME_ATTR_.703
+OBJC_PROP_NAME_ATTR_.704
+OBJC_PROP_NAME_ATTR_.705
+OBJC_PROP_NAME_ATTR_.706
+OBJC_PROP_NAME_ATTR_.707
+OBJC_PROP_NAME_ATTR_.708
+OBJC_PROP_NAME_ATTR_.709
+OBJC_PROP_NAME_ATTR_.710
+OBJC_PROP_NAME_ATTR_.711
+l_OBJC_$_PROP_LIST_JSQMessagesViewController
+l_OBJC_CLASS_RO_$_JSQMessagesViewController
+CGPointMake
+UIEdgeInsetsMake
+dispatch_get_main_queue
+/Applications/Xcode 7.3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/dispatch/queue.h
+-[JSQMessagesViewController .cxx_destruct]
+/Users/yasuyuki/Desktop/Xcode7proj/DialogTest-movie/Carthage/Checkouts/JSQMessagesViewController/JSQMessagesViewController/JSQMessagesViewController/Controllers/JSQMessagesViewController.m
+-[JSQMessagesViewController setSelectedIndexPathForMenu:]
+-[JSQMessagesViewController selectedIndexPathForMenu]
+-[JSQMessagesViewController setJsq_isObserving:]
+-[JSQMessagesViewController jsq_isObserving]
+-[JSQMessagesViewController setSnapshotView:]
+-[JSQMessagesViewController snapshotView]
+-[JSQMessagesViewController setToolbarBottomLayoutGuide:]
+-[JSQMessagesViewController toolbarBottomLayoutGuide]
+-[JSQMessagesViewController setToolbarHeightConstraint:]
+-[JSQMessagesViewController toolbarHeightConstraint]
+-[JSQMessagesViewController topContentAdditionalInset]
+/Users/yasuyuki/Desktop/Xcode7proj/DialogTest-movie/Carthage/Checkouts/JSQMessagesViewController/JSQMessagesViewController/JSQMessagesViewController/Controllers/JSQMessagesViewController.h
+-[JSQMessagesViewController showLoadEarlierMessagesHeader]
+-[JSQMessagesViewController showTypingIndicator]
+-[JSQMessagesViewController setIncomingMediaCellIdentifier:]
+-[JSQMessagesViewController incomingMediaCellIdentifier]
+-[JSQMessagesViewController setIncomingCellIdentifier:]
+-[JSQMessagesViewController incomingCellIdentifier]
+-[JSQMessagesViewController setOutgoingMediaCellIdentifier:]
+-[JSQMessagesViewController outgoingMediaCellIdentifier]
+-[JSQMessagesViewController setOutgoingCellIdentifier:]
+-[JSQMessagesViewController outgoingCellIdentifier]
+-[JSQMessagesViewController setAutomaticallyScrollsToMostRecentMessage:]
+-[JSQMessagesViewController automaticallyScrollsToMostRecentMessage]
+-[JSQMessagesViewController setSenderId:]
+-[JSQMessagesViewController senderId]
+-[JSQMessagesViewController setSenderDisplayName:]
+-[JSQMessagesViewController senderDisplayName]
+-[JSQMessagesViewController setKeyboardController:]
+-[JSQMessagesViewController keyboardController]
+-[JSQMessagesViewController setInputToolbar:]
+-[JSQMessagesViewController inputToolbar]
+-[JSQMessagesViewController setCollectionView:]
+-[JSQMessagesViewController collectionView]
+-[JSQMessagesViewController jsq_addActionToInteractivePopGestureRecognizer:]
+-[JSQMessagesViewController jsq_registerForNotifications:]
+-[JSQMessagesViewController jsq_removeObservers]
+-[JSQMessagesViewController jsq_addObservers]
+-[JSQMessagesViewController jsq_isMenuVisible]
+-[JSQMessagesViewController jsq_setCollectionViewInsetsTopValue:bottomValue:]
+-[JSQMessagesViewController jsq_updateCollectionViewInsets]
+-[JSQMessagesViewController jsq_scrollComposerTextViewToBottomAnimated:]
+-[JSQMessagesViewController jsq_adjustInputToolbarHeightConstraintByDelta:]
+-[JSQMessagesViewController jsq_adjustInputToolbarForComposerTextViewContentSizeChange:]
+-[JSQMessagesViewController jsq_inputToolbarHasReachedMaximumHeight]
+-[JSQMessagesViewController jsq_handleInteractivePopGestureRecognizer:]
+-[JSQMessagesViewController jsq_updateKeyboardTriggerPoint]
+-[JSQMessagesViewController jsq_setToolbarBottomLayoutGuideConstant:]
+-[JSQMessagesViewController keyboardController:keyboardDidChangeFrame:]
+-[JSQMessagesViewController observeValueForKeyPath:ofObject:change:context:]
+-[JSQMessagesViewController jsq_didReceiveMenuWillHideNotification:]
+-[JSQMessagesViewController jsq_didReceiveMenuWillShowNotification:]
+-[JSQMessagesViewController jsq_handleDidChangeStatusBarFrameNotification:]
+-[JSQMessagesViewController textViewDidEndEditing:]
+-[JSQMessagesViewController textViewDidChange:]
+-[JSQMessagesViewController textViewDidBeginEditing:]
+-[JSQMessagesViewController jsq_currentlyComposedMessageText]
+-[JSQMessagesViewController messagesInputToolbar:didPressRightBarButton:]
+-[JSQMessagesViewController messagesInputToolbar:didPressLeftBarButton:]
+-[JSQMessagesViewController collectionView:didTapCellAtIndexPath:touchLocation:]
+-[JSQMessagesViewController collectionView:didTapMessageBubbleAtIndexPath:]
+-[JSQMessagesViewController collectionView:didTapAvatarImageView:atIndexPath:]
+-[JSQMessagesViewController collectionView:layout:heightForCellBottomLabelAtIndexPath:]
+-[JSQMessagesViewController collectionView:layout:heightForMessageBubbleTopLabelAtIndexPath:]
+-[JSQMessagesViewController collectionView:layout:heightForCellTopLabelAtIndexPath:]
+-[JSQMessagesViewController collectionView:layout:sizeForItemAtIndexPath:]
+-[JSQMessagesViewController collectionView:performAction:forItemAtIndexPath:withSender:]
+-[JSQMessagesViewController collectionView:canPerformAction:forItemAtIndexPath:withSender:]
+-[JSQMessagesViewController collectionView:shouldShowMenuForItemAtIndexPath:]
+-[JSQMessagesViewController collectionView:layout:referenceSizeForHeaderInSection:]
+-[JSQMessagesViewController collectionView:layout:referenceSizeForFooterInSection:]
+-[JSQMessagesViewController collectionView:viewForSupplementaryElementOfKind:atIndexPath:]
+-[JSQMessagesViewController collectionView:cellForItemAtIndexPath:]
+-[JSQMessagesViewController numberOfSectionsInCollectionView:]
+-[JSQMessagesViewController collectionView:numberOfItemsInSection:]
+-[JSQMessagesViewController collectionView:attributedTextForCellBottomLabelAtIndexPath:]
+-[JSQMessagesViewController collectionView:attributedTextForMessageBubbleTopLabelAtIndexPath:]
+-[JSQMessagesViewController collectionView:attributedTextForCellTopLabelAtIndexPath:]
+-[JSQMessagesViewController collectionView:avatarImageDataForItemAtIndexPath:]
+-[JSQMessagesViewController collectionView:messageBubbleImageDataForItemAtIndexPath:]
+-[JSQMessagesViewController collectionView:messageDataForItemAtIndexPath:]
+-[JSQMessagesViewController scrollToBottomAnimated:]
+-[JSQMessagesViewController finishReceivingMessageAnimated:]
+-[JSQMessagesViewController finishReceivingMessage]
+-[JSQMessagesViewController finishSendingMessageAnimated:]
+-[JSQMessagesViewController finishSendingMessage]
+-[JSQMessagesViewController didPressAccessoryButton:]
+-[JSQMessagesViewController didPressSendButton:withMessageText:senderId:senderDisplayName:date:]
+-[JSQMessagesViewController didRotateFromInterfaceOrientation:]
+-[JSQMessagesViewController willRotateToInterfaceOrientation:duration:]
+-[JSQMessagesViewController supportedInterfaceOrientations]
+-[JSQMessagesViewController shouldAutorotate]
+-[JSQMessagesViewController didReceiveMemoryWarning]
+-[JSQMessagesViewController viewDidDisappear:]
+-[JSQMessagesViewController viewWillDisappear:]
+-[JSQMessagesViewController viewDidAppear:]
+-[JSQMessagesViewController viewWillAppear:]
+-[JSQMessagesViewController viewDidLoad]
+-[JSQMessagesViewController setTopContentAdditionalInset:]
+-[JSQMessagesViewController setShowLoadEarlierMessagesHeader:]
+-[JSQMessagesViewController setShowTypingIndicator:]
+-[JSQMessagesViewController dealloc]
+-[JSQMessagesViewController jsq_configureMessagesViewController]
++[JSQMessagesViewController messagesViewController]
++[JSQMessagesViewController nib]
+-[JSQLocationMediaItem initWithLocation:]
+-[JSQLocationMediaItem dealloc]
+-[JSQLocationMediaItem clearCachedMediaViews]
+-[JSQLocationMediaItem setLocation:]
+-[JSQLocationMediaItem setAppliesMediaViewMaskAsOutgoing:]
+-[JSQLocationMediaItem setLocation:withCompletionHandler:]
+-[JSQLocationMediaItem setLocation:region:withCompletionHandler:]
+-[JSQLocationMediaItem createMapViewSnapshotForLocation:coordinateRegion:withCompletionHandler:]
+__96-[JSQLocationMediaItem createMapViewSnapshotForLocation:coordinateRegion:withCompletionHandler:]_block_invoke
+-[JSQLocationMediaItem coordinate]
+-[JSQLocationMediaItem mediaView]
+-[JSQLocationMediaItem mediaHash]
+-[JSQLocationMediaItem isEqual:]
+-[JSQLocationMediaItem hash]
+-[JSQLocationMediaItem description]
+-[JSQLocationMediaItem initWithCoder:]
+-[JSQLocationMediaItem encodeWithCoder:]
+-[JSQLocationMediaItem copyWithZone:]
+-[JSQLocationMediaItem location]
+-[JSQLocationMediaItem cachedMapSnapshotImage]
+-[JSQLocationMediaItem setCachedMapSnapshotImage:]
+-[JSQLocationMediaItem cachedMapImageView]
+-[JSQLocationMediaItem setCachedMapImageView:]
+-[JSQLocationMediaItem .cxx_destruct]
+OBJC_IVAR_$_JSQLocationMediaItem._location
+OBJC_IVAR_$_JSQLocationMediaItem._cachedMapSnapshotImage
+OBJC_IVAR_$_JSQLocationMediaItem._cachedMapImageView
+OBJC_CLASSLIST_REFERENCES_$_.25
+OBJC_CLASSLIST_REFERENCES_$_.32
+__PRETTY_FUNCTION__.__96-[JSQLocationMediaItem createMapViewSnapshotForLocation:coordinateRegion:withCompletionHandler:]_block_invoke
+OBJC_CLASSLIST_REFERENCES_$_.35
+.str.48
+OBJC_CLASSLIST_REFERENCES_$_.57
+OBJC_CLASSLIST_REFERENCES_$_.64
+OBJC_CLASSLIST_REFERENCES_$_.75
+.str.76
+_unnamed_cfstring_.77
+OBJC_SELECTOR_REFERENCES_.79
+OBJC_CLASSLIST_REFERENCES_$_.80
+OBJC_SELECTOR_REFERENCES_.84
+OBJC_METH_VAR_NAME_.85
+OBJC_SELECTOR_REFERENCES_.86
+OBJC_METH_VAR_NAME_.87
+OBJC_SELECTOR_REFERENCES_.88
+OBJC_METH_VAR_NAME_.89
+OBJC_SELECTOR_REFERENCES_.90
+OBJC_METH_VAR_NAME_.91
+OBJC_SELECTOR_REFERENCES_.92
+OBJC_METH_VAR_NAME_.93
+OBJC_SELECTOR_REFERENCES_.94
+OBJC_SELECTOR_REFERENCES_.96
+OBJC_CLASS_NAME_.103
+OBJC_METH_VAR_TYPE_.104
+OBJC_METH_VAR_TYPE_.110
+OBJC_METH_VAR_TYPE_.114
+OBJC_METH_VAR_TYPE_.124
+OBJC_METH_VAR_TYPE_.131
+OBJC_CLASS_NAME_.133
+OBJC_METH_VAR_TYPE_.141
+OBJC_METH_VAR_TYPE_.142
+OBJC_CLASS_NAME_.145
+l_OBJC_$_PROTOCOL_REFS_MKAnnotation
+l_OBJC_$_PROTOCOL_INSTANCE_METHODS_MKAnnotation
+l_OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_MKAnnotation
+OBJC_PROP_NAME_ATTR_.146
+OBJC_PROP_NAME_ATTR_.147
+OBJC_PROP_NAME_ATTR_.148
+l_OBJC_$_PROP_LIST_MKAnnotation
+l_OBJC_$_PROTOCOL_METHOD_TYPES_MKAnnotation
+l_OBJC_PROTOCOL_$_MKAnnotation
+l_OBJC_LABEL_PROTOCOL_$_MKAnnotation
+OBJC_METH_VAR_TYPE_.151
+OBJC_METH_VAR_TYPE_.152
+OBJC_METH_VAR_TYPE_.153
+OBJC_METH_VAR_TYPE_.154
+OBJC_CLASS_NAME_.155
+OBJC_METH_VAR_TYPE_.157
+OBJC_CLASS_NAME_.158
+l_OBJC_CLASS_PROTOCOLS_$_JSQLocationMediaItem
+l_OBJC_METACLASS_RO_$_JSQLocationMediaItem
+OBJC_CLASS_NAME_.159
+OBJC_METH_VAR_TYPE_.160
+OBJC_METH_VAR_TYPE_.162
+OBJC_METH_VAR_TYPE_.163
+OBJC_METH_VAR_TYPE_.164
+l_OBJC_$_INSTANCE_METHODS_JSQLocationMediaItem
+OBJC_METH_VAR_NAME_.166
+OBJC_METH_VAR_TYPE_.167
+OBJC_METH_VAR_NAME_.168
+OBJC_METH_VAR_TYPE_.169
+OBJC_METH_VAR_NAME_.170
+OBJC_METH_VAR_TYPE_.171
+l_OBJC_$_INSTANCE_VARIABLES_JSQLocationMediaItem
+OBJC_PROP_NAME_ATTR_.172
+OBJC_PROP_NAME_ATTR_.173
+OBJC_PROP_NAME_ATTR_.174
+OBJC_PROP_NAME_ATTR_.175
+OBJC_PROP_NAME_ATTR_.176
+OBJC_PROP_NAME_ATTR_.177
+l_OBJC_$_PROP_LIST_JSQLocationMediaItem
+l_OBJC_CLASS_RO_$_JSQLocationMediaItem
+-[JSQLocationMediaItem .cxx_destruct]
+/Users/yasuyuki/Desktop/Xcode7proj/DialogTest-movie/Carthage/Checkouts/JSQMessagesViewController/JSQMessagesViewController/JSQMessagesViewController/Model/JSQLocationMediaItem.m
+-[JSQLocationMediaItem setCachedMapImageView:]
+-[JSQLocationMediaItem cachedMapImageView]
+-[JSQLocationMediaItem setCachedMapSnapshotImage:]
+-[JSQLocationMediaItem cachedMapSnapshotImage]
+-[JSQLocationMediaItem location]
+/Users/yasuyuki/Desktop/Xcode7proj/DialogTest-movie/Carthage/Checkouts/JSQMessagesViewController/JSQMessagesViewController/JSQMessagesViewController/Model/JSQLocationMediaItem.h
+-[JSQLocationMediaItem copyWithZone:]
+-[JSQLocationMediaItem encodeWithCoder:]
+-[JSQLocationMediaItem initWithCoder:]
+-[JSQLocationMediaItem description]
+-[JSQLocationMediaItem hash]
+-[JSQLocationMediaItem isEqual:]
+-[JSQLocationMediaItem mediaHash]
+-[JSQLocationMediaItem mediaView]
+-[JSQLocationMediaItem coordinate]
+-[JSQLocationMediaItem createMapViewSnapshotForLocation:coordinateRegion:withCompletionHandler:]
+-[JSQLocationMediaItem setLocation:region:withCompletionHandler:]
+-[JSQLocationMediaItem setLocation:withCompletionHandler:]
+-[JSQLocationMediaItem setAppliesMediaViewMaskAsOutgoing:]
+-[JSQLocationMediaItem setLocation:]
+-[JSQLocationMediaItem clearCachedMediaViews]
+-[JSQLocationMediaItem dealloc]
+-[JSQLocationMediaItem initWithLocation:]
+-[JSQMessagesCollectionViewFlowLayout jsq_configureFlowLayout]
+-[JSQMessagesCollectionViewFlowLayout init]
+-[JSQMessagesCollectionViewFlowLayout awakeFromNib]
++[JSQMessagesCollectionViewFlowLayout layoutAttributesClass]
++[JSQMessagesCollectionViewFlowLayout invalidationContextClass]
+-[JSQMessagesCollectionViewFlowLayout dealloc]
+-[JSQMessagesCollectionViewFlowLayout setSpringinessEnabled:]
+-[JSQMessagesCollectionViewFlowLayout setMessageBubbleFont:]
+-[JSQMessagesCollectionViewFlowLayout setMessageBubbleLeftRightMargin:]
+-[JSQMessagesCollectionViewFlowLayout setMessageBubbleTextViewTextContainerInsets:]
+-[JSQMessagesCollectionViewFlowLayout setIncomingAvatarViewSize:]
+-[JSQMessagesCollectionViewFlowLayout setOutgoingAvatarViewSize:]
+-[JSQMessagesCollectionViewFlowLayout setCacheLimit:]
+-[JSQMessagesCollectionViewFlowLayout itemWidth]
+-[JSQMessagesCollectionViewFlowLayout dynamicAnimator]
+-[JSQMessagesCollectionViewFlowLayout visibleIndexPaths]
+-[JSQMessagesCollectionViewFlowLayout cacheLimit]
+-[JSQMessagesCollectionViewFlowLayout jsq_didReceiveApplicationMemoryWarningNotification:]
+-[JSQMessagesCollectionViewFlowLayout jsq_didReceiveDeviceOrientationDidChangeNotification:]
+-[JSQMessagesCollectionViewFlowLayout invalidateLayoutWithContext:]
+-[JSQMessagesCollectionViewFlowLayout prepareLayout]
+-[JSQMessagesCollectionViewFlowLayout layoutAttributesForElementsInRect:]
+__73-[JSQMessagesCollectionViewFlowLayout layoutAttributesForElementsInRect:]_block_invoke
+-[JSQMessagesCollectionViewFlowLayout layoutAttributesForItemAtIndexPath:]
+-[JSQMessagesCollectionViewFlowLayout shouldInvalidateLayoutForBoundsChange:]
+__77-[JSQMessagesCollectionViewFlowLayout shouldInvalidateLayoutForBoundsChange:]_block_invoke
+__copy_helper_block_.147
+__destroy_helper_block_.148
+-[JSQMessagesCollectionViewFlowLayout prepareForCollectionViewUpdates:]
+__71-[JSQMessagesCollectionViewFlowLayout prepareForCollectionViewUpdates:]_block_invoke
+__copy_helper_block_.167
+__destroy_helper_block_.168
+-[JSQMessagesCollectionViewFlowLayout jsq_resetLayout]
+-[JSQMessagesCollectionViewFlowLayout jsq_resetDynamicAnimator]
+-[JSQMessagesCollectionViewFlowLayout messageBubbleSizeForItemAtIndexPath:]
+-[JSQMessagesCollectionViewFlowLayout sizeForItemAtIndexPath:]
+-[JSQMessagesCollectionViewFlowLayout jsq_configureMessageCellLayoutAttributes:]
+-[JSQMessagesCollectionViewFlowLayout jsq_avatarSizeForIndexPath:]
+-[JSQMessagesCollectionViewFlowLayout jsq_springBehaviorWithLayoutAttributesItem:]
+-[JSQMessagesCollectionViewFlowLayout jsq_addNewlyVisibleBehaviorsFromVisibleItems:]
+__84-[JSQMessagesCollectionViewFlowLayout jsq_addNewlyVisibleBehaviorsFromVisibleItems:]_block_invoke
+__copy_helper_block_.273
+__destroy_helper_block_.274
+__84-[JSQMessagesCollectionViewFlowLayout jsq_addNewlyVisibleBehaviorsFromVisibleItems:]_block_invoke.281
+__copy_helper_block_.282
+__destroy_helper_block_.283
+-[JSQMessagesCollectionViewFlowLayout jsq_removeNoLongerVisibleBehaviorsFromVisibleItemsIndexPaths:]
+__100-[JSQMessagesCollectionViewFlowLayout jsq_removeNoLongerVisibleBehaviorsFromVisibleItemsIndexPaths:]_block_invoke
+__copy_helper_block_.286
+__destroy_helper_block_.287
+__100-[JSQMessagesCollectionViewFlowLayout jsq_removeNoLongerVisibleBehaviorsFromVisibleItemsIndexPaths:]_block_invoke.290
+__copy_helper_block_.293
+__destroy_helper_block_.294
+-[JSQMessagesCollectionViewFlowLayout jsq_adjustSpringBehavior:forTouchLocation:]
+-[JSQMessagesCollectionViewFlowLayout springinessEnabled]
+-[JSQMessagesCollectionViewFlowLayout springResistanceFactor]
+-[JSQMessagesCollectionViewFlowLayout setSpringResistanceFactor:]
+-[JSQMessagesCollectionViewFlowLayout messageBubbleFont]
+-[JSQMessagesCollectionViewFlowLayout messageBubbleLeftRightMargin]
+-[JSQMessagesCollectionViewFlowLayout messageBubbleTextViewFrameInsets]
+-[JSQMessagesCollectionViewFlowLayout setMessageBubbleTextViewFrameInsets:]
+-[JSQMessagesCollectionViewFlowLayout messageBubbleTextViewTextContainerInsets]
+-[JSQMessagesCollectionViewFlowLayout incomingAvatarViewSize]
+-[JSQMessagesCollectionViewFlowLayout outgoingAvatarViewSize]
+-[JSQMessagesCollectionViewFlowLayout messageBubbleCache]
+-[JSQMessagesCollectionViewFlowLayout setMessageBubbleCache:]
+-[JSQMessagesCollectionViewFlowLayout setDynamicAnimator:]
+-[JSQMessagesCollectionViewFlowLayout setVisibleIndexPaths:]
+-[JSQMessagesCollectionViewFlowLayout latestDelta]
+-[JSQMessagesCollectionViewFlowLayout setLatestDelta:]
+-[JSQMessagesCollectionViewFlowLayout bubbleImageAssetWidth]
+-[JSQMessagesCollectionViewFlowLayout .cxx_destruct]
+OBJC_IVAR_$_JSQMessagesCollectionViewFlowLayout._bubbleImageAssetWidth
+OBJC_CLASSLIST_REFERENCES_$_.9
+OBJC_IVAR_$_JSQMessagesCollectionViewFlowLayout._messageBubbleCache
+OBJC_CLASSLIST_REFERENCES_$_.16
+OBJC_IVAR_$_JSQMessagesCollectionViewFlowLayout._messageBubbleFont
+OBJC_IVAR_$_JSQMessagesCollectionViewFlowLayout._messageBubbleLeftRightMargin
+OBJC_IVAR_$_JSQMessagesCollectionViewFlowLayout._messageBubbleTextViewFrameInsets
+OBJC_IVAR_$_JSQMessagesCollectionViewFlowLayout._messageBubbleTextViewTextContainerInsets
+OBJC_IVAR_$_JSQMessagesCollectionViewFlowLayout._incomingAvatarViewSize
+OBJC_IVAR_$_JSQMessagesCollectionViewFlowLayout._outgoingAvatarViewSize
+OBJC_IVAR_$_JSQMessagesCollectionViewFlowLayout._springinessEnabled
+OBJC_IVAR_$_JSQMessagesCollectionViewFlowLayout._springResistanceFactor
+OBJC_CLASSLIST_REFERENCES_$_.42
+OBJC_IVAR_$_JSQMessagesCollectionViewFlowLayout._dynamicAnimator
+OBJC_IVAR_$_JSQMessagesCollectionViewFlowLayout._visibleIndexPaths
+OBJC_CLASSLIST_REFERENCES_$_.65
+OBJC_CLASSLIST_REFERENCES_$_.70
+OBJC_CLASSLIST_REFERENCES_$_.97
+OBJC_SELECTOR_REFERENCES_.109
+OBJC_SELECTOR_REFERENCES_.111
+OBJC_SELECTOR_REFERENCES_.113
+OBJC_METH_VAR_NAME_.114
+OBJC_SELECTOR_REFERENCES_.115
+OBJC_METH_VAR_NAME_.116
+OBJC_SELECTOR_REFERENCES_.117
+OBJC_SELECTOR_REFERENCES_.119
+OBJC_SELECTOR_REFERENCES_.121
+.str.126
+OBJC_SELECTOR_REFERENCES_.128
+OBJC_SELECTOR_REFERENCES_.130
+OBJC_SELECTOR_REFERENCES_.132
+OBJC_METH_VAR_NAME_.133
+OBJC_SELECTOR_REFERENCES_.134
+OBJC_METH_VAR_NAME_.135
+OBJC_SELECTOR_REFERENCES_.136
+OBJC_SELECTOR_REFERENCES_.138
+OBJC_METH_VAR_NAME_.139
+OBJC_SELECTOR_REFERENCES_.140
+OBJC_SELECTOR_REFERENCES_.142
+OBJC_SELECTOR_REFERENCES_.144
+OBJC_SELECTOR_REFERENCES_.146
+.str.149
+__block_descriptor_tmp.150
+OBJC_METH_VAR_NAME_.151
+OBJC_SELECTOR_REFERENCES_.152
+OBJC_METH_VAR_NAME_.153
+OBJC_SELECTOR_REFERENCES_.154
+OBJC_METH_VAR_NAME_.155
+OBJC_SELECTOR_REFERENCES_.156
+OBJC_METH_VAR_NAME_.157
+OBJC_SELECTOR_REFERENCES_.158
+.str.169
+__block_descriptor_tmp.170
+OBJC_CLASSLIST_REFERENCES_$_.206
+OBJC_METH_VAR_NAME_.207
+OBJC_SELECTOR_REFERENCES_.208
+OBJC_METH_VAR_NAME_.211
+OBJC_SELECTOR_REFERENCES_.212
+OBJC_CLASSLIST_REFERENCES_$_.213
+OBJC_CLASSLIST_REFERENCES_$_.260
+OBJC_METH_VAR_NAME_.261
+OBJC_SELECTOR_REFERENCES_.262
+OBJC_METH_VAR_NAME_.263
+OBJC_SELECTOR_REFERENCES_.264
+OBJC_METH_VAR_NAME_.265
+OBJC_SELECTOR_REFERENCES_.266
+OBJC_METH_VAR_NAME_.267
+OBJC_SELECTOR_REFERENCES_.268
+OBJC_METH_VAR_NAME_.269
+OBJC_SELECTOR_REFERENCES_.270
+OBJC_METH_VAR_NAME_.271
+OBJC_SELECTOR_REFERENCES_.272
+.str.275
+__block_descriptor_tmp.276
+.str.284
+__block_descriptor_tmp.285
+.str.288
+__block_descriptor_tmp.289
+__block_descriptor_tmp.295
+OBJC_METH_VAR_NAME_.296
+OBJC_SELECTOR_REFERENCES_.297
+OBJC_IVAR_$_JSQMessagesCollectionViewFlowLayout._latestDelta
+OBJC_METH_VAR_NAME_.305
+l_OBJC_$_CLASS_METHODS_JSQMessagesCollectionViewFlowLayout
+l_OBJC_METACLASS_RO_$_JSQMessagesCollectionViewFlowLayout
+OBJC_CLASS_NAME_.306
+OBJC_METH_VAR_TYPE_.307
+OBJC_METH_VAR_TYPE_.308
+OBJC_METH_VAR_NAME_.309
+OBJC_METH_VAR_TYPE_.310
+OBJC_METH_VAR_TYPE_.311
+OBJC_METH_VAR_NAME_.312
+OBJC_METH_VAR_TYPE_.313
+OBJC_METH_VAR_NAME_.314
+OBJC_METH_VAR_TYPE_.315
+OBJC_METH_VAR_TYPE_.316
+OBJC_METH_VAR_TYPE_.318
+OBJC_METH_VAR_TYPE_.319
+OBJC_METH_VAR_NAME_.320
+OBJC_METH_VAR_TYPE_.321
+OBJC_METH_VAR_TYPE_.322
+OBJC_METH_VAR_TYPE_.323
+OBJC_METH_VAR_NAME_.324
+OBJC_METH_VAR_TYPE_.325
+OBJC_METH_VAR_TYPE_.326
+OBJC_METH_VAR_TYPE_.328
+OBJC_METH_VAR_TYPE_.330
+OBJC_METH_VAR_TYPE_.332
+OBJC_METH_VAR_TYPE_.334
+OBJC_METH_VAR_NAME_.336
+l_OBJC_$_INSTANCE_METHODS_JSQMessagesCollectionViewFlowLayout
+OBJC_METH_VAR_NAME_.338
+OBJC_METH_VAR_TYPE_.339
+OBJC_METH_VAR_NAME_.340
+OBJC_METH_VAR_TYPE_.341
+OBJC_METH_VAR_NAME_.342
+OBJC_METH_VAR_TYPE_.343
+OBJC_METH_VAR_NAME_.344
+OBJC_METH_VAR_TYPE_.345
+OBJC_METH_VAR_NAME_.346
+OBJC_METH_VAR_TYPE_.347
+OBJC_METH_VAR_NAME_.348
+OBJC_METH_VAR_TYPE_.349
+OBJC_METH_VAR_NAME_.350
+OBJC_METH_VAR_TYPE_.351
+OBJC_METH_VAR_NAME_.352
+OBJC_METH_VAR_NAME_.354
+OBJC_METH_VAR_TYPE_.355
+OBJC_METH_VAR_NAME_.356
+OBJC_METH_VAR_TYPE_.358
+l_OBJC_$_INSTANCE_VARIABLES_JSQMessagesCollectionViewFlowLayout
+OBJC_PROP_NAME_ATTR_.360
+OBJC_PROP_NAME_ATTR_.361
+OBJC_PROP_NAME_ATTR_.362
+OBJC_PROP_NAME_ATTR_.363
+OBJC_PROP_NAME_ATTR_.364
+OBJC_PROP_NAME_ATTR_.365
+OBJC_PROP_NAME_ATTR_.366
+OBJC_PROP_NAME_ATTR_.367
+OBJC_PROP_NAME_ATTR_.368
+OBJC_PROP_NAME_ATTR_.369
+OBJC_PROP_NAME_ATTR_.370
+OBJC_PROP_NAME_ATTR_.371
+OBJC_PROP_NAME_ATTR_.372
+OBJC_PROP_NAME_ATTR_.373
+OBJC_PROP_NAME_ATTR_.374
+OBJC_PROP_NAME_ATTR_.375
+OBJC_PROP_NAME_ATTR_.376
+OBJC_PROP_NAME_ATTR_.377
+OBJC_PROP_NAME_ATTR_.378
+OBJC_PROP_NAME_ATTR_.379
+OBJC_PROP_NAME_ATTR_.380
+OBJC_PROP_NAME_ATTR_.381
+OBJC_PROP_NAME_ATTR_.382
+OBJC_PROP_NAME_ATTR_.383
+OBJC_PROP_NAME_ATTR_.384
+OBJC_PROP_NAME_ATTR_.385
+OBJC_PROP_NAME_ATTR_.386
+OBJC_PROP_NAME_ATTR_.387
+OBJC_PROP_NAME_ATTR_.388
+OBJC_PROP_NAME_ATTR_.389
+OBJC_PROP_NAME_ATTR_.390
+l_OBJC_$_PROP_LIST_JSQMessagesCollectionViewFlowLayout
+l_OBJC_CLASS_RO_$_JSQMessagesCollectionViewFlowLayout
+__CGPointEqualToPoint
+-[JSQMessagesCollectionViewFlowLayout .cxx_destruct]
+/Users/yasuyuki/Desktop/Xcode7proj/DialogTest-movie/Carthage/Checkouts/JSQMessagesViewController/JSQMessagesViewController/JSQMessagesViewController/Layout/JSQMessagesCollectionViewFlowLayout.m
+-[JSQMessagesCollectionViewFlowLayout bubbleImageAssetWidth]
+-[JSQMessagesCollectionViewFlowLayout setLatestDelta:]
+-[JSQMessagesCollectionViewFlowLayout latestDelta]
+-[JSQMessagesCollectionViewFlowLayout setVisibleIndexPaths:]
+-[JSQMessagesCollectionViewFlowLayout setDynamicAnimator:]
+-[JSQMessagesCollectionViewFlowLayout setMessageBubbleCache:]
+-[JSQMessagesCollectionViewFlowLayout messageBubbleCache]
+-[JSQMessagesCollectionViewFlowLayout outgoingAvatarViewSize]
+/Users/yasuyuki/Desktop/Xcode7proj/DialogTest-movie/Carthage/Checkouts/JSQMessagesViewController/JSQMessagesViewController/JSQMessagesViewController/Layout/JSQMessagesCollectionViewFlowLayout.h
+-[JSQMessagesCollectionViewFlowLayout incomingAvatarViewSize]
+-[JSQMessagesCollectionViewFlowLayout messageBubbleTextViewTextContainerInsets]
+-[JSQMessagesCollectionViewFlowLayout setMessageBubbleTextViewFrameInsets:]
+-[JSQMessagesCollectionViewFlowLayout messageBubbleTextViewFrameInsets]
+-[JSQMessagesCollectionViewFlowLayout messageBubbleLeftRightMargin]
+-[JSQMessagesCollectionViewFlowLayout messageBubbleFont]
+-[JSQMessagesCollectionViewFlowLayout setSpringResistanceFactor:]
+-[JSQMessagesCollectionViewFlowLayout springResistanceFactor]
+-[JSQMessagesCollectionViewFlowLayout springinessEnabled]
+-[JSQMessagesCollectionViewFlowLayout jsq_adjustSpringBehavior:forTouchLocation:]
+-[JSQMessagesCollectionViewFlowLayout jsq_removeNoLongerVisibleBehaviorsFromVisibleItemsIndexPaths:]
+-[JSQMessagesCollectionViewFlowLayout jsq_addNewlyVisibleBehaviorsFromVisibleItems:]
+-[JSQMessagesCollectionViewFlowLayout jsq_springBehaviorWithLayoutAttributesItem:]
+-[JSQMessagesCollectionViewFlowLayout jsq_avatarSizeForIndexPath:]
+-[JSQMessagesCollectionViewFlowLayout jsq_configureMessageCellLayoutAttributes:]
+-[JSQMessagesCollectionViewFlowLayout sizeForItemAtIndexPath:]
+-[JSQMessagesCollectionViewFlowLayout messageBubbleSizeForItemAtIndexPath:]
+-[JSQMessagesCollectionViewFlowLayout jsq_resetDynamicAnimator]
+-[JSQMessagesCollectionViewFlowLayout jsq_resetLayout]
+-[JSQMessagesCollectionViewFlowLayout prepareForCollectionViewUpdates:]
+-[JSQMessagesCollectionViewFlowLayout shouldInvalidateLayoutForBoundsChange:]
+-[JSQMessagesCollectionViewFlowLayout layoutAttributesForItemAtIndexPath:]
+-[JSQMessagesCollectionViewFlowLayout layoutAttributesForElementsInRect:]
+-[JSQMessagesCollectionViewFlowLayout prepareLayout]
+-[JSQMessagesCollectionViewFlowLayout invalidateLayoutWithContext:]
+-[JSQMessagesCollectionViewFlowLayout jsq_didReceiveDeviceOrientationDidChangeNotification:]
+-[JSQMessagesCollectionViewFlowLayout jsq_didReceiveApplicationMemoryWarningNotification:]
+-[JSQMessagesCollectionViewFlowLayout cacheLimit]
+-[JSQMessagesCollectionViewFlowLayout visibleIndexPaths]
+-[JSQMessagesCollectionViewFlowLayout dynamicAnimator]
+-[JSQMessagesCollectionViewFlowLayout itemWidth]
+-[JSQMessagesCollectionViewFlowLayout setCacheLimit:]
+-[JSQMessagesCollectionViewFlowLayout setOutgoingAvatarViewSize:]
+-[JSQMessagesCollectionViewFlowLayout setIncomingAvatarViewSize:]
+-[JSQMessagesCollectionViewFlowLayout setMessageBubbleTextViewTextContainerInsets:]
+-[JSQMessagesCollectionViewFlowLayout setMessageBubbleLeftRightMargin:]
+-[JSQMessagesCollectionViewFlowLayout setMessageBubbleFont:]
+-[JSQMessagesCollectionViewFlowLayout setSpringinessEnabled:]
+-[JSQMessagesCollectionViewFlowLayout dealloc]
++[JSQMessagesCollectionViewFlowLayout invalidationContextClass]
++[JSQMessagesCollectionViewFlowLayout layoutAttributesClass]
+-[JSQMessagesCollectionViewFlowLayout awakeFromNib]
+-[JSQMessagesCollectionViewFlowLayout init]
+-[JSQMessagesCollectionViewFlowLayout jsq_configureFlowLayout]
++[JSQMessagesLoadEarlierHeaderView nib]
++[JSQMessagesLoadEarlierHeaderView headerReuseIdentifier]
+-[JSQMessagesLoadEarlierHeaderView awakeFromNib]
+-[JSQMessagesLoadEarlierHeaderView dealloc]
+-[JSQMessagesLoadEarlierHeaderView setBackgroundColor:]
+-[JSQMessagesLoadEarlierHeaderView loadButtonPressed:]
+-[JSQMessagesLoadEarlierHeaderView delegate]
+-[JSQMessagesLoadEarlierHeaderView setDelegate:]
+-[JSQMessagesLoadEarlierHeaderView loadButton]
+-[JSQMessagesLoadEarlierHeaderView setLoadButton:]
+-[JSQMessagesLoadEarlierHeaderView .cxx_destruct]
+OBJC_IVAR_$_JSQMessagesLoadEarlierHeaderView._loadButton
+OBJC_IVAR_$_JSQMessagesLoadEarlierHeaderView._delegate
+l_OBJC_$_CLASS_METHODS_JSQMessagesLoadEarlierHeaderView
+l_OBJC_METACLASS_RO_$_JSQMessagesLoadEarlierHeaderView
+l_OBJC_$_INSTANCE_METHODS_JSQMessagesLoadEarlierHeaderView
+OBJC_METH_VAR_TYPE_.44
+OBJC_METH_VAR_TYPE_.46
+l_OBJC_$_INSTANCE_VARIABLES_JSQMessagesLoadEarlierHeaderView
+OBJC_CLASS_NAME_.47
+OBJC_PROP_NAME_ATTR_.48
+OBJC_PROP_NAME_ATTR_.49
+OBJC_PROP_NAME_ATTR_.50
+l_OBJC_$_PROP_LIST_JSQMessagesLoadEarlierHeaderView
+l_OBJC_CLASS_RO_$_JSQMessagesLoadEarlierHeaderView
+-[JSQMessagesLoadEarlierHeaderView .cxx_destruct]
+/Users/yasuyuki/Desktop/Xcode7proj/DialogTest-movie/Carthage/Checkouts/JSQMessagesViewController/JSQMessagesViewController/JSQMessagesViewController/Views/JSQMessagesLoadEarlierHeaderView.m
+-[JSQMessagesLoadEarlierHeaderView setLoadButton:]
+-[JSQMessagesLoadEarlierHeaderView loadButton]
+/Users/yasuyuki/Desktop/Xcode7proj/DialogTest-movie/Carthage/Checkouts/JSQMessagesViewController/JSQMessagesViewController/JSQMessagesViewController/Views/JSQMessagesLoadEarlierHeaderView.h
+-[JSQMessagesLoadEarlierHeaderView setDelegate:]
+-[JSQMessagesLoadEarlierHeaderView delegate]
+-[JSQMessagesLoadEarlierHeaderView loadButtonPressed:]
+-[JSQMessagesLoadEarlierHeaderView setBackgroundColor:]
+-[JSQMessagesLoadEarlierHeaderView dealloc]
+-[JSQMessagesLoadEarlierHeaderView awakeFromNib]
++[JSQMessagesLoadEarlierHeaderView headerReuseIdentifier]
++[JSQMessagesLoadEarlierHeaderView nib]
+-[JSQMediaItem init]
+-[JSQMediaItem initWithMaskAsOutgoing:]
+-[JSQMediaItem dealloc]
+-[JSQMediaItem setAppliesMediaViewMaskAsOutgoing:]
+-[JSQMediaItem clearCachedMediaViews]
+-[JSQMediaItem didReceiveMemoryWarningNotification:]
+-[JSQMediaItem mediaView]
+-[JSQMediaItem mediaViewDisplaySize]
+-[JSQMediaItem mediaPlaceholderView]
+-[JSQMediaItem mediaHash]
+-[JSQMediaItem isEqual:]
+-[JSQMediaItem hash]
+-[JSQMediaItem description]
+-[JSQMediaItem debugQuickLookObject]
+-[JSQMediaItem initWithCoder:]
+-[JSQMediaItem encodeWithCoder:]
+-[JSQMediaItem copyWithZone:]
+-[JSQMediaItem appliesMediaViewMaskAsOutgoing]
+-[JSQMediaItem cachedPlaceholderView]
+-[JSQMediaItem setCachedPlaceholderView:]
+-[JSQMediaItem .cxx_destruct]
+OBJC_IVAR_$_JSQMediaItem._appliesMediaViewMaskAsOutgoing
+OBJC_IVAR_$_JSQMediaItem._cachedPlaceholderView
+OBJC_CLASSLIST_REFERENCES_$_.15
+OBJC_CLASSLIST_REFERENCES_$_.29
+OBJC_CLASSLIST_REFERENCES_$_.45
+OBJC_CLASS_NAME_.62
+OBJC_METH_VAR_TYPE_.65
+OBJC_METH_VAR_TYPE_.90
+OBJC_CLASS_NAME_.92
+OBJC_METH_VAR_TYPE_.103
+OBJC_CLASS_NAME_.105
+OBJC_CLASS_NAME_.108
+l_OBJC_CLASS_PROTOCOLS_$_JSQMediaItem
+l_OBJC_METACLASS_RO_$_JSQMediaItem
+OBJC_CLASS_NAME_.109
+OBJC_METH_VAR_TYPE_.113
+l_OBJC_$_INSTANCE_METHODS_JSQMediaItem
+l_OBJC_$_INSTANCE_VARIABLES_JSQMediaItem
+OBJC_PROP_NAME_ATTR_.120
+OBJC_PROP_NAME_ATTR_.121
+OBJC_PROP_NAME_ATTR_.122
+OBJC_PROP_NAME_ATTR_.123
+l_OBJC_$_PROP_LIST_JSQMediaItem
+l_OBJC_CLASS_RO_$_JSQMediaItem
+-[JSQMediaItem .cxx_destruct]
+/Users/yasuyuki/Desktop/Xcode7proj/DialogTest-movie/Carthage/Checkouts/JSQMessagesViewController/JSQMessagesViewController/JSQMessagesViewController/Model/JSQMediaItem.m
+-[JSQMediaItem setCachedPlaceholderView:]
+-[JSQMediaItem cachedPlaceholderView]
+-[JSQMediaItem appliesMediaViewMaskAsOutgoing]
+/Users/yasuyuki/Desktop/Xcode7proj/DialogTest-movie/Carthage/Checkouts/JSQMessagesViewController/JSQMessagesViewController/JSQMessagesViewController/Model/JSQMediaItem.h
+-[JSQMediaItem copyWithZone:]
+-[JSQMediaItem encodeWithCoder:]
+-[JSQMediaItem initWithCoder:]
+-[JSQMediaItem debugQuickLookObject]
+-[JSQMediaItem description]
+-[JSQMediaItem hash]
+-[JSQMediaItem isEqual:]
+-[JSQMediaItem mediaHash]
+-[JSQMediaItem mediaPlaceholderView]
+-[JSQMediaItem mediaViewDisplaySize]
+-[JSQMediaItem mediaView]
+-[JSQMediaItem didReceiveMemoryWarningNotification:]
+-[JSQMediaItem clearCachedMediaViews]
+-[JSQMediaItem setAppliesMediaViewMaskAsOutgoing:]
+-[JSQMediaItem dealloc]
+-[JSQMediaItem initWithMaskAsOutgoing:]
+-[JSQMediaItem init]
++[JSQMessagesToolbarButtonFactory defaultAccessoryButtonItem]
++[JSQMessagesToolbarButtonFactory defaultSendButtonItem]
+OBJC_CLASSLIST_REFERENCES_$_.8
+OBJC_CLASSLIST_REFERENCES_$_.38
+OBJC_CLASSLIST_REFERENCES_$_.49
+l_OBJC_$_CLASS_METHODS_JSQMessagesToolbarButtonFactory
+l_OBJC_METACLASS_RO_$_JSQMessagesToolbarButtonFactory
+l_OBJC_CLASS_RO_$_JSQMessagesToolbarButtonFactory
++[JSQMessagesToolbarButtonFactory defaultSendButtonItem]
+/Users/yasuyuki/Desktop/Xcode7proj/DialogTest-movie/Carthage/Checkouts/JSQMessagesViewController/JSQMessagesViewController/JSQMessagesViewController/Factories/JSQMessagesToolbarButtonFactory.m
++[JSQMessagesToolbarButtonFactory defaultAccessoryButtonItem]
++[JSQMessagesCollectionViewCell initialize]
+__43+[JSQMessagesCollectionViewCell initialize]_block_invoke
++[JSQMessagesCollectionViewCell nib]
++[JSQMessagesCollectionViewCell cellReuseIdentifier]
++[JSQMessagesCollectionViewCell mediaCellReuseIdentifier]
++[JSQMessagesCollectionViewCell registerMenuAction:]
+-[JSQMessagesCollectionViewCell awakeFromNib]
+-[JSQMessagesCollectionViewCell dealloc]
+-[JSQMessagesCollectionViewCell prepareForReuse]
+-[JSQMessagesCollectionViewCell preferredLayoutAttributesFittingAttributes:]
+-[JSQMessagesCollectionViewCell applyLayoutAttributes:]
+-[JSQMessagesCollectionViewCell setHighlighted:]
+-[JSQMessagesCollectionViewCell setSelected:]
+-[JSQMessagesCollectionViewCell setBounds:]
+-[JSQMessagesCollectionViewCell respondsToSelector:]
+-[JSQMessagesCollectionViewCell forwardInvocation:]
+-[JSQMessagesCollectionViewCell methodSignatureForSelector:]
+-[JSQMessagesCollectionViewCell setBackgroundColor:]
+-[JSQMessagesCollectionViewCell setAvatarViewSize:]
+-[JSQMessagesCollectionViewCell setTextViewFrameInsets:]
+-[JSQMessagesCollectionViewCell setMediaView:]
+__46-[JSQMessagesCollectionViewCell setMediaView:]_block_invoke
+-[JSQMessagesCollectionViewCell avatarViewSize]
+-[JSQMessagesCollectionViewCell textViewFrameInsets]
+-[JSQMessagesCollectionViewCell jsq_updateConstraint:withConstant:]
+-[JSQMessagesCollectionViewCell jsq_handleTapGesture:]
+-[JSQMessagesCollectionViewCell gestureRecognizer:shouldReceiveTouch:]
+-[JSQMessagesCollectionViewCell delegate]
+-[JSQMessagesCollectionViewCell setDelegate:]
+-[JSQMessagesCollectionViewCell cellTopLabel]
+-[JSQMessagesCollectionViewCell setCellTopLabel:]
+-[JSQMessagesCollectionViewCell messageBubbleTopLabel]
+-[JSQMessagesCollectionViewCell setMessageBubbleTopLabel:]
+-[JSQMessagesCollectionViewCell cellBottomLabel]
+-[JSQMessagesCollectionViewCell setCellBottomLabel:]
+-[JSQMessagesCollectionViewCell textView]
+-[JSQMessagesCollectionViewCell setTextView:]
+-[JSQMessagesCollectionViewCell messageBubbleImageView]
+-[JSQMessagesCollectionViewCell setMessageBubbleImageView:]
+-[JSQMessagesCollectionViewCell messageBubbleContainerView]
+-[JSQMessagesCollectionViewCell setMessageBubbleContainerView:]
+-[JSQMessagesCollectionViewCell avatarImageView]
+-[JSQMessagesCollectionViewCell setAvatarImageView:]
+-[JSQMessagesCollectionViewCell avatarContainerView]
+-[JSQMessagesCollectionViewCell setAvatarContainerView:]
+-[JSQMessagesCollectionViewCell mediaView]
+-[JSQMessagesCollectionViewCell tapGestureRecognizer]
+-[JSQMessagesCollectionViewCell setTapGestureRecognizer:]
+-[JSQMessagesCollectionViewCell messageBubbleContainerWidthConstraint]
+-[JSQMessagesCollectionViewCell setMessageBubbleContainerWidthConstraint:]
+-[JSQMessagesCollectionViewCell textViewTopVerticalSpaceConstraint]
+-[JSQMessagesCollectionViewCell setTextViewTopVerticalSpaceConstraint:]
+-[JSQMessagesCollectionViewCell textViewBottomVerticalSpaceConstraint]
+-[JSQMessagesCollectionViewCell setTextViewBottomVerticalSpaceConstraint:]
+-[JSQMessagesCollectionViewCell textViewAvatarHorizontalSpaceConstraint]
+-[JSQMessagesCollectionViewCell setTextViewAvatarHorizontalSpaceConstraint:]
+-[JSQMessagesCollectionViewCell textViewMarginHorizontalSpaceConstraint]
+-[JSQMessagesCollectionViewCell setTextViewMarginHorizontalSpaceConstraint:]
+-[JSQMessagesCollectionViewCell cellTopLabelHeightConstraint]
+-[JSQMessagesCollectionViewCell setCellTopLabelHeightConstraint:]
+-[JSQMessagesCollectionViewCell messageBubbleTopLabelHeightConstraint]
+-[JSQMessagesCollectionViewCell setMessageBubbleTopLabelHeightConstraint:]
+-[JSQMessagesCollectionViewCell cellBottomLabelHeightConstraint]
+-[JSQMessagesCollectionViewCell setCellBottomLabelHeightConstraint:]
+-[JSQMessagesCollectionViewCell avatarContainerViewWidthConstraint]
+-[JSQMessagesCollectionViewCell setAvatarContainerViewWidthConstraint:]
+-[JSQMessagesCollectionViewCell avatarContainerViewHeightConstraint]
+-[JSQMessagesCollectionViewCell setAvatarContainerViewHeightConstraint:]
+-[JSQMessagesCollectionViewCell .cxx_destruct]
+jsqMessagesCollectionViewCellActions
+initialize.onceToken
+__block_literal_global
+OBJC_CLASSLIST_REFERENCES_$_.4
+.str.10
+OBJC_IVAR_$_JSQMessagesCollectionViewCell._delegate
+OBJC_IVAR_$_JSQMessagesCollectionViewCell._cellTopLabel
+OBJC_IVAR_$_JSQMessagesCollectionViewCell._messageBubbleTopLabel
+OBJC_IVAR_$_JSQMessagesCollectionViewCell._cellBottomLabel
+OBJC_IVAR_$_JSQMessagesCollectionViewCell._textView
+OBJC_IVAR_$_JSQMessagesCollectionViewCell._messageBubbleImageView
+OBJC_IVAR_$_JSQMessagesCollectionViewCell._mediaView
+OBJC_IVAR_$_JSQMessagesCollectionViewCell._avatarImageView
+OBJC_IVAR_$_JSQMessagesCollectionViewCell._tapGestureRecognizer
+OBJC_SELECTOR_REFERENCES_.75
+OBJC_SELECTOR_REFERENCES_.77
+OBJC_SELECTOR_REFERENCES_.81
+OBJC_SELECTOR_REFERENCES_.83
+OBJC_CLASSLIST_REFERENCES_$_.112
+OBJC_CLASSLIST_REFERENCES_$_.117
+OBJC_CLASSLIST_REFERENCES_$_.128
+OBJC_SELECTOR_REFERENCES_.148
+OBJC_CLASSLIST_REFERENCES_$_.149
+.str.150
+OBJC_METH_VAR_NAME_.177
+OBJC_SELECTOR_REFERENCES_.178
+OBJC_METH_VAR_NAME_.179
+OBJC_SELECTOR_REFERENCES_.180
+OBJC_METH_VAR_NAME_.181
+OBJC_SELECTOR_REFERENCES_.182
+OBJC_METH_VAR_NAME_.183
+OBJC_SELECTOR_REFERENCES_.184
+OBJC_METH_VAR_NAME_.185
+OBJC_SELECTOR_REFERENCES_.186
+__block_descriptor_tmp.187
+OBJC_CLASSLIST_REFERENCES_$_.200
+OBJC_IVAR_$_JSQMessagesCollectionViewCell._messageBubbleContainerView
+OBJC_IVAR_$_JSQMessagesCollectionViewCell._avatarContainerView
+OBJC_IVAR_$_JSQMessagesCollectionViewCell._messageBubbleContainerWidthConstraint
+OBJC_IVAR_$_JSQMessagesCollectionViewCell._textViewTopVerticalSpaceConstraint
+OBJC_IVAR_$_JSQMessagesCollectionViewCell._textViewBottomVerticalSpaceConstraint
+OBJC_IVAR_$_JSQMessagesCollectionViewCell._textViewAvatarHorizontalSpaceConstraint
+OBJC_IVAR_$_JSQMessagesCollectionViewCell._textViewMarginHorizontalSpaceConstraint
+OBJC_IVAR_$_JSQMessagesCollectionViewCell._cellTopLabelHeightConstraint
+OBJC_IVAR_$_JSQMessagesCollectionViewCell._messageBubbleTopLabelHeightConstraint
+OBJC_IVAR_$_JSQMessagesCollectionViewCell._cellBottomLabelHeightConstraint
+OBJC_IVAR_$_JSQMessagesCollectionViewCell._avatarContainerViewWidthConstraint
+OBJC_IVAR_$_JSQMessagesCollectionViewCell._avatarContainerViewHeightConstraint
+OBJC_METH_VAR_NAME_.201
+OBJC_METH_VAR_TYPE_.203
+OBJC_METH_VAR_NAME_.205
+OBJC_METH_VAR_TYPE_.207
+l_OBJC_$_CLASS_METHODS_JSQMessagesCollectionViewCell
+l_OBJC_METACLASS_RO_$_JSQMessagesCollectionViewCell
+OBJC_METH_VAR_NAME_.208
+OBJC_METH_VAR_TYPE_.209
+OBJC_METH_VAR_TYPE_.210
+OBJC_METH_VAR_TYPE_.211
+OBJC_METH_VAR_TYPE_.212
+OBJC_METH_VAR_TYPE_.213
+OBJC_METH_VAR_TYPE_.214
+OBJC_METH_VAR_TYPE_.215
+OBJC_METH_VAR_TYPE_.216
+OBJC_METH_VAR_NAME_.217
+OBJC_METH_VAR_TYPE_.218
+OBJC_METH_VAR_TYPE_.219
+OBJC_METH_VAR_TYPE_.220
+OBJC_METH_VAR_NAME_.221
+OBJC_METH_VAR_TYPE_.222
+OBJC_METH_VAR_NAME_.223
+OBJC_METH_VAR_NAME_.225
+OBJC_METH_VAR_NAME_.227
+OBJC_METH_VAR_NAME_.229
+OBJC_METH_VAR_NAME_.231
+OBJC_METH_VAR_NAME_.233
+OBJC_METH_VAR_NAME_.235
+OBJC_METH_VAR_NAME_.237
+OBJC_METH_VAR_NAME_.239
+OBJC_METH_VAR_NAME_.241
+OBJC_METH_VAR_NAME_.243
+l_OBJC_$_INSTANCE_METHODS_JSQMessagesCollectionViewCell
+OBJC_METH_VAR_NAME_.245
+OBJC_METH_VAR_TYPE_.246
+OBJC_METH_VAR_NAME_.247
+OBJC_METH_VAR_TYPE_.248
+OBJC_METH_VAR_NAME_.249
+OBJC_METH_VAR_NAME_.251
+OBJC_METH_VAR_TYPE_.252
+OBJC_METH_VAR_NAME_.253
+OBJC_METH_VAR_TYPE_.254
+OBJC_METH_VAR_NAME_.255
+OBJC_METH_VAR_TYPE_.256
+OBJC_METH_VAR_NAME_.257
+OBJC_METH_VAR_NAME_.259
+OBJC_METH_VAR_TYPE_.261
+OBJC_METH_VAR_TYPE_.263
+OBJC_METH_VAR_NAME_.272
+l_OBJC_$_INSTANCE_VARIABLES_JSQMessagesCollectionViewCell
+OBJC_CLASS_NAME_.273
+OBJC_PROP_NAME_ATTR_.274
+OBJC_PROP_NAME_ATTR_.275
+OBJC_PROP_NAME_ATTR_.276
+OBJC_PROP_NAME_ATTR_.277
+OBJC_PROP_NAME_ATTR_.278
+OBJC_PROP_NAME_ATTR_.279
+OBJC_PROP_NAME_ATTR_.280
+OBJC_PROP_NAME_ATTR_.281
+OBJC_PROP_NAME_ATTR_.282
+OBJC_PROP_NAME_ATTR_.283
+OBJC_PROP_NAME_ATTR_.284
+OBJC_PROP_NAME_ATTR_.285
+OBJC_PROP_NAME_ATTR_.286
+OBJC_PROP_NAME_ATTR_.287
+OBJC_PROP_NAME_ATTR_.288
+OBJC_PROP_NAME_ATTR_.289
+OBJC_PROP_NAME_ATTR_.290
+OBJC_PROP_NAME_ATTR_.291
+OBJC_PROP_NAME_ATTR_.292
+OBJC_PROP_NAME_ATTR_.293
+OBJC_PROP_NAME_ATTR_.294
+OBJC_PROP_NAME_ATTR_.295
+OBJC_PROP_NAME_ATTR_.296
+OBJC_PROP_NAME_ATTR_.297
+OBJC_PROP_NAME_ATTR_.298
+OBJC_PROP_NAME_ATTR_.299
+OBJC_PROP_NAME_ATTR_.300
+OBJC_PROP_NAME_ATTR_.301
+OBJC_PROP_NAME_ATTR_.302
+OBJC_PROP_NAME_ATTR_.303
+OBJC_PROP_NAME_ATTR_.304
+OBJC_PROP_NAME_ATTR_.305
+OBJC_PROP_NAME_ATTR_.306
+OBJC_PROP_NAME_ATTR_.307
+OBJC_PROP_NAME_ATTR_.308
+OBJC_PROP_NAME_ATTR_.309
+OBJC_PROP_NAME_ATTR_.310
+OBJC_PROP_NAME_ATTR_.311
+OBJC_PROP_NAME_ATTR_.312
+OBJC_PROP_NAME_ATTR_.313
+OBJC_PROP_NAME_ATTR_.314
+OBJC_PROP_NAME_ATTR_.315
+OBJC_PROP_NAME_ATTR_.316
+OBJC_PROP_NAME_ATTR_.317
+OBJC_PROP_NAME_ATTR_.318
+l_OBJC_$_PROP_LIST_JSQMessagesCollectionViewCell
+l_OBJC_CLASS_RO_$_JSQMessagesCollectionViewCell
+_dispatch_once
+/Applications/Xcode 7.3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/dispatch/once.h
+-[JSQMessagesCollectionViewCell .cxx_destruct]
+/Users/yasuyuki/Desktop/Xcode7proj/DialogTest-movie/Carthage/Checkouts/JSQMessagesViewController/JSQMessagesViewController/JSQMessagesViewController/Views/JSQMessagesCollectionViewCell.m
+-[JSQMessagesCollectionViewCell setAvatarContainerViewHeightConstraint:]
+-[JSQMessagesCollectionViewCell avatarContainerViewHeightConstraint]
+-[JSQMessagesCollectionViewCell setAvatarContainerViewWidthConstraint:]
+-[JSQMessagesCollectionViewCell avatarContainerViewWidthConstraint]
+-[JSQMessagesCollectionViewCell setCellBottomLabelHeightConstraint:]
+-[JSQMessagesCollectionViewCell cellBottomLabelHeightConstraint]
+-[JSQMessagesCollectionViewCell setMessageBubbleTopLabelHeightConstraint:]
+-[JSQMessagesCollectionViewCell messageBubbleTopLabelHeightConstraint]
+-[JSQMessagesCollectionViewCell setCellTopLabelHeightConstraint:]
+-[JSQMessagesCollectionViewCell cellTopLabelHeightConstraint]
+-[JSQMessagesCollectionViewCell setTextViewMarginHorizontalSpaceConstraint:]
+-[JSQMessagesCollectionViewCell textViewMarginHorizontalSpaceConstraint]
+-[JSQMessagesCollectionViewCell setTextViewAvatarHorizontalSpaceConstraint:]
+-[JSQMessagesCollectionViewCell textViewAvatarHorizontalSpaceConstraint]
+-[JSQMessagesCollectionViewCell setTextViewBottomVerticalSpaceConstraint:]
+-[JSQMessagesCollectionViewCell textViewBottomVerticalSpaceConstraint]
+-[JSQMessagesCollectionViewCell setTextViewTopVerticalSpaceConstraint:]
+-[JSQMessagesCollectionViewCell textViewTopVerticalSpaceConstraint]
+-[JSQMessagesCollectionViewCell setMessageBubbleContainerWidthConstraint:]
+-[JSQMessagesCollectionViewCell messageBubbleContainerWidthConstraint]
+-[JSQMessagesCollectionViewCell setTapGestureRecognizer:]
+-[JSQMessagesCollectionViewCell tapGestureRecognizer]
+/Users/yasuyuki/Desktop/Xcode7proj/DialogTest-movie/Carthage/Checkouts/JSQMessagesViewController/JSQMessagesViewController/JSQMessagesViewController/Views/JSQMessagesCollectionViewCell.h
+-[JSQMessagesCollectionViewCell mediaView]
+-[JSQMessagesCollectionViewCell setAvatarContainerView:]
+-[JSQMessagesCollectionViewCell avatarContainerView]
+-[JSQMessagesCollectionViewCell setAvatarImageView:]
+-[JSQMessagesCollectionViewCell avatarImageView]
+-[JSQMessagesCollectionViewCell setMessageBubbleContainerView:]
+-[JSQMessagesCollectionViewCell messageBubbleContainerView]
+-[JSQMessagesCollectionViewCell setMessageBubbleImageView:]
+-[JSQMessagesCollectionViewCell messageBubbleImageView]
+-[JSQMessagesCollectionViewCell setTextView:]
+-[JSQMessagesCollectionViewCell textView]
+-[JSQMessagesCollectionViewCell setCellBottomLabel:]
+-[JSQMessagesCollectionViewCell cellBottomLabel]
+-[JSQMessagesCollectionViewCell setMessageBubbleTopLabel:]
+-[JSQMessagesCollectionViewCell messageBubbleTopLabel]
+-[JSQMessagesCollectionViewCell setCellTopLabel:]
+-[JSQMessagesCollectionViewCell cellTopLabel]
+-[JSQMessagesCollectionViewCell setDelegate:]
+-[JSQMessagesCollectionViewCell delegate]
+-[JSQMessagesCollectionViewCell gestureRecognizer:shouldReceiveTouch:]
+-[JSQMessagesCollectionViewCell jsq_handleTapGesture:]
+-[JSQMessagesCollectionViewCell jsq_updateConstraint:withConstant:]
+-[JSQMessagesCollectionViewCell textViewFrameInsets]
+-[JSQMessagesCollectionViewCell avatarViewSize]
+-[JSQMessagesCollectionViewCell setMediaView:]
+-[JSQMessagesCollectionViewCell setTextViewFrameInsets:]
+-[JSQMessagesCollectionViewCell setAvatarViewSize:]
+-[JSQMessagesCollectionViewCell setBackgroundColor:]
+-[JSQMessagesCollectionViewCell methodSignatureForSelector:]
+-[JSQMessagesCollectionViewCell forwardInvocation:]
+-[JSQMessagesCollectionViewCell respondsToSelector:]
+-[JSQMessagesCollectionViewCell setBounds:]
+-[JSQMessagesCollectionViewCell setSelected:]
+-[JSQMessagesCollectionViewCell setHighlighted:]
+-[JSQMessagesCollectionViewCell applyLayoutAttributes:]
+-[JSQMessagesCollectionViewCell preferredLayoutAttributesFittingAttributes:]
+-[JSQMessagesCollectionViewCell prepareForReuse]
+-[JSQMessagesCollectionViewCell dealloc]
+-[JSQMessagesCollectionViewCell awakeFromNib]
++[JSQMessagesCollectionViewCell registerMenuAction:]
++[JSQMessagesCollectionViewCell mediaCellReuseIdentifier]
++[JSQMessagesCollectionViewCell cellReuseIdentifier]
++[JSQMessagesCollectionViewCell nib]
++[JSQMessagesCollectionViewCell initialize]
++[JSQMessagesToolbarContentView nib]
+-[JSQMessagesToolbarContentView awakeFromNib]
+-[JSQMessagesToolbarContentView dealloc]
+-[JSQMessagesToolbarContentView setBackgroundColor:]
+-[JSQMessagesToolbarContentView setLeftBarButtonItem:]
+-[JSQMessagesToolbarContentView setLeftBarButtonItemWidth:]
+-[JSQMessagesToolbarContentView setRightBarButtonItem:]
+-[JSQMessagesToolbarContentView setRightBarButtonItemWidth:]
+-[JSQMessagesToolbarContentView leftBarButtonItemWidth]
+-[JSQMessagesToolbarContentView rightBarButtonItemWidth]
+-[JSQMessagesToolbarContentView setNeedsDisplay]
+-[JSQMessagesToolbarContentView textView]
+-[JSQMessagesToolbarContentView setTextView:]
+-[JSQMessagesToolbarContentView leftBarButtonItem]
+-[JSQMessagesToolbarContentView leftBarButtonContainerView]
+-[JSQMessagesToolbarContentView setLeftBarButtonContainerView:]
+-[JSQMessagesToolbarContentView rightBarButtonItem]
+-[JSQMessagesToolbarContentView rightBarButtonContainerView]
+-[JSQMessagesToolbarContentView setRightBarButtonContainerView:]
+-[JSQMessagesToolbarContentView leftBarButtonContainerViewWidthConstraint]
+-[JSQMessagesToolbarContentView setLeftBarButtonContainerViewWidthConstraint:]
+-[JSQMessagesToolbarContentView rightBarButtonContainerViewWidthConstraint]
+-[JSQMessagesToolbarContentView setRightBarButtonContainerViewWidthConstraint:]
+-[JSQMessagesToolbarContentView leftHorizontalSpacingConstraint]
+-[JSQMessagesToolbarContentView setLeftHorizontalSpacingConstraint:]
+-[JSQMessagesToolbarContentView rightHorizontalSpacingConstraint]
+-[JSQMessagesToolbarContentView setRightHorizontalSpacingConstraint:]
+-[JSQMessagesToolbarContentView .cxx_destruct]
+OBJC_CLASSLIST_REFERENCES_$_.17
+OBJC_IVAR_$_JSQMessagesToolbarContentView._textView
+OBJC_IVAR_$_JSQMessagesToolbarContentView._leftBarButtonItem
+OBJC_IVAR_$_JSQMessagesToolbarContentView._rightBarButtonItem
+OBJC_IVAR_$_JSQMessagesToolbarContentView._leftBarButtonContainerView
+OBJC_IVAR_$_JSQMessagesToolbarContentView._rightBarButtonContainerView
+OBJC_IVAR_$_JSQMessagesToolbarContentView._leftBarButtonContainerViewWidthConstraint
+OBJC_IVAR_$_JSQMessagesToolbarContentView._rightBarButtonContainerViewWidthConstraint
+OBJC_IVAR_$_JSQMessagesToolbarContentView._leftHorizontalSpacingConstraint
+OBJC_IVAR_$_JSQMessagesToolbarContentView._rightHorizontalSpacingConstraint
+l_OBJC_$_CLASS_METHODS_JSQMessagesToolbarContentView
+l_OBJC_METACLASS_RO_$_JSQMessagesToolbarContentView
+l_OBJC_$_INSTANCE_METHODS_JSQMessagesToolbarContentView
+OBJC_METH_VAR_TYPE_.86
+l_OBJC_$_INSTANCE_VARIABLES_JSQMessagesToolbarContentView
+OBJC_CLASS_NAME_.90
+OBJC_PROP_NAME_ATTR_.101
+OBJC_PROP_NAME_ATTR_.102
+OBJC_PROP_NAME_ATTR_.103
+OBJC_PROP_NAME_ATTR_.104
+l_OBJC_$_PROP_LIST_JSQMessagesToolbarContentView
+l_OBJC_CLASS_RO_$_JSQMessagesToolbarContentView
+-[JSQMessagesToolbarContentView .cxx_destruct]
+/Users/yasuyuki/Desktop/Xcode7proj/DialogTest-movie/Carthage/Checkouts/JSQMessagesViewController/JSQMessagesViewController/JSQMessagesViewController/Views/JSQMessagesToolbarContentView.m
+-[JSQMessagesToolbarContentView setRightHorizontalSpacingConstraint:]
+-[JSQMessagesToolbarContentView rightHorizontalSpacingConstraint]
+-[JSQMessagesToolbarContentView setLeftHorizontalSpacingConstraint:]
+-[JSQMessagesToolbarContentView leftHorizontalSpacingConstraint]
+-[JSQMessagesToolbarContentView setRightBarButtonContainerViewWidthConstraint:]
+-[JSQMessagesToolbarContentView rightBarButtonContainerViewWidthConstraint]
+-[JSQMessagesToolbarContentView setLeftBarButtonContainerViewWidthConstraint:]
+-[JSQMessagesToolbarContentView leftBarButtonContainerViewWidthConstraint]
+-[JSQMessagesToolbarContentView setRightBarButtonContainerView:]
+-[JSQMessagesToolbarContentView rightBarButtonContainerView]
+/Users/yasuyuki/Desktop/Xcode7proj/DialogTest-movie/Carthage/Checkouts/JSQMessagesViewController/JSQMessagesViewController/JSQMessagesViewController/Views/JSQMessagesToolbarContentView.h
+-[JSQMessagesToolbarContentView rightBarButtonItem]
+-[JSQMessagesToolbarContentView setLeftBarButtonContainerView:]
+-[JSQMessagesToolbarContentView leftBarButtonContainerView]
+-[JSQMessagesToolbarContentView leftBarButtonItem]
+-[JSQMessagesToolbarContentView setTextView:]
+-[JSQMessagesToolbarContentView textView]
+-[JSQMessagesToolbarContentView setNeedsDisplay]
+-[JSQMessagesToolbarContentView rightBarButtonItemWidth]
+-[JSQMessagesToolbarContentView leftBarButtonItemWidth]
+-[JSQMessagesToolbarContentView setRightBarButtonItemWidth:]
+-[JSQMessagesToolbarContentView setRightBarButtonItem:]
+-[JSQMessagesToolbarContentView setLeftBarButtonItemWidth:]
+-[JSQMessagesToolbarContentView setLeftBarButtonItem:]
+-[JSQMessagesToolbarContentView setBackgroundColor:]
+-[JSQMessagesToolbarContentView dealloc]
+-[JSQMessagesToolbarContentView awakeFromNib]
++[JSQMessagesToolbarContentView nib]
++[JSQSystemSoundPlayer sharedPlayer]
+__36+[JSQSystemSoundPlayer sharedPlayer]_block_invoke
+-[JSQSystemSoundPlayer init]
+-[JSQSystemSoundPlayer dealloc]
+-[JSQSystemSoundPlayer playSoundWithName:extension:isAlert:completionBlock:]
+systemServicesSoundCompletion
+-[JSQSystemSoundPlayer readSoundPlayerOnFromUserDefaults]
+-[JSQSystemSoundPlayer toggleSoundPlayerOn:]
+-[JSQSystemSoundPlayer playSoundWithFilename:fileExtension:]
+-[JSQSystemSoundPlayer playSoundWithFilename:fileExtension:completion:]
+-[JSQSystemSoundPlayer playAlertSoundWithFilename:fileExtension:completion:]
+-[JSQSystemSoundPlayer playAlertSoundWithFilename:fileExtension:]
+-[JSQSystemSoundPlayer playVibrateSound]
+-[JSQSystemSoundPlayer stopAllSounds]
+-[JSQSystemSoundPlayer stopSoundWithFilename:]
+-[JSQSystemSoundPlayer preloadSoundWithFilename:fileExtension:]
+-[JSQSystemSoundPlayer dataWithSoundID:]
+-[JSQSystemSoundPlayer soundIDFromData:]
+-[JSQSystemSoundPlayer soundIDForFilename:]
+-[JSQSystemSoundPlayer addSoundIDForAudioFileWithName:extension:]
+-[JSQSystemSoundPlayer completionBlockForSoundID:]
+-[JSQSystemSoundPlayer addCompletionBlock:toSoundID:]
+-[JSQSystemSoundPlayer removeCompletionBlockForSoundID:]
+-[JSQSystemSoundPlayer createSoundIDWithName:extension:]
+-[JSQSystemSoundPlayer unloadSoundIDs]
+-[JSQSystemSoundPlayer unloadSoundIDForFileNamed:]
+-[JSQSystemSoundPlayer logError:withMessage:]
+-[JSQSystemSoundPlayer didReceiveMemoryWarningNotification:]
+-[JSQSystemSoundPlayer on]
+-[JSQSystemSoundPlayer bundle]
+-[JSQSystemSoundPlayer setBundle:]
+-[JSQSystemSoundPlayer sounds]
+-[JSQSystemSoundPlayer setSounds:]
+-[JSQSystemSoundPlayer completionBlocks]
+-[JSQSystemSoundPlayer setCompletionBlocks:]
+-[JSQSystemSoundPlayer .cxx_destruct]
+.str.1
+_unnamed_cfstring_.2
+.str.3
+_unnamed_cfstring_.4
+.str.5
+_unnamed_cfstring_.6
+.str.7
+_unnamed_cfstring_.8
+sharedPlayer.sharedPlayer
+sharedPlayer.onceToken
+.str.11
+OBJC_CLASSLIST_REFERENCES_$_.12
+OBJC_IVAR_$_JSQSystemSoundPlayer._bundle
+OBJC_IVAR_$_JSQSystemSoundPlayer._on
+OBJC_IVAR_$_JSQSystemSoundPlayer._sounds
+OBJC_IVAR_$_JSQSystemSoundPlayer._completionBlocks
+.str.41
+_unnamed_cfstring_.42
+OBJC_CLASSLIST_REFERENCES_$_.47
+OBJC_CLASSLIST_REFERENCES_$_.54
+OBJC_CLASSLIST_REFERENCES_$_.90
+.str.97
+_unnamed_cfstring_.98
+.str.99
+_unnamed_cfstring_.100
+OBJC_SELECTOR_REFERENCES_.102
+OBJC_SELECTOR_REFERENCES_.104
+OBJC_METH_VAR_NAME_.105
+OBJC_SELECTOR_REFERENCES_.106
+OBJC_SELECTOR_REFERENCES_.108
+.str.109
+_unnamed_cfstring_.110
+.str.111
+_unnamed_cfstring_.112
+.str.113
+_unnamed_cfstring_.114
+.str.115
+_unnamed_cfstring_.116
+.str.117
+_unnamed_cfstring_.118
+.str.119
+_unnamed_cfstring_.120
+.str.121
+_unnamed_cfstring_.122
+l_OBJC_$_CLASS_METHODS_JSQSystemSoundPlayer
+l_OBJC_METACLASS_RO_$_JSQSystemSoundPlayer
+OBJC_METH_VAR_TYPE_.138
+OBJC_METH_VAR_TYPE_.140
+OBJC_METH_VAR_TYPE_.143
+OBJC_METH_VAR_TYPE_.145
+OBJC_METH_VAR_NAME_.149
+l_OBJC_$_INSTANCE_METHODS_JSQSystemSoundPlayer
+OBJC_METH_VAR_TYPE_.155
+l_OBJC_$_INSTANCE_VARIABLES_JSQSystemSoundPlayer
+OBJC_PROP_NAME_ATTR_.163
+l_OBJC_$_PROP_LIST_JSQSystemSoundPlayer
+l_OBJC_CLASS_RO_$_JSQSystemSoundPlayer
+OBJC_SELECTOR_REFERENCES_.165
+/Users/yasuyuki/Desktop/Xcode7proj/DialogTest-movie/Carthage/Checkouts/JSQMessagesViewController/JSQSystemSoundPlayer/JSQSystemSoundPlayer/Classes/JSQSystemSoundPlayer.m
+-[JSQSystemSoundPlayer .cxx_destruct]
+-[JSQSystemSoundPlayer setCompletionBlocks:]
+-[JSQSystemSoundPlayer completionBlocks]
+-[JSQSystemSoundPlayer setSounds:]
+-[JSQSystemSoundPlayer sounds]
+-[JSQSystemSoundPlayer setBundle:]
+/Users/yasuyuki/Desktop/Xcode7proj/DialogTest-movie/Carthage/Checkouts/JSQMessagesViewController/JSQSystemSoundPlayer/JSQSystemSoundPlayer/Classes/JSQSystemSoundPlayer.h
+-[JSQSystemSoundPlayer bundle]
+-[JSQSystemSoundPlayer on]
+-[JSQSystemSoundPlayer didReceiveMemoryWarningNotification:]
+-[JSQSystemSoundPlayer logError:withMessage:]
+-[JSQSystemSoundPlayer unloadSoundIDForFileNamed:]
+-[JSQSystemSoundPlayer unloadSoundIDs]
+-[JSQSystemSoundPlayer createSoundIDWithName:extension:]
+-[JSQSystemSoundPlayer removeCompletionBlockForSoundID:]
+-[JSQSystemSoundPlayer addCompletionBlock:toSoundID:]
+-[JSQSystemSoundPlayer completionBlockForSoundID:]
+-[JSQSystemSoundPlayer addSoundIDForAudioFileWithName:extension:]
+-[JSQSystemSoundPlayer soundIDForFilename:]
+-[JSQSystemSoundPlayer soundIDFromData:]
+-[JSQSystemSoundPlayer dataWithSoundID:]
+-[JSQSystemSoundPlayer preloadSoundWithFilename:fileExtension:]
+-[JSQSystemSoundPlayer stopSoundWithFilename:]
+-[JSQSystemSoundPlayer stopAllSounds]
+-[JSQSystemSoundPlayer playVibrateSound]
+-[JSQSystemSoundPlayer playAlertSoundWithFilename:fileExtension:]
+-[JSQSystemSoundPlayer playAlertSoundWithFilename:fileExtension:completion:]
+-[JSQSystemSoundPlayer playSoundWithFilename:fileExtension:completion:]
+-[JSQSystemSoundPlayer playSoundWithFilename:fileExtension:]
+-[JSQSystemSoundPlayer toggleSoundPlayerOn:]
+-[JSQSystemSoundPlayer readSoundPlayerOnFromUserDefaults]
+-[JSQSystemSoundPlayer playSoundWithName:extension:isAlert:completionBlock:]
+-[JSQSystemSoundPlayer dealloc]
+-[JSQSystemSoundPlayer init]
++[JSQSystemSoundPlayer sharedPlayer]
+-[JSQMessagesCellTextView awakeFromNib]
+-[JSQMessagesCellTextView setSelectedRange:]
+-[JSQMessagesCellTextView gestureRecognizerShouldBegin:]
+-[JSQMessagesCellTextView gestureRecognizer:shouldReceiveTouch:]
+l_OBJC_METACLASS_RO_$_JSQMessagesCellTextView
+OBJC_METH_VAR_TYPE_.52
+OBJC_METH_VAR_TYPE_.54
+OBJC_METH_VAR_TYPE_.56
+l_OBJC_$_INSTANCE_METHODS_JSQMessagesCellTextView
+l_OBJC_CLASS_RO_$_JSQMessagesCellTextView
+NSMakeRange
+/Applications/Xcode 7.3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
+-[JSQMessagesCellTextView gestureRecognizer:shouldReceiveTouch:]
+/Users/yasuyuki/Desktop/Xcode7proj/DialogTest-movie/Carthage/Checkouts/JSQMessagesViewController/JSQMessagesViewController/JSQMessagesViewController/Views/JSQMessagesCellTextView.m
+-[JSQMessagesCellTextView gestureRecognizerShouldBegin:]
+-[JSQMessagesCellTextView setSelectedRange:]
+-[JSQMessagesCellTextView awakeFromNib]
++[JSQMessagesMediaPlaceholderView viewWithActivityIndicator]
++[JSQMessagesMediaPlaceholderView viewWithAttachmentIcon]
+-[JSQMessagesMediaPlaceholderView initWithFrame:backgroundColor:activityIndicatorView:]
+-[JSQMessagesMediaPlaceholderView initWithFrame:backgroundColor:imageView:]
+-[JSQMessagesMediaPlaceholderView initWithFrame:backgroundColor:]
+-[JSQMessagesMediaPlaceholderView layoutSubviews]
+-[JSQMessagesMediaPlaceholderView activityIndicatorView]
+-[JSQMessagesMediaPlaceholderView imageView]
+-[JSQMessagesMediaPlaceholderView .cxx_destruct]
+OBJC_CLASSLIST_REFERENCES_$_.10
+OBJC_IVAR_$_JSQMessagesMediaPlaceholderView._activityIndicatorView
+OBJC_IVAR_$_JSQMessagesMediaPlaceholderView._imageView
+l_OBJC_$_CLASS_METHODS_JSQMessagesMediaPlaceholderView
+l_OBJC_METACLASS_RO_$_JSQMessagesMediaPlaceholderView
+OBJC_METH_VAR_TYPE_.51
+OBJC_METH_VAR_TYPE_.53
+l_OBJC_$_INSTANCE_METHODS_JSQMessagesMediaPlaceholderView
+l_OBJC_$_INSTANCE_VARIABLES_JSQMessagesMediaPlaceholderView
+OBJC_CLASS_NAME_.59
+OBJC_PROP_NAME_ATTR_.60
+OBJC_PROP_NAME_ATTR_.61
+OBJC_PROP_NAME_ATTR_.62
+l_OBJC_$_PROP_LIST_JSQMessagesMediaPlaceholderView
+l_OBJC_CLASS_RO_$_JSQMessagesMediaPlaceholderView
+-[JSQMessagesMediaPlaceholderView .cxx_destruct]
+/Users/yasuyuki/Desktop/Xcode7proj/DialogTest-movie/Carthage/Checkouts/JSQMessagesViewController/JSQMessagesViewController/JSQMessagesViewController/Views/JSQMessagesMediaPlaceholderView.m
+-[JSQMessagesMediaPlaceholderView imageView]
+/Users/yasuyuki/Desktop/Xcode7proj/DialogTest-movie/Carthage/Checkouts/JSQMessagesViewController/JSQMessagesViewController/JSQMessagesViewController/Views/JSQMessagesMediaPlaceholderView.h
+-[JSQMessagesMediaPlaceholderView activityIndicatorView]
+-[JSQMessagesMediaPlaceholderView layoutSubviews]
+-[JSQMessagesMediaPlaceholderView initWithFrame:backgroundColor:]
+-[JSQMessagesMediaPlaceholderView initWithFrame:backgroundColor:imageView:]
+-[JSQMessagesMediaPlaceholderView initWithFrame:backgroundColor:activityIndicatorView:]
++[JSQMessagesMediaPlaceholderView viewWithAttachmentIcon]
++[JSQMessagesMediaPlaceholderView viewWithActivityIndicator]
+-[JSQMessagesCollectionViewFlowLayoutInvalidationContext init]
++[JSQMessagesCollectionViewFlowLayoutInvalidationContext context]
+-[JSQMessagesCollectionViewFlowLayoutInvalidationContext description]
+-[JSQMessagesCollectionViewFlowLayoutInvalidationContext invalidateFlowLayoutMessagesCache]
+-[JSQMessagesCollectionViewFlowLayoutInvalidationContext setInvalidateFlowLayoutMessagesCache:]
+OBJC_IVAR_$_JSQMessagesCollectionViewFlowLayoutInvalidationContext._invalidateFlowLayoutMessagesCache
+l_OBJC_$_CLASS_METHODS_JSQMessagesCollectionViewFlowLayoutInvalidationContext
+l_OBJC_METACLASS_RO_$_JSQMessagesCollectionViewFlowLayoutInvalidationContext
+OBJC_METH_VAR_TYPE_.25
+OBJC_METH_VAR_TYPE_.27
+l_OBJC_$_INSTANCE_METHODS_JSQMessagesCollectionViewFlowLayoutInvalidationContext
+OBJC_METH_VAR_TYPE_.29
+l_OBJC_$_INSTANCE_VARIABLES_JSQMessagesCollectionViewFlowLayoutInvalidationContext
+OBJC_PROP_NAME_ATTR_.30
+l_OBJC_$_PROP_LIST_JSQMessagesCollectionViewFlowLayoutInvalidationContext
+l_OBJC_CLASS_RO_$_JSQMessagesCollectionViewFlowLayoutInvalidationContext
+-[JSQMessagesCollectionViewFlowLayoutInvalidationContext setInvalidateFlowLayoutMessagesCache:]
+/Users/yasuyuki/Desktop/Xcode7proj/DialogTest-movie/Carthage/Checkouts/JSQMessagesViewController/JSQMessagesViewController/JSQMessagesViewController/Layout/JSQMessagesCollectionViewFlowLayoutInvalidationContext.h
+-[JSQMessagesCollectionViewFlowLayoutInvalidationContext invalidateFlowLayoutMessagesCache]
+-[JSQMessagesCollectionViewFlowLayoutInvalidationContext description]
+/Users/yasuyuki/Desktop/Xcode7proj/DialogTest-movie/Carthage/Checkouts/JSQMessagesViewController/JSQMessagesViewController/JSQMessagesViewController/Layout/JSQMessagesCollectionViewFlowLayoutInvalidationContext.m
++[JSQMessagesCollectionViewFlowLayoutInvalidationContext context]
+-[JSQMessagesCollectionViewFlowLayoutInvalidationContext init]
+-[UIView(JSQMessages) jsq_pinSubview:toEdge:]
+-[UIView(JSQMessages) jsq_pinAllEdgesOfSubview:]
+OBJC_METH_VAR_TYPE_.6
+l_OBJC_$_CATEGORY_INSTANCE_METHODS_UIView_$_JSQMessages
+l_OBJC_$_CATEGORY_UIView_$_JSQMessages
+OBJC_LABEL_CATEGORY_$
+-[UIView(JSQMessages) jsq_pinAllEdgesOfSubview:]
+/Users/yasuyuki/Desktop/Xcode7proj/DialogTest-movie/Carthage/Checkouts/JSQMessagesViewController/JSQMessagesViewController/JSQMessagesViewController/Categories/UIView+JSQMessages.m
+-[UIView(JSQMessages) jsq_pinSubview:toEdge:]
+-[UIImage(JSQMessages) jsq_imageMaskedWithColor:]
++[UIImage(JSQMessages) jsq_bubbleImageFromBundleWithName:]
++[UIImage(JSQMessages) jsq_bubbleRegularImage]
++[UIImage(JSQMessages) jsq_bubbleRegularTaillessImage]
++[UIImage(JSQMessages) jsq_bubbleRegularStrokedImage]
++[UIImage(JSQMessages) jsq_bubbleRegularStrokedTaillessImage]
++[UIImage(JSQMessages) jsq_bubbleCompactImage]
++[UIImage(JSQMessages) jsq_bubbleCompactTaillessImage]
++[UIImage(JSQMessages) jsq_defaultAccessoryImage]
++[UIImage(JSQMessages) jsq_defaultTypingIndicatorImage]
++[UIImage(JSQMessages) jsq_defaultPlayImage]
+.str.9
+_unnamed_cfstring_.10
+.str.16
+_unnamed_cfstring_.17
+.str.20
+_unnamed_cfstring_.21
+.str.22
+_unnamed_cfstring_.23
+.str.24
+_unnamed_cfstring_.25
+.str.26
+_unnamed_cfstring_.27
+.str.28
+_unnamed_cfstring_.29
+.str.30
+_unnamed_cfstring_.31
+.str.32
+_unnamed_cfstring_.33
+.str.34
+_unnamed_cfstring_.35
+l_OBJC_$_CATEGORY_INSTANCE_METHODS_UIImage_$_JSQMessages
+l_OBJC_$_CATEGORY_CLASS_METHODS_UIImage_$_JSQMessages
+l_OBJC_$_CATEGORY_UIImage_$_JSQMessages
++[UIImage(JSQMessages) jsq_defaultPlayImage]
+/Users/yasuyuki/Desktop/Xcode7proj/DialogTest-movie/Carthage/Checkouts/JSQMessagesViewController/JSQMessagesViewController/JSQMessagesViewController/Categories/UIImage+JSQMessages.m
++[UIImage(JSQMessages) jsq_defaultTypingIndicatorImage]
++[UIImage(JSQMessages) jsq_defaultAccessoryImage]
++[UIImage(JSQMessages) jsq_bubbleCompactTaillessImage]
++[UIImage(JSQMessages) jsq_bubbleCompactImage]
++[UIImage(JSQMessages) jsq_bubbleRegularStrokedTaillessImage]
++[UIImage(JSQMessages) jsq_bubbleRegularStrokedImage]
++[UIImage(JSQMessages) jsq_bubbleRegularTaillessImage]
++[UIImage(JSQMessages) jsq_bubbleRegularImage]
++[UIImage(JSQMessages) jsq_bubbleImageFromBundleWithName:]
+-[UIImage(JSQMessages) jsq_imageMaskedWithColor:]
++[UIColor(JSQMessages) jsq_messageBubbleGreenColor]
++[UIColor(JSQMessages) jsq_messageBubbleBlueColor]
++[UIColor(JSQMessages) jsq_messageBubbleRedColor]
++[UIColor(JSQMessages) jsq_messageBubbleLightGrayColor]
+-[UIColor(JSQMessages) jsq_colorByDarkeningColorWithValue:]
+l_OBJC_$_CATEGORY_INSTANCE_METHODS_UIColor_$_JSQMessages
+OBJC_METH_VAR_TYPE_.7
+l_OBJC_$_CATEGORY_CLASS_METHODS_UIColor_$_JSQMessages
+l_OBJC_$_CATEGORY_UIColor_$_JSQMessages
+-[UIColor(JSQMessages) jsq_colorByDarkeningColorWithValue:]
+/Users/yasuyuki/Desktop/Xcode7proj/DialogTest-movie/Carthage/Checkouts/JSQMessagesViewController/JSQMessagesViewController/JSQMessagesViewController/Categories/UIColor+JSQMessages.m
++[UIColor(JSQMessages) jsq_messageBubbleLightGrayColor]
++[UIColor(JSQMessages) jsq_messageBubbleRedColor]
++[UIColor(JSQMessages) jsq_messageBubbleBlueColor]
++[UIColor(JSQMessages) jsq_messageBubbleGreenColor]
+-[JSQMessagesComposerTextView jsq_configureTextView]
+-[JSQMessagesComposerTextView initWithFrame:textContainer:]
+-[JSQMessagesComposerTextView awakeFromNib]
+-[JSQMessagesComposerTextView dealloc]
+-[JSQMessagesComposerTextView hasText]
+-[JSQMessagesComposerTextView setPlaceHolder:]
+-[JSQMessagesComposerTextView setPlaceHolderTextColor:]
+-[JSQMessagesComposerTextView setText:]
+-[JSQMessagesComposerTextView setAttributedText:]
+-[JSQMessagesComposerTextView setFont:]
+-[JSQMessagesComposerTextView setTextAlignment:]
+-[JSQMessagesComposerTextView drawRect:]
+-[JSQMessagesComposerTextView jsq_addTextViewNotificationObservers]
+-[JSQMessagesComposerTextView jsq_removeTextViewNotificationObservers]
+-[JSQMessagesComposerTextView jsq_didReceiveTextViewNotification:]
+-[JSQMessagesComposerTextView jsq_placeholderTextAttributes]
+-[JSQMessagesComposerTextView placeHolder]
+-[JSQMessagesComposerTextView placeHolderTextColor]
+-[JSQMessagesComposerTextView .cxx_destruct]
+OBJC_IVAR_$_JSQMessagesComposerTextView._placeHolder
+OBJC_IVAR_$_JSQMessagesComposerTextView._placeHolderTextColor
+OBJC_CLASSLIST_REFERENCES_$_.92
+OBJC_SELECTOR_REFERENCES_.98
+OBJC_SELECTOR_REFERENCES_.100
+OBJC_CLASSLIST_REFERENCES_$_.101
+OBJC_CLASSLIST_REFERENCES_$_.114
+l_OBJC_METACLASS_RO_$_JSQMessagesComposerTextView
+OBJC_CLASS_NAME_.117
+OBJC_METH_VAR_NAME_.121
+l_OBJC_$_INSTANCE_METHODS_JSQMessagesComposerTextView
+l_OBJC_$_INSTANCE_VARIABLES_JSQMessagesComposerTextView
+l_OBJC_$_PROP_LIST_JSQMessagesComposerTextView
+l_OBJC_CLASS_RO_$_JSQMessagesComposerTextView
+-[JSQMessagesComposerTextView .cxx_destruct]
+/Users/yasuyuki/Desktop/Xcode7proj/DialogTest-movie/Carthage/Checkouts/JSQMessagesViewController/JSQMessagesViewController/JSQMessagesViewController/Views/JSQMessagesComposerTextView.m
+-[JSQMessagesComposerTextView placeHolderTextColor]
+/Users/yasuyuki/Desktop/Xcode7proj/DialogTest-movie/Carthage/Checkouts/JSQMessagesViewController/JSQMessagesViewController/JSQMessagesViewController/Views/JSQMessagesComposerTextView.h
+-[JSQMessagesComposerTextView placeHolder]
+-[JSQMessagesComposerTextView jsq_placeholderTextAttributes]
+-[JSQMessagesComposerTextView jsq_didReceiveTextViewNotification:]
+-[JSQMessagesComposerTextView jsq_removeTextViewNotificationObservers]
+-[JSQMessagesComposerTextView jsq_addTextViewNotificationObservers]
+-[JSQMessagesComposerTextView drawRect:]
+-[JSQMessagesComposerTextView setTextAlignment:]
+-[JSQMessagesComposerTextView setFont:]
+-[JSQMessagesComposerTextView setAttributedText:]
+-[JSQMessagesComposerTextView setText:]
+-[JSQMessagesComposerTextView setPlaceHolderTextColor:]
+-[JSQMessagesComposerTextView setPlaceHolder:]
+-[JSQMessagesComposerTextView hasText]
+-[JSQMessagesComposerTextView dealloc]
+-[JSQMessagesComposerTextView awakeFromNib]
+-[JSQMessagesComposerTextView initWithFrame:textContainer:]
+-[JSQMessagesComposerTextView jsq_configureTextView]
+-[JSQMessagesCollectionViewCellIncoming awakeFromNib]
+l_OBJC_METACLASS_RO_$_JSQMessagesCollectionViewCellIncoming
+l_OBJC_$_INSTANCE_METHODS_JSQMessagesCollectionViewCellIncoming
+l_OBJC_CLASS_RO_$_JSQMessagesCollectionViewCellIncoming
+-[JSQMessagesCollectionViewCellIncoming awakeFromNib]
+/Users/yasuyuki/Desktop/Xcode7proj/DialogTest-movie/Carthage/Checkouts/JSQMessagesViewController/JSQMessagesViewController/JSQMessagesViewController/Views/JSQMessagesCollectionViewCellIncoming.m
+-[JSQPhotoMediaItem initWithImage:]
+-[JSQPhotoMediaItem dealloc]
+-[JSQPhotoMediaItem clearCachedMediaViews]
+-[JSQPhotoMediaItem setImage:]
+-[JSQPhotoMediaItem setAppliesMediaViewMaskAsOutgoing:]
+-[JSQPhotoMediaItem mediaView]
+-[JSQPhotoMediaItem mediaHash]
+-[JSQPhotoMediaItem hash]
+-[JSQPhotoMediaItem description]
+-[JSQPhotoMediaItem initWithCoder:]
+-[JSQPhotoMediaItem encodeWithCoder:]
+-[JSQPhotoMediaItem copyWithZone:]
+-[JSQPhotoMediaItem image]
+-[JSQPhotoMediaItem cachedImageView]
+-[JSQPhotoMediaItem setCachedImageView:]
+-[JSQPhotoMediaItem .cxx_destruct]
+OBJC_IVAR_$_JSQPhotoMediaItem._image
+OBJC_IVAR_$_JSQPhotoMediaItem._cachedImageView
+OBJC_CLASSLIST_REFERENCES_$_.34
+OBJC_CLASSLIST_REFERENCES_$_.37
+OBJC_CLASS_NAME_.58
+OBJC_METH_VAR_TYPE_.84
+OBJC_CLASS_NAME_.89
+OBJC_METH_VAR_TYPE_.97
+OBJC_CLASS_NAME_.100
+l_OBJC_CLASS_PROTOCOLS_$_JSQPhotoMediaItem
+l_OBJC_METACLASS_RO_$_JSQPhotoMediaItem
+l_OBJC_$_INSTANCE_METHODS_JSQPhotoMediaItem
+l_OBJC_$_INSTANCE_VARIABLES_JSQPhotoMediaItem
+l_OBJC_$_PROP_LIST_JSQPhotoMediaItem
+l_OBJC_CLASS_RO_$_JSQPhotoMediaItem
+-[JSQPhotoMediaItem .cxx_destruct]
+/Users/yasuyuki/Desktop/Xcode7proj/DialogTest-movie/Carthage/Checkouts/JSQMessagesViewController/JSQMessagesViewController/JSQMessagesViewController/Model/JSQPhotoMediaItem.m
+-[JSQPhotoMediaItem setCachedImageView:]
+-[JSQPhotoMediaItem cachedImageView]
+-[JSQPhotoMediaItem image]
+/Users/yasuyuki/Desktop/Xcode7proj/DialogTest-movie/Carthage/Checkouts/JSQMessagesViewController/JSQMessagesViewController/JSQMessagesViewController/Model/JSQPhotoMediaItem.h
+-[JSQPhotoMediaItem copyWithZone:]
+-[JSQPhotoMediaItem encodeWithCoder:]
+-[JSQPhotoMediaItem initWithCoder:]
+-[JSQPhotoMediaItem description]
+-[JSQPhotoMediaItem hash]
+-[JSQPhotoMediaItem mediaHash]
+-[JSQPhotoMediaItem mediaView]
+-[JSQPhotoMediaItem setAppliesMediaViewMaskAsOutgoing:]
+-[JSQPhotoMediaItem setImage:]
+-[JSQPhotoMediaItem clearCachedMediaViews]
+-[JSQPhotoMediaItem dealloc]
+-[JSQPhotoMediaItem initWithImage:]
++[UIDevice(JSQMessages) jsq_isCurrentDeviceBeforeiOS8]
+l_OBJC_$_CATEGORY_CLASS_METHODS_UIDevice_$_JSQMessages
+l_OBJC_$_CATEGORY_UIDevice_$_JSQMessages
++[UIDevice(JSQMessages) jsq_isCurrentDeviceBeforeiOS8]
+/Users/yasuyuki/Desktop/Xcode7proj/DialogTest-movie/Carthage/Checkouts/JSQMessagesViewController/JSQMessagesViewController/JSQMessagesViewController/Categories/UIDevice+JSQMessages.m
++[JSQSystemSoundPlayer(JSQMessages) jsq_playMessageReceivedSound]
++[JSQSystemSoundPlayer(JSQMessages) jsq_playMessageReceivedAlert]
++[JSQSystemSoundPlayer(JSQMessages) jsq_playMessageSentSound]
++[JSQSystemSoundPlayer(JSQMessages) jsq_playMessageSentAlert]
++[JSQSystemSoundPlayer(JSQMessages) jsq_playSoundFromJSQMessagesBundleWithName:asAlert:]
+OBJC_CLASSLIST_REFERENCES_$_.14
+.str.15
+_unnamed_cfstring_.16
+l_OBJC_$_CATEGORY_CLASS_METHODS_JSQSystemSoundPlayer_$_JSQMessages
+l_OBJC_$_CATEGORY_JSQSystemSoundPlayer_$_JSQMessages
++[JSQSystemSoundPlayer(JSQMessages) jsq_playSoundFromJSQMessagesBundleWithName:asAlert:]
+/Users/yasuyuki/Desktop/Xcode7proj/DialogTest-movie/Carthage/Checkouts/JSQMessagesViewController/JSQMessagesViewController/JSQMessagesViewController/Categories/JSQSystemSoundPlayer+JSQMessages.m
++[JSQSystemSoundPlayer(JSQMessages) jsq_playMessageSentAlert]
++[JSQSystemSoundPlayer(JSQMessages) jsq_playMessageSentSound]
++[JSQSystemSoundPlayer(JSQMessages) jsq_playMessageReceivedAlert]
++[JSQSystemSoundPlayer(JSQMessages) jsq_playMessageReceivedSound]
+-[JSQMessagesLabel jsq_configureLabel]
+-[JSQMessagesLabel initWithFrame:]
+-[JSQMessagesLabel awakeFromNib]
+-[JSQMessagesLabel setTextInsets:]
+-[JSQMessagesLabel drawTextInRect:]
+-[JSQMessagesLabel textInsets]
+OBJC_IVAR_$_JSQMessagesLabel._textInsets
+l_OBJC_METACLASS_RO_$_JSQMessagesLabel
+OBJC_METH_VAR_TYPE_.15
+OBJC_METH_VAR_TYPE_.16
+OBJC_METH_VAR_TYPE_.17
+OBJC_METH_VAR_TYPE_.18
+l_OBJC_$_INSTANCE_METHODS_JSQMessagesLabel
+OBJC_METH_VAR_TYPE_.20
+l_OBJC_$_INSTANCE_VARIABLES_JSQMessagesLabel
+OBJC_PROP_NAME_ATTR_.21
+l_OBJC_$_PROP_LIST_JSQMessagesLabel
+l_OBJC_CLASS_RO_$_JSQMessagesLabel
+-[JSQMessagesLabel textInsets]
+/Users/yasuyuki/Desktop/Xcode7proj/DialogTest-movie/Carthage/Checkouts/JSQMessagesViewController/JSQMessagesViewController/JSQMessagesViewController/Views/JSQMessagesLabel.h
+-[JSQMessagesLabel drawTextInRect:]
+/Users/yasuyuki/Desktop/Xcode7proj/DialogTest-movie/Carthage/Checkouts/JSQMessagesViewController/JSQMessagesViewController/JSQMessagesViewController/Views/JSQMessagesLabel.m
+-[JSQMessagesLabel setTextInsets:]
+-[JSQMessagesLabel awakeFromNib]
+-[JSQMessagesLabel initWithFrame:]
+-[JSQMessagesLabel jsq_configureLabel]
+-[JSQMessagesBubbleImage initWithMessageBubbleImage:highlightedImage:]
+-[JSQMessagesBubbleImage init]
+-[JSQMessagesBubbleImage description]
+-[JSQMessagesBubbleImage debugQuickLookObject]
+-[JSQMessagesBubbleImage copyWithZone:]
+-[JSQMessagesBubbleImage messageBubbleImage]
+-[JSQMessagesBubbleImage messageBubbleHighlightedImage]
+-[JSQMessagesBubbleImage .cxx_destruct]
+OBJC_IVAR_$_JSQMessagesBubbleImage._messageBubbleImage
+OBJC_IVAR_$_JSQMessagesBubbleImage._messageBubbleHighlightedImage
+OBJC_METH_VAR_TYPE_.23
+OBJC_CLASS_NAME_.24
+OBJC_METH_VAR_TYPE_.26
+OBJC_METH_VAR_TYPE_.30
+OBJC_METH_VAR_TYPE_.32
+OBJC_METH_VAR_TYPE_.34
+OBJC_METH_VAR_TYPE_.49
+OBJC_METH_VAR_TYPE_.55
+OBJC_CLASS_NAME_.57
+OBJC_PROP_NAME_ATTR_.58
+OBJC_PROP_NAME_ATTR_.59
+OBJC_PROP_NAME_ATTR_.63
+l_OBJC_$_PROTOCOL_REFS_JSQMessageBubbleImageDataSource
+l_OBJC_$_PROTOCOL_INSTANCE_METHODS_JSQMessageBubbleImageDataSource
+l_OBJC_$_PROTOCOL_METHOD_TYPES_JSQMessageBubbleImageDataSource
+l_OBJC_PROTOCOL_$_JSQMessageBubbleImageDataSource
+l_OBJC_LABEL_PROTOCOL_$_JSQMessageBubbleImageDataSource
+OBJC_CLASS_NAME_.66
+l_OBJC_CLASS_PROTOCOLS_$_JSQMessagesBubbleImage
+l_OBJC_METACLASS_RO_$_JSQMessagesBubbleImage
+l_OBJC_$_INSTANCE_METHODS_JSQMessagesBubbleImage
+l_OBJC_$_INSTANCE_VARIABLES_JSQMessagesBubbleImage
+OBJC_PROP_NAME_ATTR_.75
+OBJC_PROP_NAME_ATTR_.76
+OBJC_PROP_NAME_ATTR_.77
+OBJC_PROP_NAME_ATTR_.78
+l_OBJC_$_PROP_LIST_JSQMessagesBubbleImage
+l_OBJC_CLASS_RO_$_JSQMessagesBubbleImage
+-[JSQMessagesBubbleImage .cxx_destruct]
+/Users/yasuyuki/Desktop/Xcode7proj/DialogTest-movie/Carthage/Checkouts/JSQMessagesViewController/JSQMessagesViewController/JSQMessagesViewController/Model/JSQMessagesBubbleImage.m
+-[JSQMessagesBubbleImage messageBubbleHighlightedImage]
+/Users/yasuyuki/Desktop/Xcode7proj/DialogTest-movie/Carthage/Checkouts/JSQMessagesViewController/JSQMessagesViewController/JSQMessagesViewController/Model/JSQMessagesBubbleImage.h
+-[JSQMessagesBubbleImage messageBubbleImage]
+-[JSQMessagesBubbleImage copyWithZone:]
+-[JSQMessagesBubbleImage debugQuickLookObject]
+-[JSQMessagesBubbleImage description]
+-[JSQMessagesBubbleImage init]
+-[JSQMessagesBubbleImage initWithMessageBubbleImage:highlightedImage:]
+-[JSQMessagesBubbleImageFactory initWithBubbleImage:capInsets:]
+-[JSQMessagesBubbleImageFactory init]
+-[JSQMessagesBubbleImageFactory dealloc]
+-[JSQMessagesBubbleImageFactory outgoingMessagesBubbleImageWithColor:]
+-[JSQMessagesBubbleImageFactory incomingMessagesBubbleImageWithColor:]
+-[JSQMessagesBubbleImageFactory jsq_centerPointEdgeInsetsForImageSize:]
+-[JSQMessagesBubbleImageFactory jsq_messagesBubbleImageWithColor:flippedForIncoming:]
+-[JSQMessagesBubbleImageFactory jsq_horizontallyFlippedImageFromImage:]
+-[JSQMessagesBubbleImageFactory jsq_stretchableImageFromImage:withCapInsets:]
+-[JSQMessagesBubbleImageFactory bubbleImage]
+-[JSQMessagesBubbleImageFactory capInsets]
+-[JSQMessagesBubbleImageFactory .cxx_destruct]
+OBJC_IVAR_$_JSQMessagesBubbleImageFactory._bubbleImage
+OBJC_IVAR_$_JSQMessagesBubbleImageFactory._capInsets
+l_OBJC_METACLASS_RO_$_JSQMessagesBubbleImageFactory
+OBJC_CLASS_NAME_.38
+OBJC_METH_VAR_TYPE_.40
+OBJC_METH_VAR_TYPE_.42
+OBJC_METH_VAR_TYPE_.45
+OBJC_METH_VAR_TYPE_.47
+l_OBJC_$_INSTANCE_METHODS_JSQMessagesBubbleImageFactory
+l_OBJC_$_INSTANCE_VARIABLES_JSQMessagesBubbleImageFactory
+OBJC_PROP_NAME_ATTR_.52
+OBJC_PROP_NAME_ATTR_.53
+OBJC_PROP_NAME_ATTR_.54
+l_OBJC_$_PROP_LIST_JSQMessagesBubbleImageFactory
+l_OBJC_CLASS_RO_$_JSQMessagesBubbleImageFactory
+-[JSQMessagesBubbleImageFactory .cxx_destruct]
+/Users/yasuyuki/Desktop/Xcode7proj/DialogTest-movie/Carthage/Checkouts/JSQMessagesViewController/JSQMessagesViewController/JSQMessagesViewController/Factories/JSQMessagesBubbleImageFactory.m
+-[JSQMessagesBubbleImageFactory capInsets]
+-[JSQMessagesBubbleImageFactory bubbleImage]
+-[JSQMessagesBubbleImageFactory jsq_stretchableImageFromImage:withCapInsets:]
+-[JSQMessagesBubbleImageFactory jsq_horizontallyFlippedImageFromImage:]
+-[JSQMessagesBubbleImageFactory jsq_messagesBubbleImageWithColor:flippedForIncoming:]
+-[JSQMessagesBubbleImageFactory jsq_centerPointEdgeInsetsForImageSize:]
+-[JSQMessagesBubbleImageFactory incomingMessagesBubbleImageWithColor:]
+-[JSQMessagesBubbleImageFactory outgoingMessagesBubbleImageWithColor:]
+-[JSQMessagesBubbleImageFactory dealloc]
+-[JSQMessagesBubbleImageFactory init]
+-[JSQMessagesBubbleImageFactory initWithBubbleImage:capInsets:]
++[JSQMessagesTypingIndicatorFooterView nib]
++[JSQMessagesTypingIndicatorFooterView footerReuseIdentifier]
+-[JSQMessagesTypingIndicatorFooterView awakeFromNib]
+-[JSQMessagesTypingIndicatorFooterView dealloc]
+-[JSQMessagesTypingIndicatorFooterView setBackgroundColor:]
+-[JSQMessagesTypingIndicatorFooterView configureWithEllipsisColor:messageBubbleColor:shouldDisplayOnLeft:forCollectionView:]
+-[JSQMessagesTypingIndicatorFooterView bubbleImageView]
+-[JSQMessagesTypingIndicatorFooterView setBubbleImageView:]
+-[JSQMessagesTypingIndicatorFooterView bubbleImageViewRightHorizontalConstraint]
+-[JSQMessagesTypingIndicatorFooterView setBubbleImageViewRightHorizontalConstraint:]
+-[JSQMessagesTypingIndicatorFooterView typingIndicatorImageView]
+-[JSQMessagesTypingIndicatorFooterView setTypingIndicatorImageView:]
+-[JSQMessagesTypingIndicatorFooterView typingIndicatorImageViewRightHorizontalConstraint]
+-[JSQMessagesTypingIndicatorFooterView setTypingIndicatorImageViewRightHorizontalConstraint:]
+-[JSQMessagesTypingIndicatorFooterView .cxx_destruct]
+OBJC_IVAR_$_JSQMessagesTypingIndicatorFooterView._bubbleImageView
+OBJC_IVAR_$_JSQMessagesTypingIndicatorFooterView._typingIndicatorImageView
+OBJC_IVAR_$_JSQMessagesTypingIndicatorFooterView._bubbleImageViewRightHorizontalConstraint
+OBJC_IVAR_$_JSQMessagesTypingIndicatorFooterView._typingIndicatorImageViewRightHorizontalConstraint
+l_OBJC_$_CLASS_METHODS_JSQMessagesTypingIndicatorFooterView
+l_OBJC_METACLASS_RO_$_JSQMessagesTypingIndicatorFooterView
+l_OBJC_$_INSTANCE_METHODS_JSQMessagesTypingIndicatorFooterView
+l_OBJC_$_INSTANCE_VARIABLES_JSQMessagesTypingIndicatorFooterView
+OBJC_CLASS_NAME_.71
+OBJC_PROP_NAME_ATTR_.72
+OBJC_PROP_NAME_ATTR_.73
+OBJC_PROP_NAME_ATTR_.74
+l_OBJC_$_PROP_LIST_JSQMessagesTypingIndicatorFooterView
+l_OBJC_CLASS_RO_$_JSQMessagesTypingIndicatorFooterView
+-[JSQMessagesTypingIndicatorFooterView .cxx_destruct]
+/Users/yasuyuki/Desktop/Xcode7proj/DialogTest-movie/Carthage/Checkouts/JSQMessagesViewController/JSQMessagesViewController/JSQMessagesViewController/Views/JSQMessagesTypingIndicatorFooterView.m
+-[JSQMessagesTypingIndicatorFooterView setTypingIndicatorImageViewRightHorizontalConstraint:]
+-[JSQMessagesTypingIndicatorFooterView typingIndicatorImageViewRightHorizontalConstraint]
+-[JSQMessagesTypingIndicatorFooterView setTypingIndicatorImageView:]
+-[JSQMessagesTypingIndicatorFooterView typingIndicatorImageView]
+-[JSQMessagesTypingIndicatorFooterView setBubbleImageViewRightHorizontalConstraint:]
+-[JSQMessagesTypingIndicatorFooterView bubbleImageViewRightHorizontalConstraint]
+-[JSQMessagesTypingIndicatorFooterView setBubbleImageView:]
+-[JSQMessagesTypingIndicatorFooterView bubbleImageView]
+-[JSQMessagesTypingIndicatorFooterView configureWithEllipsisColor:messageBubbleColor:shouldDisplayOnLeft:forCollectionView:]
+-[JSQMessagesTypingIndicatorFooterView setBackgroundColor:]
+-[JSQMessagesTypingIndicatorFooterView dealloc]
+-[JSQMessagesTypingIndicatorFooterView awakeFromNib]
++[JSQMessagesTypingIndicatorFooterView footerReuseIdentifier]
++[JSQMessagesTypingIndicatorFooterView nib]
+-[NSString(JSQMessages) jsq_stringByTrimingWhitespace]
+l_OBJC_$_CATEGORY_INSTANCE_METHODS_NSString_$_JSQMessages
+l_OBJC_$_CATEGORY_NSString_$_JSQMessages
+-[NSString(JSQMessages) jsq_stringByTrimingWhitespace]
+/Users/yasuyuki/Desktop/Xcode7proj/DialogTest-movie/Carthage/Checkouts/JSQMessagesViewController/JSQMessagesViewController/JSQMessagesViewController/Categories/NSString+JSQMessages.m
++[JSQMessagesTimestampFormatter sharedFormatter]
+__48+[JSQMessagesTimestampFormatter sharedFormatter]_block_invoke
+-[JSQMessagesTimestampFormatter init]
+-[JSQMessagesTimestampFormatter dealloc]
+-[JSQMessagesTimestampFormatter timestampForDate:]
+-[JSQMessagesTimestampFormatter attributedTimestampForDate:]
+-[JSQMessagesTimestampFormatter timeForDate:]
+-[JSQMessagesTimestampFormatter relativeDateForDate:]
+-[JSQMessagesTimestampFormatter dateFormatter]
+-[JSQMessagesTimestampFormatter setDateFormatter:]
+-[JSQMessagesTimestampFormatter dateTextAttributes]
+-[JSQMessagesTimestampFormatter setDateTextAttributes:]
+-[JSQMessagesTimestampFormatter timeTextAttributes]
+-[JSQMessagesTimestampFormatter setTimeTextAttributes:]
+-[JSQMessagesTimestampFormatter .cxx_destruct]
+sharedFormatter._sharedFormatter
+sharedFormatter.onceToken
+OBJC_CLASSLIST_REFERENCES_$_.3
+OBJC_IVAR_$_JSQMessagesTimestampFormatter._dateFormatter
+OBJC_IVAR_$_JSQMessagesTimestampFormatter._dateTextAttributes
+OBJC_IVAR_$_JSQMessagesTimestampFormatter._timeTextAttributes
+OBJC_CLASSLIST_REFERENCES_$_.43
+OBJC_CLASSLIST_REFERENCES_$_.48
+.str.49
+l_OBJC_$_CLASS_METHODS_JSQMessagesTimestampFormatter
+l_OBJC_METACLASS_RO_$_JSQMessagesTimestampFormatter
+l_OBJC_$_INSTANCE_METHODS_JSQMessagesTimestampFormatter
+l_OBJC_$_INSTANCE_VARIABLES_JSQMessagesTimestampFormatter
+l_OBJC_$_PROP_LIST_JSQMessagesTimestampFormatter
+l_OBJC_CLASS_RO_$_JSQMessagesTimestampFormatter
+-[JSQMessagesTimestampFormatter .cxx_destruct]
+/Users/yasuyuki/Desktop/Xcode7proj/DialogTest-movie/Carthage/Checkouts/JSQMessagesViewController/JSQMessagesViewController/JSQMessagesViewController/Factories/JSQMessagesTimestampFormatter.m
+-[JSQMessagesTimestampFormatter setTimeTextAttributes:]
+/Users/yasuyuki/Desktop/Xcode7proj/DialogTest-movie/Carthage/Checkouts/JSQMessagesViewController/JSQMessagesViewController/JSQMessagesViewController/Factories/JSQMessagesTimestampFormatter.h
+-[JSQMessagesTimestampFormatter timeTextAttributes]
+-[JSQMessagesTimestampFormatter setDateTextAttributes:]
+-[JSQMessagesTimestampFormatter dateTextAttributes]
+-[JSQMessagesTimestampFormatter setDateFormatter:]
+-[JSQMessagesTimestampFormatter dateFormatter]
+-[JSQMessagesTimestampFormatter relativeDateForDate:]
+-[JSQMessagesTimestampFormatter timeForDate:]
+-[JSQMessagesTimestampFormatter attributedTimestampForDate:]
+-[JSQMessagesTimestampFormatter timestampForDate:]
+-[JSQMessagesTimestampFormatter dealloc]
+-[JSQMessagesTimestampFormatter init]
++[JSQMessagesTimestampFormatter sharedFormatter]
+-[JSQMessagesCollectionViewCellOutgoing awakeFromNib]
+l_OBJC_METACLASS_RO_$_JSQMessagesCollectionViewCellOutgoing
+l_OBJC_$_INSTANCE_METHODS_JSQMessagesCollectionViewCellOutgoing
+l_OBJC_CLASS_RO_$_JSQMessagesCollectionViewCellOutgoing
+-[JSQMessagesCollectionViewCellOutgoing awakeFromNib]
+/Users/yasuyuki/Desktop/Xcode7proj/DialogTest-movie/Carthage/Checkouts/JSQMessagesViewController/JSQMessagesViewController/JSQMessagesViewController/Views/JSQMessagesCollectionViewCellOutgoing.m
+-[JSQMessagesKeyboardController initWithTextView:contextView:panGestureRecognizer:delegate:]
+-[JSQMessagesKeyboardController dealloc]
+-[JSQMessagesKeyboardController setKeyboardView:]
+-[JSQMessagesKeyboardController keyboardIsVisible]
+-[JSQMessagesKeyboardController currentKeyboardFrame]
+-[JSQMessagesKeyboardController beginListeningForKeyboard]
+-[JSQMessagesKeyboardController endListeningForKeyboard]
+-[JSQMessagesKeyboardController jsq_registerForNotifications]
+-[JSQMessagesKeyboardController jsq_unregisterForNotifications]
+-[JSQMessagesKeyboardController jsq_didReceiveKeyboardDidShowNotification:]
+__75-[JSQMessagesKeyboardController jsq_didReceiveKeyboardDidShowNotification:]_block_invoke
+-[JSQMessagesKeyboardController jsq_didReceiveKeyboardWillChangeFrameNotification:]
+-[JSQMessagesKeyboardController jsq_didReceiveKeyboardDidChangeFrameNotification:]
+-[JSQMessagesKeyboardController jsq_didReceiveKeyboardDidHideNotification:]
+__75-[JSQMessagesKeyboardController jsq_didReceiveKeyboardDidHideNotification:]_block_invoke
+__copy_helper_block_.59
+__destroy_helper_block_.60
+-[JSQMessagesKeyboardController jsq_handleKeyboardNotification:completion:]
+__75-[JSQMessagesKeyboardController jsq_handleKeyboardNotification:completion:]_block_invoke
+__copy_helper_block_.78
+__destroy_helper_block_.79
+__75-[JSQMessagesKeyboardController jsq_handleKeyboardNotification:completion:]_block_invoke.82
+__copy_helper_block_.83
+__destroy_helper_block_.84
+-[JSQMessagesKeyboardController jsq_setKeyboardViewHidden:]
+-[JSQMessagesKeyboardController jsq_notifyKeyboardFrameNotificationForFrame:]
+-[JSQMessagesKeyboardController jsq_resetKeyboardAndTextView]
+-[JSQMessagesKeyboardController observeValueForKeyPath:ofObject:change:context:]
+-[JSQMessagesKeyboardController jsq_removeKeyboardFrameObserver]
+-[JSQMessagesKeyboardController jsq_handlePanGestureRecognizer:]
+__64-[JSQMessagesKeyboardController jsq_handlePanGestureRecognizer:]_block_invoke
+__copy_helper_block_.130
+__destroy_helper_block_.131
+__64-[JSQMessagesKeyboardController jsq_handlePanGestureRecognizer:]_block_invoke.137
+__copy_helper_block_.138
+__destroy_helper_block_.139
+__64-[JSQMessagesKeyboardController jsq_handlePanGestureRecognizer:]_block_invoke.141
+__copy_helper_block_.142
+__destroy_helper_block_.143
+-[JSQMessagesKeyboardController delegate]
+-[JSQMessagesKeyboardController setDelegate:]
+-[JSQMessagesKeyboardController textView]
+-[JSQMessagesKeyboardController contextView]
+-[JSQMessagesKeyboardController panGestureRecognizer]
+-[JSQMessagesKeyboardController keyboardTriggerPoint]
+-[JSQMessagesKeyboardController setKeyboardTriggerPoint:]
+-[JSQMessagesKeyboardController jsq_isObserving]
+-[JSQMessagesKeyboardController setJsq_isObserving:]
+-[JSQMessagesKeyboardController keyboardView]
+-[JSQMessagesKeyboardController .cxx_destruct]
+OBJC_IVAR_$_JSQMessagesKeyboardController._textView
+OBJC_IVAR_$_JSQMessagesKeyboardController._contextView
+OBJC_IVAR_$_JSQMessagesKeyboardController._panGestureRecognizer
+OBJC_IVAR_$_JSQMessagesKeyboardController._delegate
+OBJC_IVAR_$_JSQMessagesKeyboardController._jsq_isObserving
+OBJC_IVAR_$_JSQMessagesKeyboardController._keyboardView
+kJSQMessagesKeyboardControllerKeyValueObservingContext
+OBJC_CLASSLIST_REFERENCES_$_.31
+.str.54
+__block_descriptor_tmp.61
+.str.80
+__block_descriptor_tmp.81
+__block_descriptor_tmp.85
+OBJC_CLASSLIST_REFERENCES_$_.96
+OBJC_CLASSLIST_REFERENCES_$_.99
+OBJC_CLASSLIST_REFERENCES_$_.116
+OBJC_CLASSLIST_REFERENCES_$_.119
+__block_descriptor_tmp.132
+__block_descriptor_tmp.140
+__block_descriptor_tmp.144
+OBJC_IVAR_$_JSQMessagesKeyboardController._keyboardTriggerPoint
+OBJC_METH_VAR_TYPE_.148
+OBJC_METH_VAR_TYPE_.149
+OBJC_CLASS_NAME_.156
+OBJC_METH_VAR_NAME_.158
+OBJC_METH_VAR_TYPE_.159
+OBJC_METH_VAR_NAME_.160
+OBJC_METH_VAR_TYPE_.161
+OBJC_METH_VAR_NAME_.162
+OBJC_METH_VAR_NAME_.164
+OBJC_METH_VAR_TYPE_.165
+OBJC_METH_VAR_NAME_.172
+OBJC_METH_VAR_TYPE_.174
+OBJC_METH_VAR_TYPE_.176
+OBJC_METH_VAR_TYPE_.179
+OBJC_METH_VAR_TYPE_.182
+OBJC_METH_VAR_TYPE_.184
+OBJC_METH_VAR_NAME_.187
+OBJC_METH_VAR_TYPE_.188
+OBJC_METH_VAR_NAME_.189
+OBJC_CLASS_NAME_.190
+OBJC_PROP_NAME_ATTR_.191
+OBJC_PROP_NAME_ATTR_.192
+OBJC_PROP_NAME_ATTR_.193
+OBJC_PROP_NAME_ATTR_.194
+OBJC_PROP_NAME_ATTR_.195
+OBJC_PROP_NAME_ATTR_.196
+l_OBJC_$_PROTOCOL_REFS_UIGestureRecognizerDelegate
+l_OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIGestureRecognizerDelegate
+l_OBJC_$_PROTOCOL_METHOD_TYPES_UIGestureRecognizerDelegate
+l_OBJC_PROTOCOL_$_UIGestureRecognizerDelegate
+l_OBJC_LABEL_PROTOCOL_$_UIGestureRecognizerDelegate
+l_OBJC_CLASS_PROTOCOLS_$_JSQMessagesKeyboardController
+l_OBJC_METACLASS_RO_$_JSQMessagesKeyboardController
+OBJC_METH_VAR_NAME_.197
+OBJC_METH_VAR_TYPE_.198
+OBJC_METH_VAR_TYPE_.199
+OBJC_METH_VAR_TYPE_.200
+OBJC_METH_VAR_TYPE_.202
+OBJC_METH_VAR_NAME_.203
+OBJC_METH_VAR_TYPE_.205
+OBJC_METH_VAR_TYPE_.206
+OBJC_METH_VAR_NAME_.210
+OBJC_METH_VAR_NAME_.213
+OBJC_METH_VAR_NAME_.215
+l_OBJC_$_INSTANCE_METHODS_JSQMessagesKeyboardController
+OBJC_METH_VAR_NAME_.219
+OBJC_METH_VAR_TYPE_.224
+OBJC_METH_VAR_TYPE_.226
+OBJC_METH_VAR_TYPE_.229
+l_OBJC_$_INSTANCE_VARIABLES_JSQMessagesKeyboardController
+OBJC_CLASS_NAME_.230
+OBJC_PROP_NAME_ATTR_.231
+OBJC_PROP_NAME_ATTR_.232
+OBJC_PROP_NAME_ATTR_.233
+OBJC_PROP_NAME_ATTR_.234
+OBJC_PROP_NAME_ATTR_.235
+OBJC_PROP_NAME_ATTR_.236
+OBJC_PROP_NAME_ATTR_.237
+OBJC_PROP_NAME_ATTR_.238
+OBJC_PROP_NAME_ATTR_.239
+OBJC_PROP_NAME_ATTR_.240
+OBJC_PROP_NAME_ATTR_.241
+OBJC_PROP_NAME_ATTR_.242
+OBJC_PROP_NAME_ATTR_.243
+OBJC_PROP_NAME_ATTR_.244
+OBJC_PROP_NAME_ATTR_.245
+OBJC_PROP_NAME_ATTR_.246
+OBJC_PROP_NAME_ATTR_.247
+OBJC_PROP_NAME_ATTR_.248
+l_OBJC_$_PROP_LIST_JSQMessagesKeyboardController
+l_OBJC_CLASS_RO_$_JSQMessagesKeyboardController
+UIInterfaceOrientationIsLandscape
+/Applications/Xcode 7.3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIApplication.h
+-[JSQMessagesKeyboardController .cxx_destruct]
+/Users/yasuyuki/Desktop/Xcode7proj/DialogTest-movie/Carthage/Checkouts/JSQMessagesViewController/JSQMessagesViewController/JSQMessagesViewController/Controllers/JSQMessagesKeyboardController.m
+-[JSQMessagesKeyboardController keyboardView]
+-[JSQMessagesKeyboardController setJsq_isObserving:]
+-[JSQMessagesKeyboardController jsq_isObserving]
+-[JSQMessagesKeyboardController setKeyboardTriggerPoint:]
+/Users/yasuyuki/Desktop/Xcode7proj/DialogTest-movie/Carthage/Checkouts/JSQMessagesViewController/JSQMessagesViewController/JSQMessagesViewController/Controllers/JSQMessagesKeyboardController.h
+-[JSQMessagesKeyboardController keyboardTriggerPoint]
+-[JSQMessagesKeyboardController panGestureRecognizer]
+-[JSQMessagesKeyboardController contextView]
+-[JSQMessagesKeyboardController textView]
+-[JSQMessagesKeyboardController setDelegate:]
+-[JSQMessagesKeyboardController delegate]
+-[JSQMessagesKeyboardController jsq_handlePanGestureRecognizer:]
+-[JSQMessagesKeyboardController jsq_removeKeyboardFrameObserver]
+-[JSQMessagesKeyboardController observeValueForKeyPath:ofObject:change:context:]
+-[JSQMessagesKeyboardController jsq_resetKeyboardAndTextView]
+-[JSQMessagesKeyboardController jsq_notifyKeyboardFrameNotificationForFrame:]
+-[JSQMessagesKeyboardController jsq_setKeyboardViewHidden:]
+-[JSQMessagesKeyboardController jsq_handleKeyboardNotification:completion:]
+-[JSQMessagesKeyboardController jsq_didReceiveKeyboardDidHideNotification:]
+-[JSQMessagesKeyboardController jsq_didReceiveKeyboardDidChangeFrameNotification:]
+-[JSQMessagesKeyboardController jsq_didReceiveKeyboardWillChangeFrameNotification:]
+-[JSQMessagesKeyboardController jsq_didReceiveKeyboardDidShowNotification:]
+-[JSQMessagesKeyboardController jsq_unregisterForNotifications]
+-[JSQMessagesKeyboardController jsq_registerForNotifications]
+-[JSQMessagesKeyboardController endListeningForKeyboard]
+-[JSQMessagesKeyboardController beginListeningForKeyboard]
+-[JSQMessagesKeyboardController currentKeyboardFrame]
+-[JSQMessagesKeyboardController keyboardIsVisible]
+-[JSQMessagesKeyboardController setKeyboardView:]
+-[JSQMessagesKeyboardController dealloc]
+-[JSQMessagesKeyboardController initWithTextView:contextView:panGestureRecognizer:delegate:]
++[JSQMessagesAvatarImageFactory avatarImageWithPlaceholder:diameter:]
++[JSQMessagesAvatarImageFactory avatarImageWithImage:diameter:]
++[JSQMessagesAvatarImageFactory circularAvatarImage:withDiameter:]
++[JSQMessagesAvatarImageFactory circularAvatarHighlightedImage:withDiameter:]
++[JSQMessagesAvatarImageFactory avatarImageWithUserInitials:backgroundColor:textColor:font:diameter:]
++[JSQMessagesAvatarImageFactory jsq_imageWitInitials:backgroundColor:textColor:font:diameter:]
++[JSQMessagesAvatarImageFactory jsq_circularImage:withDiameter:highlightedColor:]
+OBJC_CLASSLIST_REFERENCES_$_.22
+l_OBJC_$_CLASS_METHODS_JSQMessagesAvatarImageFactory
+l_OBJC_METACLASS_RO_$_JSQMessagesAvatarImageFactory
+l_OBJC_CLASS_RO_$_JSQMessagesAvatarImageFactory
++[JSQMessagesAvatarImageFactory jsq_circularImage:withDiameter:highlightedColor:]
+/Users/yasuyuki/Desktop/Xcode7proj/DialogTest-movie/Carthage/Checkouts/JSQMessagesViewController/JSQMessagesViewController/JSQMessagesViewController/Factories/JSQMessagesAvatarImageFactory.m
++[JSQMessagesAvatarImageFactory jsq_imageWitInitials:backgroundColor:textColor:font:diameter:]
++[JSQMessagesAvatarImageFactory avatarImageWithUserInitials:backgroundColor:textColor:font:diameter:]
++[JSQMessagesAvatarImageFactory circularAvatarHighlightedImage:withDiameter:]
++[JSQMessagesAvatarImageFactory circularAvatarImage:withDiameter:]
++[JSQMessagesAvatarImageFactory avatarImageWithImage:diameter:]
++[JSQMessagesAvatarImageFactory avatarImageWithPlaceholder:diameter:]
+-[JSQMessagesInputToolbar awakeFromNib]
+-[JSQMessagesInputToolbar loadToolbarContentView]
+-[JSQMessagesInputToolbar dealloc]
+-[JSQMessagesInputToolbar setPreferredDefaultHeight:]
+-[JSQMessagesInputToolbar jsq_leftBarButtonPressed:]
+-[JSQMessagesInputToolbar jsq_rightBarButtonPressed:]
+-[JSQMessagesInputToolbar toggleSendButtonEnabled]
+-[JSQMessagesInputToolbar observeValueForKeyPath:ofObject:change:context:]
+-[JSQMessagesInputToolbar jsq_addObservers]
+-[JSQMessagesInputToolbar jsq_removeObservers]
+-[JSQMessagesInputToolbar contentView]
+-[JSQMessagesInputToolbar sendButtonOnRight]
+-[JSQMessagesInputToolbar setSendButtonOnRight:]
+-[JSQMessagesInputToolbar preferredDefaultHeight]
+-[JSQMessagesInputToolbar maximumHeight]
+-[JSQMessagesInputToolbar setMaximumHeight:]
+-[JSQMessagesInputToolbar jsq_isObserving]
+-[JSQMessagesInputToolbar setJsq_isObserving:]
+-[JSQMessagesInputToolbar .cxx_destruct]
+OBJC_IVAR_$_JSQMessagesInputToolbar._contentView
+OBJC_IVAR_$_JSQMessagesInputToolbar._preferredDefaultHeight
+kJSQMessagesInputToolbarKeyValueObservingContext
+OBJC_IVAR_$_JSQMessagesInputToolbar._jsq_isObserving
+OBJC_IVAR_$_JSQMessagesInputToolbar._sendButtonOnRight
+OBJC_IVAR_$_JSQMessagesInputToolbar._maximumHeight
+l_OBJC_METACLASS_RO_$_JSQMessagesInputToolbar
+OBJC_METH_VAR_TYPE_.88
+OBJC_METH_VAR_TYPE_.92
+l_OBJC_$_INSTANCE_METHODS_JSQMessagesInputToolbar
+l_OBJC_$_INSTANCE_VARIABLES_JSQMessagesInputToolbar
+l_OBJC_$_PROP_LIST_JSQMessagesInputToolbar
+l_OBJC_CLASS_RO_$_JSQMessagesInputToolbar
+-[JSQMessagesInputToolbar .cxx_destruct]
+/Users/yasuyuki/Desktop/Xcode7proj/DialogTest-movie/Carthage/Checkouts/JSQMessagesViewController/JSQMessagesViewController/JSQMessagesViewController/Views/JSQMessagesInputToolbar.m
+-[JSQMessagesInputToolbar setJsq_isObserving:]
+-[JSQMessagesInputToolbar jsq_isObserving]
+-[JSQMessagesInputToolbar setMaximumHeight:]
+/Users/yasuyuki/Desktop/Xcode7proj/DialogTest-movie/Carthage/Checkouts/JSQMessagesViewController/JSQMessagesViewController/JSQMessagesViewController/Views/JSQMessagesInputToolbar.h
+-[JSQMessagesInputToolbar maximumHeight]
+-[JSQMessagesInputToolbar preferredDefaultHeight]
+-[JSQMessagesInputToolbar setSendButtonOnRight:]
+-[JSQMessagesInputToolbar sendButtonOnRight]
+-[JSQMessagesInputToolbar contentView]
+-[JSQMessagesInputToolbar jsq_removeObservers]
+-[JSQMessagesInputToolbar jsq_addObservers]
+-[JSQMessagesInputToolbar observeValueForKeyPath:ofObject:change:context:]
+-[JSQMessagesInputToolbar toggleSendButtonEnabled]
+-[JSQMessagesInputToolbar jsq_rightBarButtonPressed:]
+-[JSQMessagesInputToolbar jsq_leftBarButtonPressed:]
+-[JSQMessagesInputToolbar setPreferredDefaultHeight:]
+-[JSQMessagesInputToolbar dealloc]
+-[JSQMessagesInputToolbar loadToolbarContentView]
+-[JSQMessagesInputToolbar awakeFromNib]
++[NSBundle(JSQMessages) jsq_messagesBundle]
++[NSBundle(JSQMessages) jsq_messagesAssetBundle]
++[NSBundle(JSQMessages) jsq_localizedStringForKey:]
+.str.14
+_unnamed_cfstring_.15
+OBJC_METH_VAR_TYPE_.21
+l_OBJC_$_CATEGORY_CLASS_METHODS_NSBundle_$_JSQMessages
+l_OBJC_$_CATEGORY_NSBundle_$_JSQMessages
++[NSBundle(JSQMessages) jsq_localizedStringForKey:]
+/Users/yasuyuki/Desktop/Xcode7proj/DialogTest-movie/Carthage/Checkouts/JSQMessagesViewController/JSQMessagesViewController/JSQMessagesViewController/Categories/NSBundle+JSQMessages.m
++[NSBundle(JSQMessages) jsq_messagesAssetBundle]
++[NSBundle(JSQMessages) jsq_messagesBundle]
++[JSQMessagesAvatarImage avatarWithImage:]
++[JSQMessagesAvatarImage avatarImageWithPlaceholder:]
+-[JSQMessagesAvatarImage initWithAvatarImage:highlightedImage:placeholderImage:]
+-[JSQMessagesAvatarImage init]
+-[JSQMessagesAvatarImage description]
+-[JSQMessagesAvatarImage debugQuickLookObject]
+-[JSQMessagesAvatarImage copyWithZone:]
+-[JSQMessagesAvatarImage avatarImage]
+-[JSQMessagesAvatarImage setAvatarImage:]
+-[JSQMessagesAvatarImage avatarHighlightedImage]
+-[JSQMessagesAvatarImage setAvatarHighlightedImage:]
+-[JSQMessagesAvatarImage avatarPlaceholderImage]
+-[JSQMessagesAvatarImage .cxx_destruct]
+OBJC_IVAR_$_JSQMessagesAvatarImage._avatarImage
+OBJC_IVAR_$_JSQMessagesAvatarImage._avatarHighlightedImage
+OBJC_IVAR_$_JSQMessagesAvatarImage._avatarPlaceholderImage
+OBJC_CLASSLIST_REFERENCES_$_.5
+l_OBJC_$_CLASS_METHODS_JSQMessagesAvatarImage
+OBJC_METH_VAR_TYPE_.28
+OBJC_CLASS_NAME_.30
+OBJC_METH_VAR_TYPE_.33
+OBJC_CLASS_NAME_.63
+OBJC_PROP_NAME_ATTR_.64
+OBJC_PROP_NAME_ATTR_.65
+OBJC_PROP_NAME_ATTR_.66
+OBJC_PROP_NAME_ATTR_.67
+OBJC_PROP_NAME_ATTR_.68
+OBJC_PROP_NAME_ATTR_.69
+l_OBJC_$_PROTOCOL_REFS_JSQMessageAvatarImageDataSource
+l_OBJC_$_PROTOCOL_INSTANCE_METHODS_JSQMessageAvatarImageDataSource
+l_OBJC_$_PROTOCOL_METHOD_TYPES_JSQMessageAvatarImageDataSource
+l_OBJC_PROTOCOL_$_JSQMessageAvatarImageDataSource
+l_OBJC_LABEL_PROTOCOL_$_JSQMessageAvatarImageDataSource
+OBJC_CLASS_NAME_.72
+l_OBJC_CLASS_PROTOCOLS_$_JSQMessagesAvatarImage
+l_OBJC_METACLASS_RO_$_JSQMessagesAvatarImage
+OBJC_CLASS_NAME_.73
+l_OBJC_$_INSTANCE_METHODS_JSQMessagesAvatarImage
+l_OBJC_$_INSTANCE_VARIABLES_JSQMessagesAvatarImage
+l_OBJC_$_PROP_LIST_JSQMessagesAvatarImage
+l_OBJC_CLASS_RO_$_JSQMessagesAvatarImage
+-[JSQMessagesAvatarImage .cxx_destruct]
+/Users/yasuyuki/Desktop/Xcode7proj/DialogTest-movie/Carthage/Checkouts/JSQMessagesViewController/JSQMessagesViewController/JSQMessagesViewController/Model/JSQMessagesAvatarImage.m
+-[JSQMessagesAvatarImage avatarPlaceholderImage]
+/Users/yasuyuki/Desktop/Xcode7proj/DialogTest-movie/Carthage/Checkouts/JSQMessagesViewController/JSQMessagesViewController/JSQMessagesViewController/Model/JSQMessagesAvatarImage.h
+-[JSQMessagesAvatarImage setAvatarHighlightedImage:]
+-[JSQMessagesAvatarImage avatarHighlightedImage]
+-[JSQMessagesAvatarImage setAvatarImage:]
+-[JSQMessagesAvatarImage avatarImage]
+-[JSQMessagesAvatarImage copyWithZone:]
+-[JSQMessagesAvatarImage debugQuickLookObject]
+-[JSQMessagesAvatarImage description]
+-[JSQMessagesAvatarImage init]
+-[JSQMessagesAvatarImage initWithAvatarImage:highlightedImage:placeholderImage:]
++[JSQMessagesAvatarImage avatarImageWithPlaceholder:]
++[JSQMessagesAvatarImage avatarWithImage:]
+/Users/yasuyuki/Library/Developer/Xcode/DerivedData/JSQMessages-awfcfipkrrnlfngujnaqiqnwhapj/Build/Intermediates/JSQMessages.build/Release-iphoneos/JSQMessages.build/DerivedSources/JSQMessages_vers.c
+_ZL15__ARCLite__loadv
+_ZL30add_image_hook_autoreleasepoolPK11mach_headerl
+_ZL34__arclite_objc_autoreleasePoolPushv
+_ZL33__arclite_objc_autoreleasePoolPopPv
+_ZL19patch_lazy_pointersPK11mach_headerP7patch_tm
+_ZL42__arclite_NSArray_objectAtIndexedSubscriptP7NSArrayP13objc_selectorj
+_ZL53__arclite_NSMutableArray_setObject_atIndexedSubscriptP14NSMutableArrayP13objc_selectorP11objc_objectj
+_ZL46__arclite_NSDictionary_objectForKeyedSubscriptP12NSDictionaryP13objc_selectorP11objc_object
+_ZL47__arclite_NSOrderedSet_objectAtIndexedSubscriptP12NSOrderedSetP13objc_selectorj
+_ZL58__arclite_NSMutableOrderedSet_setObject_atIndexedSubscriptP19NSMutableOrderedSetP13objc_selectorP11objc_objectj
+_ZL58__arclite_NSMutableDictionary__setObject_forKeyedSubscriptP19NSMutableDictionaryP13objc_selectorP11objc_objectS4_
+_ZL18add_image_hook_ARCPK11mach_headerl
+_ZL36__arclite_object_setInstanceVariableP11objc_objectPKcPv
+_ZL24__arclite_object_setIvarP11objc_objectP9objc_ivarS0_
+_ZL21__arclite_object_copyP11objc_objectm
+_ZL21__arclite_objc_retainP11objc_object
+_ZL26__arclite_objc_retainBlockP11objc_object
+_ZL22__arclite_objc_releaseP11objc_object
+_ZL26__arclite_objc_autoreleaseP11objc_object
+_ZL32__arclite_objc_retainAutoreleaseP11objc_object
+_ZL37__arclite_objc_autoreleaseReturnValueP11objc_object
+_ZL43__arclite_objc_retainAutoreleaseReturnValueP11objc_object
+_ZL44__arclite_objc_retainAutoreleasedReturnValueP11objc_object
+_ZL26__arclite_objc_storeStrongPP11objc_objectS0_
+_ZL22add_image_hook_swiftV1PK11mach_headerl
+_ZL42__arclite_NSUndoManagerProxy_isKindOfClassP11objc_objectP13objc_selectorP10objc_class
+_ZL13replaceMethodP10objc_classP13objc_selectorPFP11objc_objectS4_S2_zEPS6_
+_ZL30__arclite_NSManagedObject_initP11objc_objectP13objc_selector
+_ZL41__arclite_NSManagedObject_allocWithEntityP11objc_objectP13objc_selectorS0_
+_ZL36__arclite_NSManagedObject_allocBatchP11objc_objectP13objc_selectorPS0_S0_j
+_ZL37__arclite_NSKKMS_fastIndexForKnownKeyP11objc_objectP13objc_selectorS0_
+_ZL28__arclite_NSKKMS_indexForKeyP11objc_objectP13objc_selectorS0_
+_ZL29__arclite_NSKKsD_objectForKeyP11objc_objectP13objc_selectorS0_
+_ZL35__arclite_NSKKsD_removeObjectForKeyP11objc_objectP13objc_selectorS0_
+_ZL33__arclite_NSKKsD_setObject_forKeyP11objc_objectP13objc_selectorS0_S0_
+_ZL41__arclite_NSKKsD_addEntriesFromDictionaryP11objc_objectP13objc_selectorP12NSDictionary
+_ZL28__arclite_objc_readClassPairP10objc_classPK15objc_image_info
+_ZL32__arclite_objc_allocateClassPairP10objc_classPKcm
+_ZL32__arclite_object_getIndexedIvarsP11objc_object
+_ZL23__arclite_objc_getClassPKc
+_ZL27__arclite_objc_getMetaClassPKc
+_ZL31__arclite_objc_getRequiredClassPKc
+_ZL26__arclite_objc_lookUpClassPKc
+_ZL26__arclite_objc_getProtocolPKc
+_ZL23__arclite_class_getNameP10objc_class
+_ZL26__arclite_protocol_getNameP8Protocol
+_ZL37__arclite_objc_copyClassNamesForImagePKcPj
+_ZL17transcribeMethodsP10objc_classP15glue_class_ro_t
+_ZL19transcribeProtocolsP10objc_classP15glue_class_ro_t
+_ZL20transcribePropertiesP10objc_classP15glue_class_ro_t
+_ZL14initialize_impP11objc_objectP13objc_selector
+_ZL18allocateMaybeSwiftP18glue_swift_class_tm
+_ZL22copySwiftV1MangledNamePKcb
+_ZL13demangledNamePKcb
+_ZL16scanMangledFieldRPKcS0_S1_Ri
+_ZL30arclite_uninitialized_functionv
+_ZL12cxxConstructP11objc_object
+_ZL20fixStringForCoreDataP11objc_object
+OBJC_METACLASS_$___ARCLite__
+_ZL24OBJC_CLASS_$___ARCLite__
+_ZL31OBJC_METACLASS_RO_$___ARCLite__
+_non_lazy_classes
+_ZL27OBJC_CLASS_RO_$___ARCLite__
+_ZL11_class_name
+_ZL32OBJC_$_CLASS_METHODS___ARCLite__
+_ZL17_load_method_name
+_ZL17_load_method_type
+_ZL23NSAutoreleasePool_class
+_ZZL30add_image_hook_autoreleasepoolPK11mach_headerlE7patches
+_ZGVZL30add_image_hook_autoreleasepoolPK11mach_headerlE7patches
+.str.2
+.str.6
+.str.13
+.str.17
+l_OBJC_$_PROTOCOL_INSTANCE_METHODS___ARCLiteIndexedSubscripting__
+l_OBJC_$_PROTOCOL_METHOD_TYPES___ARCLiteIndexedSubscripting__
+l_OBJC_PROTOCOL_$___ARCLiteIndexedSubscripting__
+l_OBJC_LABEL_PROTOCOL_$___ARCLiteIndexedSubscripting__
+l_OBJC_PROTOCOL_REFERENCE_$___ARCLiteIndexedSubscripting__
+OBJC_METH_VAR_TYPE_.31
+OBJC_CLASS_NAME_.32
+l_OBJC_$_PROTOCOL_INSTANCE_METHODS___ARCLiteKeyedSubscripting__
+l_OBJC_$_PROTOCOL_METHOD_TYPES___ARCLiteKeyedSubscripting__
+l_OBJC_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_LABEL_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_PROTOCOL_REFERENCE_$___ARCLiteKeyedSubscripting__
+.str.35
+_ZZL18add_image_hook_ARCPK11mach_headerlE7patches
+_ZGVZL18add_image_hook_ARCPK11mach_headerlE7patches
+.str.42
+.str.43
+.str.44
+.str.45
+.str.46
+.str.47
+.str.50
+.str.51
+.str.52
+.str.59
+.str.60
+_ZL30NSUndoManagerProxy_targetClass
+.str.63
+.str.64
+_ZL29original_NSManagedObject_init
+_ZL40original_NSManagedObject_allocWithEntity
+_ZL35original_NSManagedObject_allocBatch
+_ZL25NSMutableDictionary_class
+.str.71
+_ZL22NSConstantString_class
+.str.72
+_ZL14NSString_class
+.str.73
+_ZL36original_NSKKMS_fastIndexForKnownKey
+_ZL27original_NSKKMS_indexForKey
+.str.78
+_ZL28original_NSKKsD_objectForKey
+_ZL34original_NSKKsD_removeObjectForKey
+_ZL32original_NSKKsD_setObject_forKey
+_ZL40original_NSKKsD_addEntriesFromDictionary
+_ZZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+_ZGVZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+.str.81
+.str.82
+_ZL31original_objc_allocateClassPair
+.str.83
+_ZL31original_object_getIndexedIvars
+.str.84
+_ZL22original_objc_getClass
+.str.85
+_ZL26original_objc_getMetaClass
+.str.86
+_ZL30original_objc_getRequiredClass
+.str.87
+_ZL25original_objc_lookUpClass
+.str.88
+_ZL25original_objc_getProtocol
+.str.89
+_ZL22original_class_getName
+.str.90
+_ZL25original_protocol_getName
+.str.91
+_ZL36original_objc_copyClassNamesForImage
+.str.96
+.str.98
+.str.100
+.str.101
+.str.102
+.str.103
+_ZL12demangleLock
+_ZL9Demangled
+.str.104
+.str.105
+Apple LLVM version 7.3.0 (clang-703.0.21)
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -Wno-trigraphs -fno-exceptions -fno-rtti -mpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D NDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.Internal.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -miphoneos-version-min=4.3 -g -fno-threadsafe-statics -Wno-sign-conversion -fembed-bitcode -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~248/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-generated-files.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~248/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-own-target-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~248/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-all-target-headers.hmap -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~248/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-project-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~248/Symbols/BuiltProducts/include -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~248/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources/armv7 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~248/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources -F/Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~248/Symbols/BuiltProducts -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.Internal.sdk/System/Library/PrivateFrameworks -Wall -Wextra -Wno-gcc-compat -fgnu-inline-asm -MMD -MT dependencies -MF /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~248/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.d --serialize-diagnostics /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~248/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.dia -c /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-65/source/arclite.mm -o /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~248/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.o -mlinker-version=264.3 -march=armv7a
+__arclite_NSKKsD_addEntriesFromDictionary
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-65/source/arclite.mm
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-65
+__arclite_NSKKsD_setObject_forKey
+__arclite_NSKKsD_removeObjectForKey
+__arclite_NSKKsD_objectForKey
+__arclite_NSKKMS_indexForKey
+fixStringForCoreData
+__arclite_NSKKMS_fastIndexForKnownKey
+__arclite_NSManagedObject_allocBatch
+__arclite_NSManagedObject_allocWithEntity
+cxxConstruct
+__arclite_NSManagedObject_init
+arclite_uninitialized_function
+replaceMethod
+__arclite_NSUndoManagerProxy_isKindOfClass
+patch_t<const char **(const char *, unsigned int *)>
+__arclite_objc_copyClassNamesForImage
+patch_t<const char *(Protocol *)>
+__arclite_protocol_getName
+patch_t<const char *(Class)>
+__isctype
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.Internal.sdk/usr/include/ctype.h
+isdigit
+scanMangledField
+copySwiftV1DemangledName
+demangledName
+__arclite_class_getName
+patch_t<Protocol *(const char *)>
+__arclite_objc_getProtocol
+__arclite_objc_lookUpClass
+__arclite_objc_getRequiredClass
+__arclite_objc_getMetaClass
+patch_t<Class (const char *)>
+copySwiftV1MangledName
+__arclite_objc_getClass
+patch_t<void *(id)>
+word_align
+__arclite_object_getIndexedIvars
+patch_t<Class (Class, const char *, unsigned long)>
+allocateMaybeSwift
+isSwift
+metaclass
+__arclite_objc_allocateClassPair
+patch_t<Class (Class, const objc_image_info *)>
+initialize_imp
+property_list_nth
+transcribeProperties
+transcribeProtocols
+method_list_nth
+transcribeMethods
+alignment
+max
+ivar_list_nth
+transcribeIvars
+fastFlags
+ro
+__arclite_objc_readClassPair
+add_image_hook_swiftV1
+install_swiftV1
+patch_t<void (id *, id)>
+__arclite_objc_storeStrong
+__arclite_objc_retainAutoreleasedReturnValue
+__arclite_objc_retainAutoreleaseReturnValue
+__arclite_objc_autoreleaseReturnValue
+__arclite_objc_retainAutorelease
+__arclite_objc_autorelease
+patch_t<void (id)>
+__arclite_objc_release
+__arclite_objc_retainBlock
+patch_t<id (id)>
+__arclite_objc_retain
+patch_t<id (id, unsigned long)>
+fixupCopiedReferences
+classOrSuperClassesUseARR
+__arclite_object_copy
+patch_t<void (id, objc_ivar *, id)>
+isScannedOffset
+alignedInstanceStart
+_class_getInstanceStart
+data
+__arclite_class_usesAutomaticRetainRelease
+_ivar_getClass
+__arclite_object_setIvar
+patch_t<objc_ivar *(id, const char *, void *)>
+__arclite_object_setInstanceVariable
+add_image_hook_ARC
+install_ARC
+objc_collectingEnabled
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.Internal.sdk/usr/include/objc/objc-auto.h
+__arclite_NSMutableDictionary__setObject_forKeyedSubscript
+addOrReplaceMethod
+install_dict_nil_value
+__arclite_NSMutableOrderedSet_setObject_atIndexedSubscript
+__arclite_NSOrderedSet_objectAtIndexedSubscript
+keyedGetter
+__arclite_NSDictionary_objectForKeyedSubscript
+__arclite_NSMutableArray_setObject_atIndexedSubscript
+indexedGetter
+__arclite_NSArray_objectAtIndexedSubscript
+addMethod
+install_subscripting
+patch_lazy_pointers
+patch_t<void (void *)>
+__arclite_objc_autoreleasePoolPop
+patch_t<void *()>
+__arclite_objc_autoreleasePoolPush
+add_image_hook_autoreleasepool
+install_autoreleasepool
+__ARCLite__load

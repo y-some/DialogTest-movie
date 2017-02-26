@@ -1,0 +1,14 @@
+【概要：映画作品名】
+select distinct ?abstract ?title where {
+      <http://ja.dbpedia.org/resource/映画作品一覧> <http://dbpedia.org/ontology/wikiPageWikiLink> ?movie .
+      ?movie rdfs:label ?title .
+      ?movie <http://dbpedia.org/ontology/abstract> ?abstract .
+}
+
+【概要：出演者】
+select distinct ?abstract ?starring_name where {
+      <http://ja.dbpedia.org/resource/映画作品一覧> <http://dbpedia.org/ontology/wikiPageWikiLink> ?movie .
+      ?movie <http://dbpedia.org/ontology/abstract> ?abstract .
+      ?movie <http://ja.dbpedia.org/property/出演者> ?starring .
+      ?starring rdfs:label ?starring_name.
+}

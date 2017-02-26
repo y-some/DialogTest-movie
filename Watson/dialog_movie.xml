@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dialog xsi:noNamespaceSchemaLocation="WatsonDialogDocument_1.1.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <flow>
+    <folder label="Main">
+      <!--対話の入口-->
+      <output id="output_main">
+        <prompt selectionType="RANDOM">
+          <!--itemからランダムに出力-->
+          <item>知りたいのは映画作品ですか？それとも出演者ですか？</item>
+        </prompt>
+        <getUserInput>
+          <!--ユーザの入力を受け付ける-->
+          <search ref="folder_menu_top">
+            <!--folder_menu_topを検索する-->
+          </search>
+          <default>
+            <!--ユーザ入力を解釈できなかった場合の処理-->
+            <output>
+              <prompt selectionType="RANDOM">
+                <item>すみません。違う表現でもう一度おねがいします。</item>
+              </prompt>
+              <goto ref="##special_DNR_GET_USER_INPUT_NODE_ID"></goto>
+            </output>
+          </default>
+        </getUserInput>
+      </output>
+      <output id="output_main_end">
+        <prompt selectionType="RANDOM">
+          <item>お役に立てたら嬉しいです。</item>
+        </prompt>
+        <action varName="TITLE" operator="SET_TO_BLANK">
+          <!--変数にBLANKをセットする-->
+        </action>
+        <action varName="STARRING" operator="SET_TO_BLANK" />
+        <action varName="WORK" operator="SET_TO_BLANK" />
+      </output>
+    </folder>
+    <folder label="Library">
+      <!--対話の主要部分-->
+      <folder id="folder_menu_top">
+        <input>
+          <grammar>
+            <!--語彙を解釈する-->
+            <!-- *: 任意の文字列の場合にヒット -->
+            <!-- $: 文字列を含む場合にヒット -->
+            <item>$映画作品</item>
+          </grammar>
+          <output>
+            <goto ref="folder_title">
+              <!--folder_titleに飛ぶ-->
+            </goto>
+          </output>
+        </input>
+        <input>
+          <grammar>
+            <item>$出演者</item>
+          </grammar>
+          <output>
+            <goto ref="folder_starring" />
+          </output>
+        </input>
+      </folder>
+      <folder id="folder_title">
+        <output>
+          <prompt selectionType="RANDOM">
+            <item>どんな映画でしたか？</item>
+          </prompt>
+          <getUserInput>
+            <output>
+              <!--変数に値をセットする。他にもいろいろなactionノードの定義の仕方がある-->
+              <action varName="WORK" operator="SET_TO_USER_INPUT"></action>
+              <!--{変数}という書き方で変数値を取得できる-->
+              <action varName="TITLE" operator="APPEND">{WORK} </action>
+              <prompt selectionType="RANDOM">
+                <item>それは%NAME%ではありませんか？</item>
+              </prompt>
+              <getUserInput>
+                <input>
+                  <grammar>
+                    <item>$はい</item>
+                    <item>$ありがとう</item>
+                  </grammar>
+                  <output>
+                    <goto ref="output_main_end" />
+                  </output>
+                </input>
+                <input>
+                  <grammar>
+                    <item>$いいえ</item>
+                    <item>$他の</item>
+                  </grammar>
+                  <output>
+                    <goto ref="folder_title" />
+                  </output>
+                </input>
+              </getUserInput>
+            </output>
+          </getUserInput>
+        </output>
+      </folder>
+      <folder id="folder_starring">
+        <output>
+          <prompt selectionType="RANDOM">
+            <item>どんな映画に出演していましたか？</item>
+          </prompt>
+          <getUserInput>
+            <output>
+              <action varName="WORK" operator="SET_TO_USER_INPUT"></action>
+              <action varName="STARRING" operator="APPEND">{WORK} </action>
+              <prompt selectionType="RANDOM">
+                <item>それは%NAME%ではありませんか？</item>
+              </prompt>
+              <getUserInput>
+                <input>
+                  <grammar>
+                    <item>$はい</item>
+                    <item>$ありがとう</item>
+                  </grammar>
+                  <output>
+                    <goto ref="output_main_end" />
+                  </output>
+                </input>
+                <input>
+                  <grammar>
+                    <item>$いいえ</item>
+                    <item>$他の</item>
+                  </grammar>
+                  <output>
+                    <goto ref="folder_starring" />
+                  </output>
+                </input>
+              </getUserInput>
+            </output>
+          </getUserInput>
+        </output>
+      </folder>
+    </folder>
+    <folder label="Global" />
+    <folder label="Concepts">
+      <concept>
+        <!--同じ語彙を定義-->
+        <grammar>
+          <item>出演者</item>
+          <item>俳優</item>
+          <item>女優</item>
+          <item>役者</item>
+        </grammar>
+      </concept>
+      <concept>
+        <grammar>
+          <item>映画作品</item>
+          <item>タイトル</item>
+          <item>作品</item>
+          <item>名前</item>
+        </grammar>
+      </concept>
+      <concept>
+        <grammar>
+          <item>ありがとう</item>
+          <item>どうも</item>
+          <item>サンキュー</item>
+          <item>さようなら</item>
+          <item>じゃあね</item>
+          <item>バイバイ</item>
+        </grammar>
+      </concept>
+      <concept>
+        <grammar>
+          <item>はい</item>
+          <item>YES</item>
+          <item>OK</item>
+          <item>大丈夫</item>
+          <item>いいね</item>
+        </grammar>
+      </concept>
+      <concept>
+        <grammar>
+          <item>いいえ</item>
+          <item>NO</item>
+          <item>NG</item>
+          <item>ダメ</item>
+        </grammar>
+      </concept>
+      <concept>
+        <grammar>
+          <item>他の</item>
+          <item>違う</item>
+        </grammar>
+      </concept>
+    </folder>
+  </flow>
+  <constants>
+    <var_folder name="Home" />
+  </constants>
+  <variables>
+    <var_folder name="Home">
+      <!--変数を定義(TEXT以外にも様々なtypeがある)-->
+      <var name="TITLE" type="TEXT" />
+      <var name="STARRING" type="TEXT" />
+      <var name="WORK" type="TEXT" />
+    </var_folder>
+  </variables>
+  <settings>
+    <setting name="AUTOLEARN" type="USER">false</setting>
+    <setting name="LANGUAGE" type="USER">ja-JP</setting>
+    <setting name="RESPONSETIME" type="USER">-2</setting>
+    <setting name="MAXAUTOLEARNITEMS" type="USER">4</setting>
+    <setting name="NUMAUTOSETRELATED" type="USER">4</setting>
+    <setting name="TIMEZONEID" type="USER">Australia/Sydney</setting>
+    <setting name="AUTOSETRELATEDNODEID" type="USER">0</setting>
+    <setting name="INPUTMASKTYPE" type="USER">0</setting>
+    <setting name="CONCEPTMATCHING" type="USER">1</setting>
+    <setting name="PARENT_ACCOUNT">en-us-legacy</setting>
+    <setting name="PLATFORM_VERSION">10.1</setting>
+    <setting name="USE_TRANSLATIONS">2</setting>
+    <setting name="USE_SPELLING_CORRECTIONS">2</setting>
+    <setting name="USE_STOP_WORDS">2</setting>
+    <setting name="USE_CONCEPTS">3</setting>
+    <setting name="ENTITIES_SCOPE">3</setting>
+    <setting name="DNR_NODE_ID">-15</setting>
+    <setting name="MULTISENT">0</setting>
+    <setting name="USER_LOGGING">2</setting>
+    <setting name="USE_AUTOMATIC_STOPWORDS_DETECTION">0</setting>
+  </settings>
+  <specialSettings>
+    <specialSetting label="DNR Join Statement">
+      <variations />
+    </specialSetting>
+    <specialSetting label="AutoLearn Statement">
+      <variations />
+    </specialSetting>
+  </specialSettings>
+</dialog>

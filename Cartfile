@@ -1,0 +1,4 @@
+github "hemantasapkota/JSQMessagesViewController"
+github "Alamofire/Alamofire" == 3.5.0
+github "SwiftyJSON/SwiftyJSON" == 2.3.1
+github "SVProgressHUD/SVProgressHUD"
